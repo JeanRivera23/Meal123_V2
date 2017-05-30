@@ -28,10 +28,12 @@
 
 </nav>
 
-<body id="formsBody">
+<body id="editBody">
   <div class="editModal">
 
       <h2 id="editH1">Edit <%= resource_name.to_s.humanize %></h2>
+
+      <!-- <hr class="editHr"> -->
 
       <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
         <%= devise_error_messages! %>
@@ -82,10 +84,15 @@
       <br>
       <br>
 
-        <h2 id="editH1">Cancel Account?</h2>
+        <hr class="editHr">
 
-        <p><%= button_to "Cancel", registration_path(resource_name), class: "btn", id: "editBtn", data: { confirm: "Are you sure?" }, method: :delete%></p>
+        <div class="cancelDiv">
 
+          <h4 id="editH4">Cancel Account?</h4>
+
+          <p><%= button_to "Cancel", registration_path(resource_name), class: "btn", id: "editBtn", data: { confirm: "Are you sure?" }, method: :delete%></p>
+
+        </div>
 
   </div>
 
