@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     resources :mealplans, :only => [:index, :sunday, :monday, :tuesday, :wednesday, :thursday, :friday, :saturday]
     resources :favorites, :only => [:index, :new, :create, :destroy]
     resources :list, :except => [:show]
-    resources :user_recipes, :except => [:index, :show, :new]
+    resources :user_recipes, :except => [:index, :show, :new, :create]
   end
 
 
@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   get '/users/:user_id/mealplans/saturday' => "mealplans#saturday"
 
   get '/users/:user_id/recipes/:id/user_recipes/new' => "user_recipes#new"
-  # post '/users/:user_id/user_recipes' => "user_recipes#create"
+  post '/users/:user_id/user_recipes/:id/' => "user_recipes#create"
 
   post '/users/:user_id/mealplans' => "mealplan#add_favorite"
   post '/users/:user_id/recipes/:id' => "recipes#add_favorite"

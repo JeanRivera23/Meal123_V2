@@ -1,25 +1,10 @@
 // Place all the styles related to the profiles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#logoH1 {
-  font-size: 27px;
-}
+
 /* Larger than mobile */
 
 @media (min-width: 400px) {
-
-  .mealplanContainer {
-    position: relative;
-    margin: auto;
-    padding: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: #F0F0F0;
-    border: 1px solid black;
-  }
 
   .profileNav {
     position: fixed;
@@ -78,186 +63,19 @@
     color: white;
   }
 
-  .profileRecipes {
-    position: relative;
-    top: 110px;
-    max-width: 380px;
-    min-height: 100px;
-    overflow: hidden;
-    margin: auto;
-    padding: 3%;
-  }
-
-  .recipeContainer {
-    width: 100%;
-    height: 120px;
-    border: 1px solid #D9D9D9;
-    margin-bottom: 10px;
-    background-color: white;
-  }
-
-  .recipeImgContainer {
-    display: inline;
-    float: left;
-    clear: right;
-    width: 50%;
-    min-height: 120px;
-    margin: 0;
-    margin-right: 4%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .profileRecipeImg {
-    position: relative;
-    display: inline;
-    float: left;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    overflow: hidden;
-    padding-right: 4%;
-  }
-
-  .recipeContent {
-    position: relative;
-    top: -15px;
-    padding: 4%;
-  }
-
-  .recipeH2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #919191;
-  }
-
-  .profileA {
-    text-decoration: none;
-    color: #FF9447;
-    letter-spacing: .05em;
-  }
-
-  .recipeP {
-    position: relative;
-    top: -10px;
-  }
-
-  .recipeFavBtn {
-    position: relative;
-    top: -95px;
-    left: 97%;
-    margin: 0px;
-    padding: 0px;
-    width: 20px;
-    height: 20px;
-  }
-
-  .editBtn {
-    position: relative;
-    top: -95px;
-    left: 90%;
-    margin: 0px;
-    padding: 0px;
-    width: 20px;
-    height: 20px;
-  }
-
-  // .recipeFavForm {
-  //   margin: 0px;
-  //   height: 2%;
-  // }
-
-  .favBtnIcon {
-    width: 15px;
-    height: 15px;
-  }
-
-  .favBtnIcon:hover {
-    opacity: .5;
-  }
-}
-
-
-/* Larger than phablet */
-
-@media (min-width: 550px) {
-  // .profileNav {
-  //   position: fixed;
-  //   top: 18px;
-  //   right: 1%;
-  // }
-  //
-  // .profileNav img {
-  //   width: 23px;
-  //   height: 23px;
-  //   margin-right: 10px;
-  // }
-  //
-  // .profileNav img:hover {
-  //   opacity: .5;
-  // }
-  //
-  // .calendar {
-  //   position: fixed;
-  //   margin: auto;
-  //   top: 60px;
-  //   left: 0px;
-  //   width: 100%;
-  //   height: 50px;
-  //   z-index: 1;
-  //   background-color: #7cf7af;
-  //   z-index: 1;
-  //   color: white;
-  //
-  //   -webkit-box-shadow: 1px 1px 10px -1px #706f70;
-  //   -moz-box-shadow: 1px 1px 10px -1px #706f70;
-  //   box-shadow: 1px 1px 10px -1px #706f70;
-  // }
-  //
-  // .calendar div {
-  //   display: inline;
-  //   float: left;
-  //   width: 14.25%;
-  //   height: 50px;
-  //   text-align: center;
-  // }
-  //
-  // .calendar div:hover {
-  //   background-color: #a2fac6;
-  // }
-  //
-  // .day {
+  // .profileRecipes {
   //   position: relative;
-  //   top: 2px;
-  //   font-size: 15px;
-  //   font-weight: medium;
-  //   letter-spacing: .2em;
+  //   top: 110px;
+  //   max-width: 380px;
+  //   min-height: 100px;
+  //   overflow: hidden;
+  //   margin: auto;
+  //   padding: 3%;
   // }
-  //
-  // #calBtn {
-  //   color: white;
-  // }
-  //
-  // // .date {
-  // //   position: relative;
-  // //   top: -17px;
-  // //   font-size: 17px;
-  // //   letter-spacing: .05em;
-  // // }
-  //
-  // // .profileRecipes {
-  // //   position: relative;
-  // //   top: 110px;
-  // //   width: 43%;
-  // //   min-height: 200px;
-  // //   overflow: hidden;
-  // //   margin: auto;
-  // //   padding: 3%;
-  // // }
   //
   // .recipeContainer {
-  //   width: 45%;
-  //   height: 220px;
+  //   width: 100%;
+  //   height: 120px;
   //   border: 1px solid #D9D9D9;
   //   margin-bottom: 10px;
   //   background-color: white;
@@ -267,7 +85,7 @@
   //   display: inline;
   //   float: left;
   //   clear: right;
-  //   width: 100%;
+  //   width: 50%;
   //   min-height: 120px;
   //   margin: 0;
   //   margin-right: 4%;
@@ -286,79 +104,84 @@
   //   padding-right: 4%;
   // }
   //
-  // .recipeContent {
-  //   position: relative;
-  //   top: 20px;
-  //   padding: 8%;
-  // }
-  //
-  // .recipeH2 {
-  //   font-size: 12px;
-  //   text-transform: uppercase;
-  //   color: #919191;
-  // }
-  //
-  // .profileA {
-  //   text-decoration: none;
-  //   color: #FF9447;
-  //   letter-spacing: .05em;
-  // }
-  //
-  // .recipeP {
-  //   position: relative;
-  //   top: -10px;
-  // }
-  //
-  // .recipeFavBtn {
-  //   position: relative;
-  //   top: -95px;
-  //   left: 97%;
-  //   margin: 0px;
-  //   padding: 0px;
-  //   width: 20px;
-  //   height: 20px;
-  // }
-  //
-  // // .recipeFavForm {
-  // //   margin: 0px;
-  // //   height: 2%;
-  // // }
-  //
-  // .favBtnIcon {
-  //   width: 15px;
-  //   height: 15px;
-  // }
-  //
-  // .favBtnIcon:hover {
-  //   opacity: .5;
-  // }
-}
-
-/* Larger than tablet */
-
-@media (min-width: 750px) {
-
-}
-
-/* Larger than desktop */
-
-@media (min-width: 1000px) {
-
-}
-
-/* Larger than desktop HD*/
-
-@media (min-width: 1200px) {
-  .mealplanContainer {
+  .recipeContent {
     position: relative;
-    margin: auto;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .profileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .recipeFavBtn {
+    position: relative;
+    top: -110px;
+    left: 92%;
+    margin: 0px;
     padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editBtn {
+    position: relative;
+    top: -112px;
+    left: 86%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trashDiv {
+    position: relative;
+    top: -110px;
+    left: 98%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .plusDiv {
+    position: relative;
+    top: -110px;
+    left: 93%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editRecipeFavBtn {
+    position: relative;
     top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: #F0F0F0;
-    border: 1px solid black;
+    left: 10%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .favBtnIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .editBtnIcon {
+    width: 17px;
+    height: 19px;
+  }
+
+  .trashIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .favBtnIcon:hover {
+    opacity: .5;
   }
 }

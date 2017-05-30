@@ -10,14 +10,14 @@ class UserRecipesController < ApplicationController
       @user_recipe = UserRecipe.new(
         day: params[:day],
         category: params[:category],
-        user_id: @user.id,
+        user_id: params[:user_id],
         recipe_id: params[:id]
       )
 
       if @user_recipe.save
         redirect_to user_mealplans_path(@user)
-      # else
-        # render "/users/#{@user.id}/recipes/#{@user_recipe.recipe_id}/user_recipes/new"
+      else
+        redirect_to user_favorites_path
       end
 
       # @current_time = Time.now
@@ -82,22 +82,34 @@ class UserRecipesController < ApplicationController
 
   def edit
     @user = current_user
+    @recipes = Recipe.all
 
-    @user_recipe = UserRecipe.find(params[:current_user][:user_recipe][:id])
+    @user_recipe = UserRecipe.find(params[:id])
 
   end
 
   def update
     @user = current_user
+    @recipes = Recipe.all
 
-    @user_recipe = UserRecipe.find(params[:current_user][:user_recipe][:id])
+    @user_recipe = UserRecipe.find(params[:id])
 
-      @post.update(
-        title: params[:post][:title],
-        content: params[:post][:content]
+      @user_recipe.update(
+        params_meal
       )
 
-      redirect_to "/users/:id"
+      if @user_recipe.save
+        redirect_to user_mealplans_path
+      end
+
+  end
+
+  def destroy
+
+    @user = current_user
+    @user_recipe = UserRecipe.find(params[:id])
+    @user_recipe.destroy
+
   end
 
   # def updated_at
@@ -106,7 +118,7 @@ class UserRecipesController < ApplicationController
 
   private
   def params_meal
-    params.require(:user_recipe).permit(:day, :category, :user_id, :recipe_id)
+    params.require(:user_recipe).permit(:day, :category, :user_id, :recipe_id, :id)
   end
 
 

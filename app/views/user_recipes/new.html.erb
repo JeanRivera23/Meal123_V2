@@ -27,6 +27,9 @@
 
       <%= form_for @user_recipe, :url => { :action => "create" } do |f| %>
 
+          <!-- handles the authenticitytoken error -->
+          <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
           <div class="field">
             <%= f.select(:day, ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], { :prompt => "Select Day"}, class: "selectField", autofocus: true ) %>
           </div>

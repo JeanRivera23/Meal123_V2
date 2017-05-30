@@ -83,7 +83,7 @@
   .sunRecipeContainer {
     position: relative;
     width: 380px;
-    height: 120px;
+    height: 130px;
     border: 1px solid #D9D9D9;
     margin-bottom: 15px;
     background-color: white;
@@ -94,7 +94,7 @@
     float: left;
     clear: right;
     width: 50%;
-    min-height: 120px;
+    min-height: 130px;
     margin: 0;
     margin-right: 4%;
     background-repeat: no-repeat;
@@ -118,12 +118,6 @@
     padding: 4%;
   }
 
-  .sunRecipeH2 {
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #919191;
-  }
-
   .sunProfileA {
     text-decoration: none;
     color: #FF9447;
@@ -132,9 +126,19 @@
 
   .sunRecipeP {
     position: relative;
-    top: -10px;
+    top: -30px;
     line-height: 1.2em;
+    // width: 60px;
   }
+
+  .sunRecipeH2 {
+    position: relative;
+    top: -30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
 
   .sunRecipeFavBtn {
     position: relative;

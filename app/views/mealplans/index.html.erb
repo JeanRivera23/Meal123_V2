@@ -97,11 +97,11 @@
 
               <!-- edit -->
               <div class="editBtn">
-                  <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}/edit", :method => :get, :class => "sunRecipeFavBtn") do %>
+                  <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}/edit", :method => :get, :class => "editRecipeFavBtn") do %>
                     <!-- handles the authenticitytoken error -->
                     <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
-                    <%= image_submit_tag("edit_icon.png", class: "favBtnIcon") %>
+                    <%= image_submit_tag("edit_icon.png", class: "editBtnIcon") %>
                   <% end %>
               </div>
 
@@ -112,6 +112,17 @@
                     <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
                     <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                  <% end %>
+              </div>
+
+              <!-- delete -->
+              <div class="trashDiv">
+                  <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}", :method => :delete, data: { confirm: 'Are you sure you want to delete?' }) do %>
+
+                    <!-- handles the authenticitytoken error -->
+                    <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                    <%= image_submit_tag("trash_icon.png", class: "trashIcon") %>
                   <% end %>
               </div>
 

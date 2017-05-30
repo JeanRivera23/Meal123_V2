@@ -37,9 +37,19 @@
 
                 <div class="recipeContent">
 
+                  <!-- assign to mealplan -->
+                  <div class="plusDiv">
+                      <%= form_tag("/users/#{f.user_id}/recipes/#{f.recipe_id}/user_recipes/new", :method => :get, :class => "sunRecipeFavBtn") do %>
+                        <!-- handles the authenticitytoken error -->
+                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                        <%= image_submit_tag("plus_icon.png", class: "favBtnIcon") %>
+                      <% end %>
+                  </div>
+
                   <!-- delete -->
-                  <div class="recipeFavBtn">
-                      <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn") do %>
+                  <div class="trashDiv">
+                      <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn", data: { confirm: 'Are you sure you want to delete?' }) do %>
 
                         <!-- handles the authenticitytoken error -->
                         <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
