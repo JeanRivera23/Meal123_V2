@@ -1,61 +1,67 @@
-<!-- favorite nav -->
-<nav>
+<div class= "sundayContainer" id="favDiv">
+  <!-- favorite nav -->
+  <nav>
 
-    <div class="logo">
-      <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
-    </div>
+      <div class="logo">
+        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+      </div>
 
-    <div class="favoriteNav">
+      <div class="favoriteNav">
 
-      <% if user_signed_in? %>
+        <% if user_signed_in? %>
 
-              <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
 
-              <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+                <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
 
-              <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+                <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
 
-      <% end %>
-    </div>
-</nav>
+        <% end %>
+      </div>
+  </nav>
 
+  <ul class="sunProfileRecipes">
 
-<div class="favoriteRecipes" id ="sunday">
+      <% @favorites.each do |f| %>
 
-    <% @favorites.each do |f| %>
+        <li class="sundayLi">
 
-        <div class="recipeContainer">
+          <div class="sunRecipeContainer">
 
-          <div class="recipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
+            <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
+
+            </div>
+
+                <div class="recipeContent">
+
+                  <!-- delete -->
+                  <div class="recipeFavBtn">
+                      <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn") do %>
+
+                        <!-- handles the authenticitytoken error -->
+                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                        <%= image_submit_tag("trash_icon.png", class: "favBtnIcon") %>
+                      <% end %>
+                  </div>
+
+                  <p class="sunRecipeH2">
+                    <%= f.recipe.category %>
+                  </p>
+
+                  <h5 class="sunRecipeP">
+                    <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
+                      <%= f.recipe.label.truncate(30) %>
+                    </a>
+                  </h5>
+
+                </div>
 
           </div>
 
-              <div class="recipeContent">
+        </li>
 
-                <!-- delete -->
-                <div class="recipeFavBtn">
-                    <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "recipeFavForm") do %>
+      <% end %>
 
-                      <!-- handles the authenticitytoken error -->
-                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
-
-                      <%= image_submit_tag("trash_icon.png", class: "favBtnIcon") %>
-                    <% end %>
-                </div>
-
-                <p class="recipeH2">
-                  <%= f.recipe.category %>
-                </p>
-
-                <h5 class="recipeP">
-                  <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
-                    <%= f.recipe.label %>
-                  </a>
-                </h5>
-
-              </div>
-
-        </div>
-    <% end %>
-
+  </ul>
 </div>

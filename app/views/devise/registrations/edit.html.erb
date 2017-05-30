@@ -1,8 +1,18 @@
 <!-- setting nav -->
 <nav>
     <div class="logo">
+
       <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
     </div>
+
+    <!-- log out button -->
+    <% if user_signed_in? %>
+        <div class="settingLogOut">
+            <%= form_tag(destroy_user_session_path, :method => :delete) do %>
+              <%= submit_tag "Logout", class: "logOutBtn"%>
+            <% end %>
+        </div>
+    <% end %>
 
     <div class="profileNav">
 
@@ -17,14 +27,6 @@
       <% end %>
     </div>
 
-    <!-- log out button -->
-    <% if user_signed_in? %>
-        <div class="settingLogOut">
-            <%= form_tag(destroy_user_session_path, :method => :delete) do %>
-              <%= submit_tag "Logout", class: "logOutBtn"%>
-            <% end %>
-        </div>
-    <% end %>
 
 </nav>
 
