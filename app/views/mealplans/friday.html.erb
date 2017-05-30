@@ -106,7 +106,8 @@
               <p class="sunRecipeH2"><%= r.recipe.category %></p>
 
               <h5 class="sunRecipeP">
-                <a href="/users/<%= r.user_id %>/recipes/<%= r.recipe_id %>" class="profileA"><%= r.recipe.label %>
+                <a href="/users/<%= r.user_id %>/recipes/<%= r.recipe_id %>" class="profileA">
+                  <%= r.recipe.label.truncate(30) %>
                 </a>
               </h5>
 
