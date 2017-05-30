@@ -23,6 +23,15 @@ class RecipesController < ApplicationController
   def create
     @user = current_user
 
+    @recipe = Recipe.new(params_recipe)
+
+    if @recipe.save
+      redirect_to "/users/#{@user.id}/recipes/#{@recipe.id}"
+      #"/users/#{@user.id}/recipes/#{@recipe.id}/user_recipes/new"
+    else
+      render new_user_recipe_path
+    end
+
     # # setting a random number based on the count (number of responses)
     # # @count = response['count']
     # @randNum = rand(100)
@@ -109,6 +118,12 @@ class RecipesController < ApplicationController
     #   # add some error message
     end
 
+  end
+
+
+  private
+  def params_recipe
+    params.require(:recipe).permit(:label, :diet, :category, :directions, :ingredients, :recipe_img)
   end
 
 end

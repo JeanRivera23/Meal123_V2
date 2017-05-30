@@ -1,7 +1,73 @@
-<div class="favoriteRecipes">
+<!-- home nav -->
+<nav>
+    <div class="logo">
+      <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+    </div>
+
+    <div class="homeNav">
+
+      <% if user_signed_in? %>
+
+              <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+
+              <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+
+              <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+              <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+
+      <% end %>
+    </div>
+</nav>
+
+<body id="editBody">
+  <div class="editModal">
+
+      <h2 id="editH1">Step 1: Create Recipe</h2>
+
+      <%= form_for @recipe, :url => { :action => "create" } do |f| %>
+
+          <div class="field">
+            <%= f.select(:diet, ["No Restrictions", "Low Glycemic", "Lactose Free", "Gluten Free", "Mediterranean", "Paleo", "Vegetarian", "Vegan"], { :prompt => "Select Recipe Diet"}, class: "selectField", autofocus: true ) %>
+          </div>
+
+          <br>
+
+          <div class="field">
+            <%= f.select(:category, ["breakfast", "lunch", "dinner", "dessert"], { :prompt => "Select Recipe Category"}, class: "selectField") %>
+          </div>
+
+          <br>
+
+          <div class="field">
+            <%= f.text_field :label, placeholder: "recipe name", class: "formField" %>
+          </div>
+
+          <div class="field">
+            <%= f.text_field :recipe_img, placeholder: "recipe image url", class: "formField" %>
+          </div>
+
+          <div class="field">
+            <%= f.text_area :ingredients, placeholder: "ingredients (one ingredient per line)", class: "formTextArea" %>
+          </div>
+
+          <div class="field">
+            <%= f.text_area :directions, placeholder: "directions (one direction per line)", class: "formTextArea" %>
+          </div>
+
+          <%= f.submit "Create", class: "btn", id: "editBtn", data: { confirm: 'Step 2: Favorite the newly created recipe.' } %>
+
+      <% end %>
+
+  </div>
+
+</body>
+
+
+<!-- <div class="favoriteRecipes">
     <%= form_for @recipe, :url => { :action => "create" } do |f| %>
 
         <%= f.submit "Add Recipe", id: "newRecipeBtn", class: "btn" %>
 
     <% end %>
-</div>
+</div> -->

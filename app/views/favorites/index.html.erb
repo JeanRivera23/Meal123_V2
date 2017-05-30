@@ -10,7 +10,9 @@
 
         <% if user_signed_in? %>
 
-                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home" id="homeNavIcon"></a>
+
+                <a href="/users/<%= @user.id %>/recipes/new"><img src="/assets/plus_icon.png" alt="add recipe" id="plusNavIcon"></a>
 
                 <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
 
@@ -19,6 +21,7 @@
         <% end %>
       </div>
   </nav>
+
 
   <ul class="sunProfileRecipes">
 

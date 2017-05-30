@@ -13,6 +13,8 @@
 
             <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
 
+            <!-- <a href="/users/<%= @user.id %>/recipes/new"><img src="/assets/plus_icon.png" alt="add recipe" id="plusNavIcon"></a> -->
+
             <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
 
             <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
@@ -79,7 +81,6 @@
 
   </div>
 
-
   <!-- displays sunday recipes -->
   <ul class="sunProfileRecipes">
 
@@ -94,6 +95,17 @@
 
             <div class="recipeContent">
 
+              <!-- edit -->
+              <div class="editBtn">
+                  <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}/edit", :method => :get, :class => "sunRecipeFavBtn") do %>
+                    <!-- handles the authenticitytoken error -->
+                    <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                    <%= image_submit_tag("edit_icon.png", class: "favBtnIcon") %>
+                  <% end %>
+              </div>
+
+              <!-- favorite -->
               <div class="recipeFavBtn">
                   <%= form_tag("/users/#{r.user_id}/recipes/#{r.recipe_id}", :method => :profile_add_favorite, :class => "sunRecipeFavBtn") do %>
                     <!-- handles the authenticitytoken error -->

@@ -9,6 +9,21 @@
   background-color: white;
 }
 
+.formTextArea {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 70%;
+  height: 100px;
+  text-align: left;
+  font-weight: lighter;
+  padding: 10px;
+
+  -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+}
+
 @media (min-width: 400px) {
 
   #recipeBody {

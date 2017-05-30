@@ -1,0 +1,48 @@
+<!-- home nav -->
+<nav>
+    <div class="logo">
+      <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+    </div>
+
+    <div class="homeNav">
+
+      <% if user_signed_in? %>
+
+              <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+
+              <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+
+              <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+              <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+
+      <% end %>
+    </div>
+</nav>
+
+<body id="editBody">
+  <div class="editModal">
+
+      <h2 id="editH1">Edit Recipe Assignment</h2>
+
+      <%= form_for @user_recipe, :url => { :action => "create" } do |f| %>
+
+          <div class="field">
+            <%= f.select(:day, ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], { :prompt => "Select Day"}, class: "selectField", autofocus: true ) %>
+          </div>
+
+          <br>
+
+          <div class="field">
+            <%= f.select(:category, ["breakfast", "lunch", "dinner", "dessert"], { :prompt => "Select Meal Category"}, class: "selectField") %>
+          </div>
+
+          <br>
+
+          <%= f.submit "Assign", class: "btn", id: "editBtn" %>
+
+      <% end %>
+
+  </div>
+
+</body>
