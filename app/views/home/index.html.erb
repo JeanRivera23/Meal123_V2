@@ -1,0 +1,87 @@
+<div class="contentContainer">
+  <!-- home nav -->
+  <nav>
+      <div class="logo">
+        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+      </div>
+
+      <div class="homeNav">
+
+        <% if user_signed_in? %>
+
+                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+
+                <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+
+                <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+                <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+
+        <% end %>
+      </div>
+  </nav>
+
+
+  <!-- login button -->
+  <% if user_signed_in? %>
+  <% else %>
+      <%= form_tag(new_user_session_path, :method => :get) do %>
+        <%= submit_tag "Login", class: "btn", id: "hb1"%>
+      <% end %>
+  <% end %>
+
+
+  <!-- carousel and content-->
+  <!-- <div class="carousel">
+
+    <h1 id="carH1">Tired of <br>Ordering Out?</h1>
+
+    <%= form_tag(new_user_registration_path, :method => :get) do %>
+      <%= submit_tag "Sign Up!", class: "btn", id: "hb2"%>
+    <% end %>
+
+  </div> -->
+
+
+
+  <div class="carousel">
+
+    <ul id="slides">
+
+      <li class="slide showing">
+        <%= image_tag("/assets/slideImg1.jpg", class: "img1") %>
+      </li>
+
+      <li class="slide">
+        <%= image_tag("/assets/slideImg2.jpg", class: "img2") %>
+      </li>
+
+      <li class="slide">
+        <%= image_tag("/assets/slideImg3.jpg", class: "img3") %>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+  <div class="carouselContent">
+
+    <h1 id="carH1">Tired of <br>Ordering Out?</h1>
+
+    <% if user_signed_in? %>
+    <% else %>
+        <%= form_tag(new_user_registration_path, :method => :get) do %>
+          <%= submit_tag "Sign Up!", class: "btn", id: "hb2"%>
+        <% end %>
+    <% end %>
+
+  </div>
+
+
+
+
+
+  <!-- How it works section -->
+
+</div>

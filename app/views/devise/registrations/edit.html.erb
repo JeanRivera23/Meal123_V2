@@ -1,0 +1,92 @@
+<!-- setting nav -->
+<nav>
+    <div class="logo">
+      <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+    </div>
+
+    <div class="profileNav">
+
+      <% if user_signed_in? %>
+
+              <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+
+              <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+
+              <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+      <% end %>
+    </div>
+
+    <!-- log out button -->
+    <% if user_signed_in? %>
+        <div class="settingLogOut">
+            <%= form_tag(destroy_user_session_path, :method => :delete) do %>
+              <%= submit_tag "Logout", class: "logOutBtn"%>
+            <% end %>
+        </div>
+    <% end %>
+
+</nav>
+
+<body id="formsBody">
+  <div class="editModal">
+
+      <h2 id="editH1">Edit <%= resource_name.to_s.humanize %></h2>
+
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+        <%= devise_error_messages! %>
+
+        <div class="field">
+          <!-- <%= f.label :diet, html: {class: "selectLabel"} %> <br> -->
+          <%= f.select(:diet, ["No Restrictions", "Low Glycemic", "Lactose Free", "Gluten Free", "Mediterranean", "Paleo", "Vegetarian", "Vegan"], { :prompt => "Select Diet"}, class: "selectField", autofocus: true ) %>
+        </div>
+
+        <br>
+
+        <div class="field">
+          <%= f.label :username %><br />
+          <%= f.text_field :username, placeholder: "username", autofocus: true, class: "formField" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, placeholder: "email@email.com", class: "formField" %>
+        </div>
+
+        <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+          <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+        <% end %>
+
+        <div class="field">
+          <!-- <%= f.label "New Password" %> <br>  -->
+          <i>(leave blank if you don't want to change it)</i><br />
+          <%= f.password_field :password, placeholder: "new password", autocomplete: "off", class: "formField" %>
+
+        </div>
+
+        <div class="field">
+          <!-- <%= f.label "New Password Confirmation" %><br /> -->
+          <%= f.password_field :password_confirmation, placeholder: "confirm new password", autocomplete: "off", class: "formField" %>
+        </div>
+
+        <div class="field">
+          <!-- <%= f.label :current_password %> <br> -->
+          <%= f.password_field :current_password, placeholder: "current password", autocomplete: "off", class: "formField" %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Update", class: "btn", id: "editBtn" %>
+        </div>
+      <% end %>
+
+      <br>
+      <br>
+
+        <h2 id="editH1">Cancel Account?</h2>
+
+        <p><%= button_to "Cancel", registration_path(resource_name), class: "btn", id: "editBtn", data: { confirm: "Are you sure?" }, method: :delete%></p>
+
+
+  </div>
+
+</body>

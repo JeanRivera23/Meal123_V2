@@ -1,0 +1,7 @@
+<div class="favoriteRecipes">
+    <%= form_for @recipe, :url => { :action => "create" } do |f| %>
+
+        <%= f.submit "Add Recipe", id: "newRecipeBtn", class: "btn" %>
+
+    <% end %>
+</div>

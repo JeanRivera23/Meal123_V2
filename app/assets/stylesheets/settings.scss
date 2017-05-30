@@ -1,0 +1,459 @@
+#logoH1 {
+  font-size: 27px;
+}
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+
+  .editModal {
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 550px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: auto;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  #editH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #editBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 25%;
+
+    -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+    -moz-box-shadow: 1px 2px 5px -1px #706f70;
+    box-shadow: 1px 2px 5px -1px #706f70;
+  }
+
+  #editBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+  .settingNav {
+    position: fixed;
+    top: 18px;
+    right: 18%;
+  }
+
+  .settingNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .settingNav img:hover {
+    opacity: .5;
+  }
+
+  .settingLogOut {
+      position: fixed;
+      top: 0%;
+      right: 0%;
+    }
+
+    .settingForms {
+      position: relative;
+      margin: auto;
+      top: 90px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 300px;
+      min-height: 400px;
+      padding: 10px;
+      padding-left: 30px;
+      background-color: white;
+      // border-radius: 7px;
+      background-color: white;
+      padding: 8%;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    .settingH {
+      position: relative;
+      top: -15px;
+      font-weight: normal;
+      letter-spacing: .05em;
+      color: #FF9447;
+      padding-bottom: 4%;
+      border-bottom: 1px solid #919191;
+    }
+
+    #editUser {
+      min-height: 200px;
+    }
+
+    .logOutBtn {
+     position: relative;
+     right: 150%;
+     margin: 10px;
+     background-color: #FF9447;
+     color: white;
+     width: 60px;
+     height: 35px;
+     border-radius: 8px;
+     border: 1px solid #fe8b39;
+     font-size: 13px;
+     text-shadow: 1px 1px #ABABAB;
+     letter-spacing: .05em;
+
+     -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+     -moz-box-shadow: 1px 2px 5px -1px #706f70;
+     box-shadow: 1px 2px 5px -1px #706f70;
+   }
+
+   .logOutBtn:hover {
+     background-color: #FFB347;
+     border: 1px solid #fead3b;
+   }
+
+   #cancel {
+     margin-bottom: -10px;
+   }
+}
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+  .editModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 490px;
+    height: 550px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: auto;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  #editH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #editBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 35%;
+
+    -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+    -moz-box-shadow: 1px 2px 5px -1px #706f70;
+    box-shadow: 1px 2px 5px -1px #706f70;
+  }
+
+  #editBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+  .settingNav {
+    position: fixed;
+    top: 18px;
+    right: 18%;
+  }
+
+  .settingNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .settingNav img:hover {
+    opacity: .5;
+  }
+
+  .settingLogOut {
+      position: fixed;
+      top: 0%;
+      right: 0%;
+    }
+
+    .settingForms {
+      position: relative;
+      margin: auto;
+      top: 90px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 300px;
+      min-height: 400px;
+      padding: 10px;
+      padding-left: 30px;
+      background-color: white;
+      // border-radius: 7px;
+      background-color: white;
+      padding: 8%;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    .settingH {
+      position: relative;
+      top: -15px;
+      font-weight: normal;
+      letter-spacing: .05em;
+      color: #FF9447;
+      padding-bottom: 4%;
+      border-bottom: 1px solid #919191;
+    }
+
+    #editUser {
+      min-height: 200px;
+    }
+
+    .logOutBtn {
+     margin: 10px;
+     background-color: #FF9447;
+     color: white;
+     width: 60px;
+     height: 35px;
+     border-radius: 8px;
+     border: 1px solid #fe8b39;
+     font-size: 13px;
+     text-shadow: 1px 1px #ABABAB;
+     letter-spacing: .05em;
+
+     -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+     -moz-box-shadow: 1px 2px 5px -1px #706f70;
+     box-shadow: 1px 2px 5px -1px #706f70;
+   }
+
+   .logOutBtn:hover {
+     background-color: #FFB347;
+     border: 1px solid #fead3b;
+   }
+
+   #cancel {
+     margin-bottom: -10px;
+   }
+
+   #logoH1 {
+     font-size: 27px;
+   }
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  .editModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 550px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: auto;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  #editH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #editBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 35%;
+
+    -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+    -moz-box-shadow: 1px 2px 5px -1px #706f70;
+    box-shadow: 1px 2px 5px -1px #706f70;
+  }
+
+  #editBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+  .settingNav {
+    position: fixed;
+    top: 18px;
+    right: 18%;
+  }
+
+  .settingNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .settingNav img:hover {
+    opacity: .5;
+  }
+
+  .settingLogOut {
+      position: fixed;
+      top: 0%;
+      right: 0%;
+    }
+
+    .settingForms {
+      position: relative;
+      margin: auto;
+      top: 90px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 300px;
+      min-height: 400px;
+      padding: 10px;
+      padding-left: 30px;
+      background-color: white;
+      // border-radius: 7px;
+      background-color: white;
+      padding: 8%;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    .settingH {
+      position: relative;
+      top: -15px;
+      font-weight: normal;
+      letter-spacing: .05em;
+      color: #FF9447;
+      padding-bottom: 4%;
+      border-bottom: 1px solid #919191;
+    }
+
+    #editUser {
+      min-height: 200px;
+    }
+
+    .logOutBtn {
+     margin: 10px;
+     background-color: #FF9447;
+     color: white;
+     width: 60px;
+     height: 35px;
+     border-radius: 8px;
+     border: 1px solid #fe8b39;
+     font-size: 13px;
+     text-shadow: 1px 1px #ABABAB;
+     letter-spacing: .05em;
+
+     -webkit-box-shadow: 1px 2px 5px -1px #706f70;
+     -moz-box-shadow: 1px 2px 5px -1px #706f70;
+     box-shadow: 1px 2px 5px -1px #706f70;
+   }
+
+   .logOutBtn:hover {
+     background-color: #FFB347;
+     border: 1px solid #fead3b;
+   }
+
+   #cancel {
+     margin-bottom: -10px;
+   }
+
+   #logoH1 {
+     font-size: 27px;
+   }
+}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+  #logoH1 {
+    font-size: 27px;
+  }
+}
+
+/* Larger than desktop HD*/
+
+@media (min-width: 1200px) {
+  #logoH1 {
+    font-size: 27px;
+  }
+}

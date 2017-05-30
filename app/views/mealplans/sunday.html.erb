@@ -1,0 +1,123 @@
+<div class= "sundayContainer">
+
+  <!-- profile nav -->
+  <nav>
+
+      <div class="logo">
+        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+      </div>
+
+      <div class="profileNav">
+
+        <% if user_signed_in? %>
+
+            <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+
+            <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+
+            <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+            <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+
+        <% end %>
+      </div>
+  </nav>
+
+  <!-- weekly calendar  -->
+  <div class="sunCalendar">
+
+        <a href="/users/<%= @user.id %>/mealplans/sunday" id="calBtn">
+
+          <div class="sunday">
+              <p class="day">SU</p>
+              <!-- <p class="date">14</p> -->
+          </div>
+
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/monday" id="calBtn">
+            <div class="monday" id="monBtn">
+                <p class="day">MO</p>
+                <!-- <p class="date">15</p> -->
+            </div>
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/tuesday" id="calBtn">
+            <div class="tuesday" id="tueBtn">
+                <p class="day">TU</p>
+                <!-- <p class="date">16</p> -->
+            </div>
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/wednesday" id="calBtn">
+            <div class="wednesday" id="wedBtn">
+                <p class="day">WE</p>
+                <!-- <p class="date">17</p> -->
+            </div>
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/thursday" id="calBtn">
+            <div class="thursday" id="thurBtn">
+                <p class="day">TH</p>
+                <!-- <p class="date">18</p> -->
+            </div>
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/friday" id="calBtn">
+            <div class="friday" id="friBtn">
+                <p class="day">FR</p>
+                <!-- <p class="date">19</p> -->
+            </div>
+        </a>
+
+        <a href="/users/<%= @user.id %>/mealplans/saturday" id="calBtn">
+            <div class="saturday" id="satBtn">
+                <p class="day">SA</p>
+                <!-- <p class="date">20</p> -->
+            </div>
+        </a>
+
+  </div>
+
+
+  <!-- displays sunday recipes -->
+  <ul class="sunProfileRecipes">
+
+      <% @recipes.each do |r| %>
+
+        <li class="sundayLi">
+
+          <div class="sunRecipeContainer">
+
+            <div class="sunRecipeImgContainer" style="background-image: url(<%=r.recipe.recipe_img%>);">
+            </div>
+
+            <div class="recipeContent">
+
+              <div class="recipeFavBtn">
+                  <%= form_tag("/users/#{r.user_id}/recipes/#{r.recipe_id}", :method => :profile_add_favorite, :class => "sunRecipeFavBtn") do %>
+                    <!-- handles the authenticitytoken error -->
+                    <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                    <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                  <% end %>
+              </div>
+
+              <p class="sunRecipeH2"><%= r.recipe.category %></p>
+
+              <h5 class="sunRecipeP">
+                <a href="/users/<%= r.user_id %>/recipes/<%= r.recipe_id %>" class="profileA"><%= r.recipe.label %>
+                </a>
+              </h5>
+
+            </div>
+
+          </div>
+
+        </li>
+
+      <% end %>
+
+  </ul>
+
+</div>

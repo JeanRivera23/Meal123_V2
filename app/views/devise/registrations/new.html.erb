@@ -1,0 +1,49 @@
+<body id="formsBody">
+
+  <div class="formModal">
+
+    <h2 id="formH1">Sign Up</h2>
+
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="field">
+        <!-- <%= f.label "Diet", html: {class: "selectfield"} %> -->
+        <%= f.select(:diet, ["No Restrictions", "Low Glycemic", "Lactose Free", "Gluten Free", "Mediterranean", "Paleo", "Vegetarian", "Vegan"], { :prompt => "Select Diet"}, class: "selectField", autofocus: true ) %>
+      </div>
+
+      <br>
+
+      <div class="field">
+        <!-- <%= f.label :username %><br /> -->
+        <%= f.text_field :username, placeholder: "username", autofocus: true, class: "formField" %>
+      </div>
+
+      <div class="field">
+        <!-- <%= f.label :email %><br /> -->
+        <%= f.email_field :email, placeholder: "email@email.com", class: "formField" %>
+      </div>
+
+      <div class="field">
+        <!-- <%= f.label :password %> -->
+        <% if @minimum_password_length %>
+        <!-- <br> -->
+        <!-- <i>(<%= @minimum_password_length %> characters minimum)</i> -->
+        <% end %>
+        <!-- <br /> -->
+        <%= f.password_field :password, placeholder: "password", autocomplete: "off", class: "formField" %>
+      </div>
+
+      <div class="field">
+        <!-- <%= f.label :password_confirmation %><br /> -->
+        <%= f.password_field :password_confirmation, placeholder: "password confirmation", autocomplete: "off", class: "formField" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Sign up", class: "btn", id: "signUpFormBtn" %>
+      </div>
+    <% end %>
+
+  </div>
+
+</body>

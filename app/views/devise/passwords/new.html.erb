@@ -1,0 +1,24 @@
+<body id="formsBody">
+
+  <div class="welcomeModal">
+
+    <h2 id="formH1">Forgot Password?</h2>
+
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="field">
+        <!-- <%= f.label :email %><br /> -->
+        <%= f.email_field :email, placeholder: "email@email.com", autofocus: true, class: "formField" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Submit", class: "btn", id: "signUpFormBtn" %>
+      </div>
+    <% end %>
+    <br>
+    <%= render "devise/shared/links" %>
+
+  </div>
+
+</body>

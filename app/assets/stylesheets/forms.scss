@@ -1,0 +1,548 @@
+#logoH1 {
+  font-size: 27px;
+}
+
+#formsBody {
+  background: url(/assets/slideImg3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 460px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    // margin-bottom: 10px;
+    // margin-top: 5px;
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 25%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+}
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 440px;
+    padding: 50px;
+    padding-top: 25px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    // margin-bottom: 10px;
+    // margin-top: 5px;
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 32%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 440px;
+    padding: 50px;
+    padding-top: 25px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    // margin-bottom: 10px;
+    // margin-top: 5px;
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 32%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 440px;
+    padding: 50px;
+    padding-top: 25px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    // margin-bottom: 10px;
+    // margin-top: 5px;
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 32%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+
+}
+
+/* Larger than desktop HD*/
+
+@media (min-width: 1200px) {
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 440px;
+    padding: 50px;
+    padding-top: 25px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    // margin-bottom: 10px;
+    // margin-top: 5px;
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 32%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+}
