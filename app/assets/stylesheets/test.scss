@@ -458,16 +458,17 @@
 
 @media (min-width: 1000px) {
   .sunCalendar {
-    position: relative;
+    position: fixed;
     margin: auto;
-    top: 0px;
-    left: 0;
-    width: 900px;
+    top: 60px;
+    left: 0px;
+    width: 100%;
     height: 50px;
     z-index: 1;
     background-color: #7cf7af;
     z-index: 1;
     color: white;
+    padding-left: 15%;
 
     -webkit-box-shadow: 1px 1px 10px -1px #706f70;
     -moz-box-shadow: 1px 1px 10px -1px #706f70;
@@ -477,7 +478,7 @@
   .sunCalendar div {
     display: inline;
     float: left;
-    width: 14.25%;
+    width: 10.25%;
     height: 50px;
     text-align: center;
   }
@@ -501,7 +502,7 @@
   .sundayContainer {
     position: relative;
     margin: auto;
-    top: 60px;
+    top: 110px;
     right: 0px;
     bottom: 0px;
     left: 0px;
@@ -535,9 +536,9 @@
     // border-left: 1px solid #706f70;
     // border-right: 1px solid #706f70;
 
-    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
-    -moz-box-shadow: 1px 1px 10px -1px #706f70;
-    box-shadow: 1px 1px 10px -1px #706f70;
+    // -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    // -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    // box-shadow: 1px 1px 10px -1px #706f70;
   }
 
   .sunRecipeContainer {
@@ -600,7 +601,7 @@
 
   .sunRecipeFavBtn {
     position: relative;
-    top: -2px;
+    top: -20px;
     left: 5%;
     margin: 0px;
     padding: 0px;
@@ -621,5 +622,158 @@
 /* Larger than desktop HD*/
 
 @media (min-width: 1200px) {
+  .sunCalendar {
+    position: fixed;
+    margin: auto;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #7cf7af;
+    z-index: 1;
+    color: white;
+    padding-left: 15%;
 
+    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    box-shadow: 1px 1px 10px -1px #706f70;
+  }
+
+  .sunCalendar div {
+    display: inline;
+    float: left;
+    width: 10.25%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .sunCalendar div:hover {
+    background-color: #a2fac6;
+  }
+
+  .day {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: .2em;
+  }
+
+  #calBtn {
+    color: white;
+  }
+
+  .sundayContainer {
+    position: relative;
+    margin: auto;
+    top: 110px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 900px;
+    padding-left: 2%;
+    background-color: #F0F0F0;
+  }
+
+  .sundayLi {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    margin-left: 7px;
+    margin-right: 18px;
+    margin-bottom: 45px;
+  }
+
+  .sunProfileRecipes {
+    position: relative;
+    left: 0px;
+    margin: auto;
+    width: 858px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    overflow: hidden;
+    background-color: blue;
+  }
+
+  .sunRecipeContainer {
+    position: relative;
+    width: 400px;
+    height: 140px;
+    margin-top: 20px;
+    margin-right: 25px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 10px;
+    background-color: white;
+    left: 6px;
+  }
+
+  .sunRecipeImgContainer {
+    display: inline;
+    float: left;
+    clear: right;
+    width: 50%;
+    min-height: 140px;
+    margin: 0;
+    margin-right: 4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sunProfileRecipeImg {
+    position: relative;
+    display: inline;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 4%;
+  }
+
+  .sunRecipeContent {
+    position: relative;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .sunRecipeH2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .sunProfileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .sunRecipeP {
+    position: relative;
+    top: -10px;
+  }
+
+  .sunRecipeFavBtn {
+    position: relative;
+    top: -20px;
+    left: 5%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sunFavBtnIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .sunFavBtnIcon:hover {
+    opacity: .5;
+  }
 }
