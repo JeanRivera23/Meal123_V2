@@ -4,6 +4,33 @@
 
 @media (min-width: 400px) {
 
+  .noFavMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .noFavMessage h1 {
+    font-size: 28px;
+    color: #FF9447;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noFavMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+
   .favoriteNav {
     position: fixed;
     top: 18px;
@@ -42,7 +69,31 @@
 /* Larger than phablet */
 
 @media (min-width: 550px) {
+  .noFavMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
 
+  .noFavMessage h1 {
+    font-size: 30px;
+    color: #FF9447;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noFavMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
 }
 
 /* Larger than tablet */

@@ -40,13 +40,12 @@
     <div class="listCategory">
       <h4 class="listh4">Produce</h4>
         <ul class="listUl">
-          <% @user.recipes.each do |i| %>
+          <% @user.recipes.ingredients each do |i| %>
 
-              <li><input type="checkbox"><%= i.ingredients%></li>
-              <!-- <li><input type="checkbox">Broccoli</li>
-              <li><input type="checkbox">Squash</li>
-              <li><input type="checkbox">Sweet Potatoes</li>
-              <li><input type="checkbox">Green Peppers</li> -->
+                <li><input type="checkbox">
+                  <% i.split('\r\n')%>
+                </li>
+
           <% end %>
         </ul>
     </div>

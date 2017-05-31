@@ -1,1 +1,92 @@
-<h1>Will display all recipes in database</h1>
+<div class= "sundayContainer" id="favDiv">
+  <!-- favorite nav -->
+  <nav>
+
+      <div class="logo">
+        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+      </div>
+
+      <div class="favoriteNav">
+
+        <% if user_signed_in? %>
+
+                <a href="/users/<%= @user.id %>/recipes/new"><img src="/assets/plus_icon.png" alt="add recipe" id="plusNavIcon"></a>
+
+                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
+
+                <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+
+                <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+
+        <% end %>
+      </div>
+  </nav>
+
+
+  <ul class="sunProfileRecipes">
+
+      <% @recipes.each do |r| %>
+
+        <li class="sundayLi">
+
+          <div class="sunRecipeContainer">
+
+            <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=r.recipe_img%>);">
+
+            </div>
+
+                <div class="recipeContent">
+
+                  <!-- assign to mealplan -->
+                  <div class="plusDiv">
+                      <%= form_tag("/users/#{@user.id}/recipes/#{r.id}/user_recipes/new", :method => :get, :class => "sunRecipeFavBtn") do %>
+                        <!-- handles the authenticitytoken error -->
+                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                        <%= image_submit_tag("plus_icon.png", class: "favBtnIcon") %>
+                      <% end %>
+                  </div>
+
+                  <!-- favorite -->
+                  <div class="recipeFavBtn">
+                      <%= form_tag("/users/#{@user.id}/recipes/#{r.id}", :method => :profile_add_favorite, :class => "sunRecipeFavBtn") do %>
+                        <!-- handles the authenticitytoken error -->
+                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                        <!-- checks to see if recipe is favorited -->
+                        <% @user.favorites.each do |f| %>
+                          <% if f.recipe_id == r.id %>
+                              <%= image_submit_tag("favorited_icon.png", class: "favBtnIcon") %>
+                          <% end %>
+                        <% end %>
+
+                        <% @user.favorites.detect do |f| %>
+                          <% if f.recipe_id != r.id || f.recipe_id == nil %>
+                              <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                          <% end %>
+                        <% end %>
+
+                      <% end %>
+                  </div>
+
+
+                  <p class="sunRecipeH2">
+                    <%= r.category %>
+                  </p>
+
+                  <h5 class="sunRecipeP">
+                    <a href="/users/<%= @user.id %>/recipes/<%= r.id %>" class="profileA">
+                      <%= r.label.truncate(30) %>
+                    </a>
+                  </h5>
+
+                </div>
+
+          </div>
+
+        </li>
+
+      <% end %>
+
+  </ul>
+</div>

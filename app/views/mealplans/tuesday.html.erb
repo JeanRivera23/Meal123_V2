@@ -11,14 +11,13 @@
 
         <% if user_signed_in? %>
 
-            <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+            <a href="/users/<%= @user.id %>/recipes"><img src="/assets/home_icon.jpg" alt="home"></a>
 
-            <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+            <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
 
             <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
 
             <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
-
         <% end %>
       </div>
   </nav>
@@ -99,7 +98,19 @@
                     <!-- handles the authenticitytoken error -->
                     <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
-                    <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                    <!-- checks to see if recipe is favorited -->
+                    <% @user.favorites.each do |f| %>
+                      <% if f.recipe_id == r.id %>
+                          <%= image_submit_tag("favorited_icon.png", class: "favBtnIcon") %>
+                      <% end %>
+                    <% end %>
+
+                    <% @user.favorites.detect do |f| %>
+                      <% if f.recipe_id != r.id %>
+                          <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                      <% end %>
+                    <% end %>
+
                   <% end %>
               </div>
 

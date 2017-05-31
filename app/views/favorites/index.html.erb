@@ -10,11 +10,9 @@
 
         <% if user_signed_in? %>
 
-                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home" id="homeNavIcon"></a>
+                <a href="/users/<%= @user.id %>/recipes"><img src="/assets/home_icon.jpg" alt="home" id="homeNavIcon"></a>
 
-                <a href="/users/<%= @user.id %>/recipes/new"><img src="/assets/plus_icon.png" alt="add recipe" id="plusNavIcon"></a>
-
-                <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
 
                 <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
 
@@ -24,57 +22,68 @@
 
 
   <ul class="sunProfileRecipes">
+    <!-- IF NO favorites TO DISPLAY -->
+    <% if @favorites.blank? %>
 
-      <% @favorites.each do |f| %>
+      <div class="noFavMessage">
+        <h1>Try the home page.</h1>
+        <p>You might see something you like.</p>
+      </div>
 
-        <li class="sundayLi">
+    <% else %>
+    <% @favorites.each do |f| %>
 
-          <div class="sunRecipeContainer">
+      <li class="sundayLi">
 
-            <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
+        <div class="sunRecipeContainer">
 
-            </div>
-
-                <div class="recipeContent">
-
-                  <!-- assign to mealplan -->
-                  <div class="plusDiv">
-                      <%= form_tag("/users/#{f.user_id}/recipes/#{f.recipe_id}/user_recipes/new", :method => :get, :class => "sunRecipeFavBtn") do %>
-                        <!-- handles the authenticitytoken error -->
-                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
-
-                        <%= image_submit_tag("plus_icon.png", class: "favBtnIcon") %>
-                      <% end %>
-                  </div>
-
-                  <!-- delete -->
-                  <div class="trashDiv">
-                      <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn", data: { confirm: 'Are you sure you want to delete?' }) do %>
-
-                        <!-- handles the authenticitytoken error -->
-                        <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
-
-                        <%= image_submit_tag("trash_icon.png", class: "favBtnIcon") %>
-                      <% end %>
-                  </div>
-
-                  <p class="sunRecipeH2">
-                    <%= f.recipe.category %>
-                  </p>
-
-                  <h5 class="sunRecipeP">
-                    <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
-                      <%= f.recipe.label.truncate(30) %>
-                    </a>
-                  </h5>
-
-                </div>
+          <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
 
           </div>
 
-        </li>
+              <div class="recipeContent">
 
-      <% end %>
+                <!-- assign to mealplan -->
+                <div class="plusDiv">
+                    <%= form_tag("/users/#{f.user_id}/recipes/#{f.recipe_id}/user_recipes/new", :method => :get, :class => "sunRecipeFavBtn") do %>
+                      <!-- handles the authenticitytoken error -->
+                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                      <%= image_submit_tag("plus_icon.png", class: "favBtnIcon") %>
+                    <% end %>
+                </div>
+
+                <!-- delete -->
+                <div class="trashDiv">
+                    <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn", data: { confirm: 'Are you sure you want to delete?' }) do %>
+
+                      <!-- handles the authenticitytoken error -->
+                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                      <%= image_submit_tag("trash_icon.png", class: "favBtnIcon") %>
+                    <% end %>
+                </div>
+
+                <p class="sunRecipeH2">
+                  <%= f.recipe.category %>
+                </p>
+
+                <h5 class="sunRecipeP">
+                  <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
+                    <%= f.recipe.label.truncate(30) %>
+                  </a>
+                </h5>
+
+              </div>
+
+        </div>
+
+      </li>
+
+    <% end %>
+
+    <% end %>
+
 
   </ul>
 </div>

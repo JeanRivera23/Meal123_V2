@@ -90,7 +90,11 @@ class UserRecipesController < ApplicationController
 
   def update
     @user = current_user
+    @favorites = current_user.favorites
+
     @recipes = Recipe.all
+
+    @user_recipes = @recipes.where(diet: current_user.diet)
 
     @user_recipe = UserRecipe.find(params[:id])
 

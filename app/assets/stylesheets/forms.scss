@@ -32,6 +32,27 @@
     box-shadow: 3px 4px 12px -1px #706f70;
   }
 
+  .forgotModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    padding: 35px;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
   .formModal {
     position: absolute;
     margin: auto;

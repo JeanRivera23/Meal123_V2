@@ -1,6 +1,9 @@
 class RecipesController < ApplicationController
   def index
     @user = current_user
+    # @recipes = Recipe.all
+    @recipes = Recipe.where(diet: @user.diet).shuffle
+    @favorites = Favorite.all
   end
 
   def new
@@ -73,6 +76,12 @@ class RecipesController < ApplicationController
   def show
     @user = current_user
     @recipe = Recipe.find(params[:id])
+    @favorite = Favorite.where(recipe_id: :id)
+
+    def directions_break(x)
+      x.gsub(/\r\n/, '<br><br>')
+    end
+
   end
 
 
@@ -111,7 +120,7 @@ class RecipesController < ApplicationController
     @favorite.save
 
     if @favorite.save
-      redirect_to user_profiles_path
+      redirect_to user_mealplans_path
       # add success message
     # else
     #   render user_profiles_path
@@ -124,6 +133,10 @@ class RecipesController < ApplicationController
   private
   def params_recipe
     params.require(:recipe).permit(:label, :diet, :category, :directions, :ingredients, :recipe_img)
+  end
+
+  def directions_break(x)
+    x.gsub(/\r\n/, '<br><br>')
   end
 
 end

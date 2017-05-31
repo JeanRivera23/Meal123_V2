@@ -9,9 +9,9 @@
 
       <% if user_signed_in? %>
 
-          <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/home_icon.jpg" alt="home"></a>
+          <a href="/users/<%= @user.id %>/recipes"><img src="/assets/home_icon.jpg" alt="home"></a>
 
-          <a href="/users/<%= @user.id %>/list"><img src="/assets/list_icon.jpg" alt="grocery list"></a>
+          <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
 
           <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
 
@@ -41,7 +41,23 @@
                 <!-- handles the authenticitytoken error -->
                 <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
-                <%= image_submit_tag("favorite_icon.png", class: "showBtnIcon") %>
+                <!-- checks to see if recipe is favorited -->
+                <% @user.favorites.each do |f| %>
+                  <% if f.recipe_id == @recipe.id %>
+                      <%= image_submit_tag("favorited_icon.png", class: "favBtnIcon") %>
+                  <% end %>
+                <% end %>
+
+                <% @user.favorites.each do |f| %>
+                  <% if f.recipe_id != @recipe.id %>
+                      <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                  <% end %>
+                <% end %>
+
+                <% if @user.favorites.blank? %>
+                    <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                <% end %>
+
             <% end %>
           </div>
 
@@ -49,21 +65,23 @@
             <h3 class="recipeH4">Ingredients</h3>
               <ul class="recipeUl">
 
-                <li><%= @recipe.ingredients.html_safe %></li>
+                <li>
+                  <%= simple_format (@recipe.ingredients) %>
+                </li>
 
               </ul>
 
           </div>
 
-          <br>
+  
           <hr>
 
           <div class="recipeCategory">
             <h3 class="recipeH4">directions</h3>
-              <ol class="recipeOl">
-
-                <li><%= @recipe.directions.html_safe %></li>
-
+              <ol class="recipeOl" style="white-space: pre-line;">
+                <li>
+                <%= @recipe.directions.gsub(/\r\n/, '<br><br>').html_safe %>
+                </li>
               </ol>
           </div>
   </div>

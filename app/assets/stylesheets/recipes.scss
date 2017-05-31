@@ -65,6 +65,7 @@
     position: relative;
     margin: auto;
     width: 100%;
+    min-height: 30px;
     padding: 1%;
     background-color: #FF9447;
     text-align: center;
@@ -75,6 +76,8 @@
     text-transform: uppercase;
     font-weight: normal;
     letter-spacing: .05em;
+    font-size: 20px;
+    line-height: 1.5em;
   }
 
   .recipeDetails {
@@ -102,7 +105,7 @@
 
   .recipeUl {
     position: relative;
-    top: 0px;
+    top: -10px;
     left: 10px;
     text-align: left;
     margin:0;
@@ -116,17 +119,17 @@
 
   .recipeUl li {
     list-style-type: none;
-    margin-bottom: 2%;
-    // border-bottom: 1px solid #919191;
+    // margin: 0 0 3px 0;
     padding-bottom: 1%;
     padding-top: 1%;
-    max-width: 380px;
+    max-width: 350px;
     text-transform: uppercase;
+    line-height: 1.7em;
   }
 
   .recipeOl {
     position: relative;
-    top: 0px;
+    top: -38px;
     left: 10px;
     text-align: left;
     margin:0;
@@ -139,8 +142,8 @@
     margin-bottom: 2%;
     padding-bottom: 3%;
     padding-top: 1%;
-    max-width: 380px;
-    line-height: 1.7em;
+    max-width: 370px;
+    line-height: 1.5em;
   }
 
   .showFavBtn {
