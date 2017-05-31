@@ -2,12 +2,19 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#carH1 {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #636363;
+}
+
 #logoH1 {
   font-size: 27px;
 }
 
 #homeBody {
-  background: url(/assets/slideImg3.jpg) no-repeat center center fixed;
+  background: url(/assets/slideImg2.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -40,19 +47,19 @@
     left: 0;
     bottom: 0;
     right: 0;
-    width: 320px;
+    width: 280px;
     height: 250px;
-    padding: 35px;
+    padding: 30px;
     text-align: center;
     // padding-left: 30px;
-    background-color: white;
-    border-radius: 7px;
-    background-color: white;
+    // background-color: white;
+    // border-radius: 7px;
+    // background-color: white;
     // padding: 8%;
 
-    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
-    -moz-box-shadow: 3px 4px 12px -1px #706f70;
-    box-shadow: 3px 4px 12px -1px #706f70;
+    // -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    // -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    // box-shadow: 3px 4px 12px -1px #706f70;
   }
 
   .contentContainer {
@@ -86,8 +93,8 @@
     // padding: 0;
     width: 100%;
     font-size: 40px;
-    text-shadow: 1px 1px #636363;
-    color: #FF9447;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
   }
 
   .carousel {
@@ -211,8 +218,8 @@
     // padding: 0;
     width: 100%;
     font-size: 44px;
-    text-shadow: 1px 1px #636363;
-    color: #FF9447;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
   }
 
   .carousel {
@@ -336,8 +343,8 @@
     // padding: 0;
     width: 100%;
     font-size: 44px;
-    text-shadow: 1px 1px #636363;
-    color: white;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
   }
 
   .carousel {
@@ -461,8 +468,8 @@
     // padding: 0;
     width: 100%;
     font-size: 44px;
-    text-shadow: 1px 1px #636363;
-    color: white;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
   }
 
   .carousel {
@@ -586,8 +593,8 @@
     // padding: 0;
     width: 100%;
     font-size: 44px;
-    text-shadow: 1px 1px #636363;
-    color: white;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
   }
 
   .carousel {

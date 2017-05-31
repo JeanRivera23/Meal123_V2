@@ -114,6 +114,8 @@ class UserRecipesController < ApplicationController
     @user_recipe = UserRecipe.find(params[:id])
     @user_recipe.destroy
 
+    redirect_to user_mealplans_path
+
   end
 
   # def updated_at
