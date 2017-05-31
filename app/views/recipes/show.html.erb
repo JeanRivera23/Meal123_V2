@@ -66,14 +66,14 @@
               <ul class="recipeUl">
 
                 <li>
-                  <%= simple_format (@recipe.ingredients) %>
+                  <%= @recipe.ingredients.gsub(/\r\n/, '<br><br>').html_safe %>
                 </li>
 
               </ul>
 
           </div>
 
-  
+
           <hr>
 
           <div class="recipeCategory">
