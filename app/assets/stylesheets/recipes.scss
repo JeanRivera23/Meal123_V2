@@ -26,6 +26,85 @@
 
 @media (min-width: 400px) {
 
+  .recipeIconsContainer {
+    position: relative;
+    top: 5px;
+    right: -31%;
+    // border: 1px solid black;
+    width: 60px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 15px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
+  // .recipePlusDiv {
+  //   position: relative;
+  //   top: -110px;
+  //   left: 97%;
+  //   margin: 0px;
+  //   padding: 0px;
+  //   width: 20px;
+  //   height: 20px;
+  // }
+
+  // .rRecipeForm {
+  //   position: relative;
+  //   top: -100px;
+  //   left: 94%;
+  //   margin: 0px;
+  //   padding: 0px;
+  //   width: 40px;
+  //   height: 40px;
+  // }
+
+  .rRecipeFavBtn {
+    position: relative;
+    top: -110px;
+    left: 92%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
   #recipeBody {
     margin: 0;
   }
@@ -151,15 +230,15 @@
     position: relative;
     left: 5px;
     margin: 0px;
-    top: 15px;
+    top: 25px;
     width: 100%;
     padding: 2%;
     margin-bottom: 2%;
   }
 
   .showBtnIcon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -167,6 +246,55 @@
 /* Larger than phablet */
 
 @media (min-width: 550px) {
+  .recipeIconsContainer {
+    position: relative;
+    top: 3px;
+    right: -35%;
+    // border: 1px solid black;
+    width: 60px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 15px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
   #recipeBody {
     margin: 0;
   }
@@ -306,6 +434,55 @@
 /* Larger than tablet */
 
 @media (min-width: 750px) {
+  .recipeIconsContainer {
+    position: relative;
+    top: 6px;
+    right: -28%;
+    // border: 1px solid black;
+    width: 60px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 15px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: -5px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
   #recipeBody {
     margin: 0;
   }
@@ -444,6 +621,56 @@
 /* Larger than desktop */
 
 @media (min-width: 1000px) {
+
+  .recipeIconsContainer {
+    position: relative;
+    top: 6px;
+    right: -32%;
+    // border: 1px solid black;
+    width: 60px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 15px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
   #recipeBody {
     position: relative;
     margin: auto;
@@ -594,5 +821,52 @@
 /* Larger than desktop HD*/
 
 @media (min-width: 1200px) {
+  .recipeIconsContainer {
+    position: relative;
+    top: 6px;
+    right: -33%;
+    // border: 1px solid black;
+    width: 60px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
 
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 15px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
 }

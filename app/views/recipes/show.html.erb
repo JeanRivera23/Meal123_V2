@@ -42,20 +42,14 @@
                 <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
                 <!-- checks to see if recipe is favorited -->
-                <% @user.favorites.each do |f| %>
-                  <% if f.recipe_id == @recipe.id %>
-                      <%= image_submit_tag("favorited_icon.png", class: "favBtnIcon") %>
+                  <% if @find.include? (@recipe.id) %>
+                      <%= image_submit_tag("favorited_icon.png", class: "showBtnIcon") %>
+                  <% else %>
+                    <%= image_submit_tag("favorite_icon.png", class: "showBtnIcon") %>
                   <% end %>
-                <% end %>
-
-                <% @user.favorites.each do |f| %>
-                  <% if f.recipe_id != @recipe.id %>
-                      <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
-                  <% end %>
-                <% end %>
 
                 <% if @user.favorites.blank? %>
-                    <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
+                    <%= image_submit_tag("favorite_icon.jpg", class: "showBtnIcon") %>
                 <% end %>
 
             <% end %>

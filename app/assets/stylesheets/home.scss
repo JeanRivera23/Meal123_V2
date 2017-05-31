@@ -6,6 +6,11 @@
   font-size: 27px;
 }
 
+#homeBody {
+  background: url(/assets/slideImg3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 #hb2 {
  margin: 10px;
  background-color: #1CD96B;
@@ -27,6 +32,28 @@
 /* Larger than mobile */
 
 @media (min-width: 400px) {
+
+  .homeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 250px;
+    padding: 35px;
+    text-align: center;
+    // padding-left: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+    // padding: 8%;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
 
   .contentContainer {
     position: relative;
@@ -60,7 +87,7 @@
     width: 100%;
     font-size: 40px;
     text-shadow: 1px 1px #636363;
-    color: white;
+    color: #FF9447;
   }
 
   .carousel {
@@ -185,7 +212,7 @@
     width: 100%;
     font-size: 44px;
     text-shadow: 1px 1px #636363;
-    color: white;
+    color: #FF9447;
   }
 
   .carousel {

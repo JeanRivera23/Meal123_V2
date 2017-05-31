@@ -25,65 +25,74 @@
     <!-- IF NO favorites TO DISPLAY -->
     <% if @favorites.blank? %>
 
-      <div class="noFavMessage">
-        <h1>Try the home page.</h1>
-        <p>You might see something you like.</p>
-      </div>
+        <div class="noFavMessage">
+          <h1>Try the home page.</h1>
+          <p>You might see something you like.</p>
+        </div>
 
     <% else %>
-    <% @favorites.each do |f| %>
 
-      <li class="sundayLi">
+        <% @favorites.each do |f| %>
 
-        <div class="sunRecipeContainer">
+            <li class="sundayLi">
 
-          <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
+              <div class="sunRecipeContainer">
 
-          </div>
+                <div class="sunRecipeImgContainer" id="breakfast" style="background-image: url(<%=f.recipe.recipe_img%>);">
 
-              <div class="recipeContent">
-
-                <!-- assign to mealplan -->
-                <div class="plusDiv">
-                    <%= form_tag("/users/#{f.user_id}/recipes/#{f.recipe_id}/user_recipes/new", :method => :get, :class => "sunRecipeFavBtn") do %>
-                      <!-- handles the authenticitytoken error -->
-                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
-
-                      <%= image_submit_tag("plus_icon.png", class: "favBtnIcon") %>
-                    <% end %>
                 </div>
 
-                <!-- delete -->
-                <div class="trashDiv">
-                    <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn", data: { confirm: 'Are you sure you want to delete?' }) do %>
+                    <div class="recipeContent">
 
-                      <!-- handles the authenticitytoken error -->
-                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+                      <div class="recipeIconsContainer">
 
-                      <%= image_submit_tag("trash_icon.png", class: "favBtnIcon") %>
-                    <% end %>
-                </div>
+                        <!-- assign to mealplan -->
 
-                <p class="sunRecipeH2">
-                  <%= f.recipe.category %>
-                </p>
+                            <%= form_tag("/users/#{f.user_id}/recipes/#{f.recipe_id}/user_recipes/new", :method => :get, :class => "iconForm") do %>
+                              <!-- handles the authenticitytoken error -->
+                              <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
-                <h5 class="sunRecipeP">
-                  <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
-                    <%= f.recipe.label.truncate(30) %>
-                  </a>
-                </h5>
+                              <%= image_submit_tag("plus_icon.png", class: "recPlusIcon") %>
+                            <% end %>
+
+
+                        <!-- delete -->
+
+                            <%= form_tag("/users/#{f.user_id}/favorites/#{f.id}", :method => :delete, :class => "sunRecipeFavBtn", data: { confirm: 'Are you sure you want to delete?' }, :class => "iconForm") do %>
+
+                              <!-- handles the authenticitytoken error -->
+                              <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                              <%= image_submit_tag("trash_icon.png", class: "deleteIcon") %>
+                            <% end %>
+            
+
+                      </div>
+
+
+                      <p class="categoryP">
+                        <%= f.recipe.category %>
+                      </p>
+
+                      <h5 class="labelH5">
+                        <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
+                          <%= f.recipe.label.truncate(30) %>
+                        </a>
+                      </h5>
+
+
+
+                    </div>
+
 
               </div>
 
-        </div>
+            </li>
 
-      </li>
-
-    <% end %>
+        <% end %>
 
     <% end %>
-
 
   </ul>
+
 </div>

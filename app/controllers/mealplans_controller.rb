@@ -3,6 +3,8 @@ class MealplansController < ApplicationController
     @recipes = current_user.user_recipes
     @favorites = Favorite.all
     @user = current_user
+
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def sunday
@@ -10,6 +12,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @sun_recipes = @recipes.where(day: "Sunday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def monday
@@ -17,6 +20,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @mon_recipes = @recipes.where(day: "Monday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def tuesday
@@ -24,6 +28,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @tue_recipes = @recipes.where(day: "Tuesday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def wednesday
@@ -31,6 +36,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @wed_recipes = @recipes.where(day: "Wednesday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def thursday
@@ -38,6 +44,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @thu_recipes = @recipes.where(day: "Thursday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def friday
@@ -45,6 +52,7 @@ class MealplansController < ApplicationController
     @favorites = Favorite.all
     @fri_recipes = @recipes.where(day: "Friday")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
   def saturday
@@ -53,6 +61,7 @@ class MealplansController < ApplicationController
     @sat_recipes = @recipes.where(day: "Saturday")
     @dessert = @recipes.where(category: "dessert")
     @user = current_user
+    @find = @user.favorites.map {|favorite| favorite.id}
   end
 
 end

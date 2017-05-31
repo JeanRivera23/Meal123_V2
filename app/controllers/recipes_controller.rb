@@ -4,6 +4,9 @@ class RecipesController < ApplicationController
     # @recipes = Recipe.all
     @recipes = Recipe.where(diet: @user.diet).shuffle
     @favorites = Favorite.all
+
+    @find = @user.favorites.map {|favorite| favorite.id}
+
   end
 
   def new
@@ -81,6 +84,8 @@ class RecipesController < ApplicationController
     def directions_break(x)
       x.gsub(/\r\n/, '<br><br>')
     end
+
+    @find = @user.favorites.map {|favorite| favorite.id}
 
   end
 

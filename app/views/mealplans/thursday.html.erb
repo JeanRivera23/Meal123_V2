@@ -83,6 +83,17 @@
   <!-- displays sunday recipes -->
   <ul class="sunProfileRecipes">
 
+      <!-- IF NO MEALS TO DISPLAY -->
+      <% if @thu_recipes.blank? %>
+
+        <div class="noMealsMessage">
+          <h1>Your meal plan is hungry.</h1>
+
+          <p>Go to the home page and start adding and favoriting recipes!</p>
+        </div>
+
+      <% else %>
+
       <% @thu_recipes.each do |r| %>
 
         <li class="sundayLi">
@@ -94,30 +105,49 @@
 
             <div class="recipeContent">
 
-              <div class="recipeFavBtn">
-                  <%= form_tag("/users/#{r.user_id}/recipes/#{r.recipe_id}", :method => :profile_add_favorite, :class => "sunRecipeFavBtn") do %>
-                    <!-- handles the authenticitytoken error -->
-                    <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+              <div class="recipeIconsContainer">
+                  <!-- edit -->
+                    <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}/edit", :method => :get, :class => "iconForm") do %>
+                      <!-- handles the authenticitytoken error -->
+                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
 
-                    <!-- checks to see if recipe is favorited -->
-                    <% @user.favorites.each do |f| %>
-                      <% if f.recipe_id == r.id %>
-                          <%= image_submit_tag("favorited_icon.png", class: "favBtnIcon") %>
-                      <% end %>
+                      <%= image_submit_tag("edit_icon.png", class: "editIcon") %>
                     <% end %>
 
-                    <% @user.favorites.detect do |f| %>
-                      <% if f.recipe_id != r.id %>
-                          <%= image_submit_tag("favorite_icon.jpg", class: "favBtnIcon") %>
-                      <% end %>
+
+                <!-- favorite -->
+
+                    <%= form_tag("/users/#{r.user_id}/recipes/#{r.recipe_id}", :method => :profile_add_favorite, :class => "iconForm") do %>
+                      <!-- handles the authenticitytoken error -->
+                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                      <!-- checks to see if recipe is favorited -->
+                        <% if @find.include? (r.id) %>
+                            <%= image_submit_tag("favorited_icon.png", class: "recFavIcon") %>
+                        <% else %>
+                          <%= image_submit_tag("favorite_icon.png", class: "recFavIcon") %>
+                        <% end %>
+
                     <% end %>
 
-                  <% end %>
+
+                <!-- delete -->
+
+                    <%= form_tag("/users/#{r.user_id}/user_recipes/#{r.id}", :method => :delete, data: { confirm: 'Are you sure you want to delete?' }, :class => "iconForm") do %>
+
+                      <!-- handles the authenticitytoken error -->
+                      <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+
+                      <%= image_submit_tag("trash_icon.png", class: "deleteIcon") %>
+                    <% end %>
+
               </div>
 
-              <p class="sunRecipeH2"><%= r.recipe.category %></p>
 
-              <h5 class="sunRecipeP">
+
+              <p class="categoryP"><%= r.recipe.category %></p>
+
+              <h5 class="labelH5">
                 <a href="/users/<%= r.user_id %>/recipes/<%= r.recipe_id %>" class="profileA"><%= r.recipe.label.truncate(30) %>
                 </a>
               </h5>
@@ -129,6 +159,10 @@
         </li>
 
       <% end %>
+
+      <% end %>
+
+
 
   </ul>
 
