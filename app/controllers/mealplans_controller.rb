@@ -10,8 +10,8 @@ class MealplansController < ApplicationController
   def sunday
     @recipes = current_user.user_recipes
     @favorites = Favorite.all
-    @sun_recipes = @recipes.where(day: "Sunday")
     @user = current_user
+    @sun_recipes = @user.user_recipes.where(day: "Sunday")
     @find = @user.favorites.map {|favorite| favorite.id}
   end
 

@@ -7,6 +7,35 @@
   background-size: cover;
 }
 
+.alert {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: red;
+  padding: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.deviseErrors {
+  color: white;
+  display: inline;
+  margin: 0px;
+}
+
+.deviseBullets {
+  position: relative;
+  top: -5px;
+  color: white;
+  list-style: none;
+  margin: 0px;
+}
+
+// .deviseBullets li {
+//   display: inline;
+// }
+
 /* Larger than mobile */
 
 @media (min-width: 400px) {
@@ -26,6 +55,8 @@
     border-radius: 7px;
     background-color: white;
     // padding: 8%;
+    // overflow: hidden;
+    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -47,6 +78,8 @@
     border-radius: 7px;
     background-color: white;
     // padding: 8%;
+    // overflow: hidden;
+    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -68,6 +101,8 @@
     border-radius: 7px;
     background-color: white;
     // padding: 8%;
+    // overflow: hidden;
+    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;

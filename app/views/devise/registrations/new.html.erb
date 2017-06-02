@@ -6,7 +6,6 @@
 
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>
-
       <div class="field">
         <!-- <%= f.label "Diet", html: {class: "selectfield"} %> -->
         <%= f.select(:diet, ["No Restrictions", "Low Glycemic", "Lactose Free", "Gluten Free", "Mediterranean", "Paleo", "Vegetarian", "Vegan"], { :prompt => "Select Diet"}, class: "selectField", autofocus: true ) %>
