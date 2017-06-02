@@ -13,13 +13,13 @@
 
           <% if user_signed_in? %>
 
-                  <%= link_to image_tag("/assets/home_icon.jpg"), "/users/#{@user.id}/recipes" %>
+                  <%= link_to image_tag("/public/home_icon.jpg"), "/users/#{@user.id}/recipes" %>
 
-                  <%= link_to image_tag("/assets/list_icon.jpg"), "/users/#{@user.id}/mealplans" %>
+                  <%= link_to image_tag("/public/list_icon.jpg"), "/users/#{@user.id}/mealplans" %>
 
-                  <%= link_to image_tag("/assets/favorite_icon.jpg"), "/users/#{@user.id}/favorites" %>
+                  <%= link_to image_tag("/public/favorite_icon.jpg"), "/users/#{@user.id}/favorites" %>
 
-                  <%= link_to image_tag("/assets/setting_icon.jpg"), "/users/edit" %>
+                  <%= link_to image_tag("/public/setting_icon.jpg"), "/users/edit" %>
 
           <% end %>
         </div>
