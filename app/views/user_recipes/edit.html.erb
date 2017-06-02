@@ -34,7 +34,6 @@
             <%= f.collection_select(:recipe_id, @recipes, :id, :label, :prompt => 'Select Recipe', class: "selectField", autofocus: true ) %>
           </div>
 
-
           <br>
 
           <%= f.submit "Assign", class: "btn", id: "editBtn" %>
