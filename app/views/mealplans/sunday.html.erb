@@ -110,10 +110,10 @@
 
 
 
-              <p class="categoryP"><%= r.recipe.category %></p>
+              <p class="categoryP"><%= r.category %></p>
 
               <h5 class="labelH5">
-                
+
                 <%= link_to "#{r.recipe.label.truncate(30)}", "/users/#{r.user_id}/recipes/#{r.recipe_id}", class: "profileA" %>
 
               </h5>

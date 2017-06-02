@@ -2,16 +2,14 @@ class UserRecipesController < ApplicationController
   def new
     @user = current_user
     @user_recipe = UserRecipe.new
+    @recipe = params[:id]
   end
 
   def create
       @user = current_user
 
       @user_recipe = UserRecipe.new(
-        day: params[:day],
-        category: params[:category],
-        user_id: params[:user_id],
-        recipe_id: params[:id]
+        params_meal
       )
 
       if @user_recipe.save
