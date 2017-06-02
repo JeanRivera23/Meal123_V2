@@ -8,6 +8,8 @@ end
 # HTTparty
 gem 'httparty'
 
+gem 'rails_12factor', group: :production
+
 # devise gem
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
