@@ -3,18 +3,21 @@
   <nav>
 
       <div class="logo">
-        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
+
+        <%= link_to "<h1 id='logoH1'>MEAL<span id='logoSpan'>123</span></h1>".html_safe, "/" %>
+
       </div>
+
 
       <div class="favoriteNav">
 
         <% if user_signed_in? %>
 
-                <a href="/users/<%= @user.id %>/recipes"><img src="/assets/home_icon.jpg" alt="home" id="homeNavIcon"></a>
+                <%= link_to image_tag("/assets/home_icon.jpg"), "/users/#{@user.id}/recipes" %>
 
-                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
+                <%= link_to image_tag("/assets/list_icon.jpg"), "/users/#{@user.id}/mealplans" %>
 
-                <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+                <%= link_to image_tag("/assets/setting_icon.jpg"), "/users/edit" %>
 
         <% end %>
       </div>
@@ -65,7 +68,7 @@
 
                               <%= image_submit_tag("trash_icon.png", class: "deleteIcon") %>
                             <% end %>
-            
+
 
                       </div>
 
@@ -75,9 +78,9 @@
                       </p>
 
                       <h5 class="labelH5">
-                        <a href="/users/<%= f.user_id %>/recipes/<%= f.recipe.id %>" class="profileA">
-                          <%= f.recipe.label.truncate(30) %>
-                        </a>
+
+                        <%= link_to "#{f.recipe.label.truncate(30)}", "/users/#{f.user_id}/recipes/#{f.recipe.id}", class: "profileA" %>
+
                       </h5>
 
 

@@ -2,21 +2,24 @@
   <!-- favorite nav -->
   <nav>
 
-      <div class="logo">
-        <a href="/"><h1 id="logoH1">MEAL<span id="logoSpan">123</span></h1></a>
-      </div>
+    <div class="logo">
+
+      <%= link_to "<h1 id='logoH1'>MEAL<span id='logoSpan'>123</span></h1>".html_safe, "/" %>
+
+    </div>
+
 
       <div class="favoriteNav">
 
         <% if user_signed_in? %>
 
-                <a href="/users/<%= @user.id %>/recipes/new"><img src="/assets/plus_icon.png" alt="add recipe" id="plusNavIcon"></a>
+                <%= link_to image_tag("/assets/plus_icon.png"), "/users/#{@user.id}/recipes/new", id: "plusNavIcon" %>
 
-                <a href="/users/<%= @user.id %>/mealplans"><img src="/assets/list_icon.jpg" alt="mealplan"></a>
+                <%= link_to image_tag("/assets/list_icon.jpg"), "/users/#{@user.id}/mealplans" %>
 
-                <a href="/users/<%= @user.id %>/favorites"><img src="/assets/favorite_icon.jpg" alt="favorites"></a>
+                <%= link_to image_tag("/assets/favorite_icon.jpg"), "/users/#{@user.id}/favorites" %>
 
-                <a href="/users/edit"><img src="/assets/setting_icon.jpg" alt="settings"></a>
+                <%= link_to image_tag("/assets/setting_icon.jpg"), "/users/edit" %>
 
         <% end %>
       </div>
@@ -77,15 +80,15 @@
                       <% end %>
 
                 </div>
-            
+
                 <p class="categoryP">
                   <%= r.category %>
                 </p>
 
                 <h5 class="labelH5">
-                  <a href="/users/<%= @user.id %>/recipes/<%= r.id %>" class="profileA">
-                    <%= r.label.truncate(30) %>
-                  </a>
+
+                  <%= link_to "#{r.label.truncate(30)}", "/users/#{@user.id}/recipes/#{r.id}", class: "profileA" %>
+
                 </h5>
 
               </div>
