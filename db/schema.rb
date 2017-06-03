@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170528214432) do
+ActiveRecord::Schema.define(version: 20170603002358) do
 
   create_table "favorites", force: :cascade do |t|
     t.integer  "user_id"
@@ -23,25 +23,10 @@ ActiveRecord::Schema.define(version: 20170528214432) do
     t.string   "label"
     t.string   "ingredients"
     t.string   "directions"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.string   "category"
     t.string   "recipe_img"
-    t.integer  "yield"
-    t.string   "dietLabels"
-    t.string   "healthLabels"
-    t.integer  "calories"
-    t.integer  "fat"
-    t.integer  "saturated_fat"
-    t.integer  "trans_fat"
-    t.integer  "mono_fat"
-    t.integer  "poly_fat"
-    t.integer  "carbs"
-    t.integer  "fiber"
-    t.integer  "sugars"
-    t.integer  "protein"
-    t.integer  "cholesterol"
-    t.integer  "sodium"
     t.string   "diet"
   end
 
