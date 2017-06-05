@@ -16,6 +16,8 @@ To Dos:
 
 * Make site pinnable and able to access Pinterest recipe pins from user's Pinterest account
 
+* Retrieve dietary information on each recipe using the EDAMAM API
+
 
 Application Specs:
 
