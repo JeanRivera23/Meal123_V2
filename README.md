@@ -1,35 +1,28 @@
 # Meal 123
-
-Meal 123 is an easy to use application that takes the guesswork out of planning and shopping for healthy meals.
+Cooking is a big part of my routine but with a busy schedule I wanted to make it a less time consuming endeavor. Meal123 is an easy to use application that takes the guesswork out of planning meals. It allows you to search and compile your own mealplan. This is still a work in progress.
 
 Features:
 
-* Generates weekly or monthly meal plans tailored to your dietary needs
+* Users can search and compile weekly meal plans
 
-* Generates a grocery list organized by categories such as dairy, meat, fresh produce and frozen produce for ease of shopping
+* Responsive design that considers both UI/UX
 
-* Checkout with peapod or freshdirect
 
-* Pin recipes to your Pinterest account
+To Dos:
 
-* Access recipe pins from your Pinterest account and incorporate into your meal plans
+* Incorporate web scraping to recipe search process
+
+* Generate a grocery list organized by categories for ease of shopping
+
+* Make site pinnable and able to access Pinterest recipe pins from user's Pinterest account
+
 
 Application Specs:
 
-* HTML, CSS, JS, Ruby on Rails, ActiveRecord and Devise
+* HTML5 & CSS3 (no frameworks)
 
-* System dependencies
+* Ruby, Ruby on Rails
 
-* Configuration
+* ActiveRecord and Devise
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployed onto Heroku
