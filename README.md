@@ -8,6 +8,17 @@ Features:
 * Responsive design that considers both UI/UX
 
 
+Tech Used:
+
+* HTML5 & CSS3 (no frameworks)
+
+* Ruby, Ruby on Rails
+
+* ActiveRecord and Devise
+
+* Deployed onto Heroku (https://secret-sierra-29085.herokuapp.com/)
+
+
 To Dos:
 
 * Incorporate web scraping to recipe search process
@@ -19,14 +30,5 @@ To Dos:
 * Retrieve dietary information on each recipe using the EDAMAM API
 
 
-Tech Used:
-
-* HTML5 & CSS3 (no frameworks)
-
-* Ruby, Ruby on Rails
-
-* ActiveRecord and Devise
-
-* Deployed onto Heroku (https://secret-sierra-29085.herokuapp.com/)
 
 ![meal123](https://user-images.githubusercontent.com/26287155/26835840-22e1042c-4aa7-11e7-8b80-c6bc38e45709.png)
