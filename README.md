@@ -27,4 +27,4 @@ Tech Used:
 
 * ActiveRecord and Devise
 
-* Deployed onto Heroku
+* Deployed onto Heroku (https://secret-sierra-29085.herokuapp.com/)
