@@ -19,7 +19,7 @@ To Dos:
 * Retrieve dietary information on each recipe using the EDAMAM API
 
 
-Application Specs:
+Tech Used:
 
 * HTML5 & CSS3 (no frameworks)
 
