@@ -9,8 +9,7 @@ Features:
 
 Instructions:
 
-* Set up an account if you like by signing up or to save some time use the following credentials: 
-
+* Set up an account by signing up, or if you just want to take a quick look at the app you can use the following credentials: 
     - email: jean@email.com
     - password: 123456
   
