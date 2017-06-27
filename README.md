@@ -7,6 +7,14 @@ Features:
 
 * Responsive design that considers both UI/UX
 
+Instructions:
+
+* Set up an account if you like by signing up or to save some time use the following credentials: 
+
+    - email: jean@email.com
+    - password: 123456
+  
+* Once logged in you'll be redirected to the recipes page where you can begin favoriting or adding recipes to your mealplan!
 
 Tech Used:
 
