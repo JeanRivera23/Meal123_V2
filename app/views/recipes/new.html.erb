@@ -31,7 +31,7 @@
       <%= form_for @recipe, :url => { :action => "create" } do |f| %>
 
           <div class="field">
-            <%= f.select(:diet, ["No Restrictions", "Low Glycemic", "Lactose Free", "Gluten Free", "Mediterranean", "Paleo", "Vegetarian", "Vegan"], { :prompt => "Select Recipe Diet"}, class: "selectField", autofocus: true ) %>
+            <%= f.select(:diet, ["No Restrictions", "Paleo", "Vegan"], { :prompt => "Select Recipe Diet"}, class: "selectField", autofocus: true ) %>
           </div>
 
           <br>

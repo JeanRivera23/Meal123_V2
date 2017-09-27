@@ -356,7 +356,7 @@ recipes = Recipe.create([
     ingredients: "1 orange, sliced\r\n1 cup sugar\r\n½ cup water\r\n1 (14 oz) can sweetened condensed milk\r\n3 cups plain yogurt\r\n1 ⅓ Tbsp unflavored gelatin powder\r\n1 Tbsp orange zest\r\n½ oz orange liqueur",
 
     directions: "In a pot, add the sliced orange, 1 cup of sugar and the water. Allow to boil for about 10 minutes. Remove the slices from the syrup and refrigerate oranges and syrup.\r\nIn a blender, mix the condensed milk, yogurt, orange zest and liqueur. Add the gelatin (prepared according to the instructions on the package) and pulse a little more. Set aside.\r\nDivide the orange slices among individual flan molds that have been coated with oil. Pour in the mixture from the blender and place in the refrigerator for 4 hours.\r\nRemove from molds and serve with the syrup."
-  }
+  },
 
   {
     label: "Paleo Chocolate Chunk Banana Bread",
@@ -370,7 +370,7 @@ recipes = Recipe.create([
     ingredients: "2½ cups mashed bananas\r\n4 eggs\r\n1/2 cup almond butter\r\n4 tablespoons coconut oil melted\r\n1/2 cup coconut flour\r\n1/2 teaspoon cinnamon\r\n1 teaspoon baking soda\r\n1 teaspoon baking powder\r\n1 teaspoon vanilla extract\r\npinch of sea salt\r\n6 oz. dark chocolate chopped",
 
     directions: "Grease one 9x5 loaf pan (or 8x8 square pan, which is what I used) and preheat the oven to 350ºF.\r\nIn a large bowl or mixer, combine the mashed bananas, eggs, coconut oil, vanilla extract and nut butter until fully combined.\r\nAdd the coconut flour, cinnamon, baking soda, baking powder, and sea salt to the wet ingredients and mix well. Fold in the chocolate chunks.\r\nPour the batter into the prepared pan and spread it evenly.\r\nBake in the preheated oven for about 40 minutes if using a square pan, and 50-60 if using a loaf pan. A toothpick inserted into the center should come out clean.\r\nRemove from oven and allow to cool on a wire rack for about 1/2 hour. Flip out onto a cooling rack to finish cooling."
-  }
+  },
 
   {
     label: "Sweet Potato Paleo Muffins",
@@ -379,12 +379,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://969873155.r.lightningbase-cdn.com/wp-content/uploads/2015/02/paleo-muffins-4.jpg",
+    recipe_img: "http://969873155.r.lightningbase-cdn.com/wp-content/uploads/2015/02/paleo-muffins-2.jpg",
 
     ingredients: "3/4 cup mashed sweet potato\r\n1/2 cup shredded carrot\r\n1/2 cup grated apple\r\n1/2 cup shredded coconut\r\n1/2 cup raisins\r\n1/4 cup chopped dried figs\r\n1/2 cup chopped walnuts\r\n3/4 cup almond flour\r\n1/8 cup maple syrup (or honey)\r\n1 tsp cinnamon\r\n1/8 tsp nutmeg\r\n1 tsp. baking powder\r\n2 eggs",
 
     directions: "Preheat oven to 350 F (175 C).\r\nMix everything together in one large bowl.\r\nGrease muffin tin with coconut oil or use paper liners. Divide batter into 9 muffin tins.\r\nBake for about 30-35 minutes, until muffin is cooked through and the top is golden. Remove from oven and let stand for 10 minutes.\r\nRemove muffins and let cool on a baking rack. Store in an airtight container, I would probably keep these in the fridge since there is no fat to preserve them."
-  }
+  },
 
   {
     label: "Coconut Flour Pancakes",
@@ -393,13 +393,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://ditchthewheat.com/wp-content/uploads/2013/11/Coconut-Flour-Pancakes-DSC_1423-680x1024.jpg",
+    recipe_img: "https://www.ketovale.com/wp-content/uploads/2017/07/Coconut-Flour-Pancakes-Recipe-600x400.jpg",
 
     ingredients: "2 tbsp extra virgin coconut oil\r\n1 tbsp raw honey\r\n3 large eggs\r\n1/4 cup coconut milk\r\n1/2 tsp vanilla extract\r\n1/4 cup coconut flour, sifted\r\n1/4 tsp\r\ncream of tartar\r\n1/8 tsp\r\nbaking soda\r\n1/8 tsp sea salt",
 
-    directions: "Cream together the coconut oil and honey. Add the eggs one at a time.\r\nAdd coconut milk and vanilla. Mix until smooth.\r\nAdd coconut flour. Mix until smooth.\r\nLastly add cream of tartar, baking soda and salt.\r\nDo not overmix. Overmixing will result in the baking agents (cream of tartar & baking soda) not working.\r\nUse a laddle and pour small amount of batter into a crepe pan with grass fed ghee/butter etc on medium heat.\r\nFlip once the bottom is light brown. The pancakes will not bubble as much as “regular” pancakes.\r\nServe immediately with a drizzle of maple syrup.
- "
-  }
+    directions: "Cream together the coconut oil and honey. Add the eggs one at a time.\r\nAdd coconut milk and vanilla. Mix until smooth.\r\nAdd coconut flour. Mix until smooth.\r\nLastly add cream of tartar, baking soda and salt.\r\nDo not overmix. Overmixing will result in the baking agents (cream of tartar & baking soda) not working.\r\nUse a laddle and pour small amount of batter into a crepe pan with grass fed ghee/butter etc on medium heat.\r\nFlip once the bottom is light brown. The pancakes will not bubble as much as “regular” pancakes.\r\nServe immediately with a drizzle of maple syrup."
+  },
 
   {
     label: "Paleo Breakfast Casserole",
@@ -408,12 +407,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://c1.staticflickr.com/1/538/18798774190_14dbd9f106_o.jpg",
+    recipe_img: "https://www.paleorunningmomma.com/wp-content/uploads/2016/11/breakfast-casserole-8.jpg",
 
     ingredients: "1 large sweet potato, peeled and finely chopped\r\n 4 slices bacon\r\n2 fully-cooked sausage links, finely chopped (I used Wellshire Farms turkey andouille sausage)\r\n6-8 kale leaves, stems removed, torn into bite-size pieces\r\n1 teaspoon cumin\r\n1 teaspoon coriander\r\n6 large eggs\r\n¼ cup milk of choice or water\r\n 1 tablespoon nutritional yeast",
 
     directions: "Preheat the oven to 375°F and grease a 9x13 pan (or similar sized casserole dish--I use and love this one!) with olive oil.\r\nPut the sweet potato chunks in a microwaveable bowl and add ¼ cup water. Cover the bowl with parchment and microwave for 3-5 minutes, until the sweet potatoes are tender when poked with a fork. Drain any excess water. If you'd rather not use a microwave, you can also just steam the sweet potato on the stovetop.\r\nChop the bacon crosswise into pieces about half an inch wide. Fry the bacon in a large skillet over medium heat until almost crisp. Add the sausage, raise the heat to medium high, and cook until nicely browned. Add the kale and cook, stirring frequently, until wilted. Stir in the cumin, coriander, and cooked sweet potato and remove from the heat.\r\nBeat the eggs in a large bowl with the milk or water and nutritional yeast. Add the meat and vegetable mixture to the bowl and stir. Pour everything into the prepared baking dish, using a spoon to spread everything out so it's evenly distributed.\r\nBake for 20 minutes, or until the eggs are just set. Cool for at least 5 minutes before serving. Slice into squares and serve hot.\r\nLeftovers can be stored in the refrigerator for up to 3 days. I reheat mine for about a minute in the microwave."
-  }
+  },
 
   {
     label: "Italian Spaghetti Squash Breakfast Casserole",
@@ -422,12 +421,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://i1.wp.com/cf.peaceloveandlowcarb.com/wp-content/uploads/2015/06/Italian-Spaghetti-Squash-Breakfast-Casserole-Low-Carb-Gluten-Free-Paleo-.jpg?resize=589%2C750",
+    recipe_img: "https://i.pinimg.com/originals/2f/9c/06/2f9c06207d47ad8deebec1913ec03b19.jpg",
 
     ingredients: "1	large spaghetti squash, halved lengthwise and seeded\r\n4	tbsp butter, ghee or bacon fat, divided\r\nsea salt and black pepper, to taste\r\n1 cup onion, diced\r\n2	cloves garlic, minced\r\n1/2 tsp dried Italian seasoning\r\n1/2 cup organic tomatoes, diced\r\n3	oz Italian salami, thinly sliced\r\n1/2 cup kalamata olives, halved\r\n4	large pastured eggs\r\na handful of Italian flat leaf parsley, rough chopped",
 
     directions: "Preheat oven to 400° Place spaghetti squash halves cut side up on a rimmed baking sheet. Spread 1 tbsp of butter over top of each half. Sprinkle generously with sea salt and black pepper. Bake for 45 minutes to an hour or until tender.\r\nWhile the spaghetti squash is baking, heat an ovenproof skillet over medium-low heat. To the pan add the remaining 2 tbsp of butter. Once the butter is melted, add the onions, garlic, sea salt and pepper (to taste) to the pan.\r\nOnce the onions begin to caramelize, add the tomatoes and salami. Saute an additional 10 minutes and then mix in the kalamata olives.\r\nOnce the spaghetti squash is finished roasting, use a fork to scrape out the flesh from both halves. Mix the spaghetti squash in with the onion and salami mixture.\r\nUse a large spoon to create 4 deep wells in the mixture. Crack an egg into each well.\r\nPlace the pan in the oven and bake until the whites of the eggs are cooked through.\r\nSprinkle fresh parsley over the top before serving."
-  }
+  },
 
   {
     label: "Lettuce ‘Tacos’ with Chipotle Chicken",
@@ -436,12 +435,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://drizzleanddip.com/wp-content/uploads/2013/02/IMG_4575_edited-1.jpg",
+    recipe_img: "http://bevcooks.com/wp-content/uploads/2013/02/DSC_0066.jpg",
 
     ingredients: "400g of skinless chicken breast cut into fairly thin strips\r\nsplash of olive oil for frying\r\n1 red onion finely sliced\r\n1  400g can of tomatoes (whole or chopped)\r\n1 T of finely chopped chipotle in adobo sauce (or substitute with finely chopped pickled jalapeno chillis and a pinch of dried chilli flakes)\r\n1/2 t cumin\r\npinch of brown sugar and salt and pepper to season\r\nlettuce leaves to make your tacos\r\nfresh cilantro leaves\r\nsliced pickled jalapeno chillies\r\nslices of avocado or make a guacamole\r\nfresh tomatoes and slices of spring onion to make a rustic salsa\r\nlime wedges to spritz",
 
     directions: "Heat the olive oil in a non-stick frying pan and quickly fry your chicken pieces until they turn golden. Set aside.\r\nIn the same pan, add another small splash of olive oil and fry your onion until it softens.\r\nAdd your tomatoes, cumin, sugar and chipotle and simmer for around 15 - 25 minutes until the tomato sauce starts to thicken around the edges of the pan.\r\nAdd the chicken back into the sauce and allow to cook for about 5 minutes.\r\nAssemble all the elements to make your tacos in separate bowls and serve so that every one can make up their own.\r\nI like to give the chicken a good spritz of lime juice. This freshens things up and amplifies the flavours."
-  }
+  },
 
   {
     label: "Cuban Picadillo Lettuce Wraps",
@@ -455,7 +454,7 @@ recipes = Recipe.create([
     ingredients: "1 pound ground beef, preferably grass-fed\r\n2 Tablespoons tallow, lard, or coconut oil\r\n1 medium onion, about 1.5 cups diced small\r\n1 large green bell pepper, about 1.5 cups diced\r\n½ teaspoon salt\r\n1 teaspoon black pepper, freshly ground\r\n1 teaspoon ground cumin\r\n½ teaspoon ground cinnamon\r\n1 14 oz can whole tomatoes\r\n¼ cup currants\r\n2 Tablespoons green olives with pimiento, diced\r\n2 Tablespoons drained capers\r\n2 Tablespoons olive brine (or white wine vinegar and salt to taste)\r\n⅓ cup minced shallot or red onion\r\n⅔ cup diced tomatoes\r\n2 Tablespoons minced cilantro\r\n2 teaspoons fresh lime juice\r\nsalt to taste\r\nLettuce leaves or cabbage leaves\r\nCooked brown or white rice (optional)\r\nChopped cilantro (optional)",
 
     directions: "Heat large skillet or Dutch oven over medium heat. Add beef. Crumble and stir occasionally as it cooks. Remove and set aside.\r\nAdd tallow or oil to pan. Add onions and cook until beginning to soften, about 3-4 minutes. Add bell pepper and cook 3 more minutes. Stir in garlic, then add the salt, black pepper, cumin, and cinnamon and stir for 30 seconds, until fragrant.\r\nAdd cooked beef, canned tomatoes, currants, diced olives, capers, and olive brine. Break up the tomatoes into small pieces while the mixture comes to a boil.\r\nReduce heat to low, cover, and simmer for 10-20 minutes.\r\nMeanwhile, prepare the pico de gallo. Combine minced shallot, chopped tomatoes, minced cilantro, lime juice, and a dash of salt, then set aside.\r\nTo serve, fill each lettuce leaf with the beef mixture, a spoonful of rice (if desired), and a spoonful of pico de gallo or cilantro. Enjoy!"
-  }
+  },
 
   {
     label: "California Turkey and Bacon Lettuce Wraps",
@@ -464,12 +463,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://cdn.iowagirleats.com/wp-content/uploads/2015/07/California-Turkey-and-Bacon-Lettuce-Wrap-iowagirleats-01.jpg",
+    recipe_img: "https://foodblogs-sympledesignllc.netdna-ssl.com/TdBxmPfKnWyUl8yd6ZxDTlaLkLY=/800x800/smart/iowagirleats.com%2Fwp-content%2Fuploads%2F2015%2F07%2FCalifornia-Turkey-and-Bacon-Lettuce-Wrap-iowagirleats-01.jpg",
 
     ingredients: "1 head iceberg lettuce\r\n4 slices gluten-free deli turkey (I like Applegate Farms)\r\n4 slices gluten-free bacon, cooked (I like Applegate Farms)\r\n1 avocado, thinly sliced\r\n1 roma tomato, thinly sliced\r\n1/2 cup gluten-free mayonnaise (I like Hellmann's Olive Oil Mayo)\r\n6 large basil leaves, torn\r\n1 teaspoon lemon juice\r\n1 garlic clove, chopped\r\nsalt\r\npepper",
 
     directions: "For the Basil-Mayo: combine ingredients in a small food processor then process until smooth. Alternatively, mince basil and garlic then whisk all ingredients together. Can be done a couple days a head of time.\r\nLay out two large lettuce leaves then layer on 1 slice of turkey and slather with Basil-Mayo. Layer on a second slice of turkey followed by the bacon, and a few slices of both avocado and tomato. Season lightly with salt and pepper then fold the bottom up, the sides in, and roll like a burrito. Slice in half then serve cold."
-  }
+  },
 
   {
     label: "Paleo Egg Roll In A Bowl",
@@ -478,12 +477,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://www.ancestral-nutrition.com/wp-content/uploads/2015/02/Egg-Roll-Bowl-1.jpg",
+    recipe_img: "http://peaceloveandlowcarb.com/wp-content/uploads/2016/11/Paleo-Egg-Roll-in-a-Bowl-Crack-Slaw-Low-Carb-Gluten-Free-Peace-Love-and-Low-Carb-.jpg",
 
     ingredients: "1 small head of cabbage, chopped into slices\r\n2 large carrots, cut into long strips (using THIS)\r\n1 tbsp unflavored coconut oil (found HERE)\r\n1/3 cup coconut aminos (found HERE)\r\n1 tbsp sesame oil (found HERE)\r\n2 garlic cloves, minced\r\n4 green onions, diced for garnish\r\nOptional: protein of choice",
 
     directions: "Melt the coconut oil over medium high heat. Add the cabbage.\r\nAdd the carrot.\r\nSautee until soft. If it gets too dry, add a little water and let it evaporate and help soften the veggies.\r\nAdd the coconut aminos and sesame oil.\r\nSautee some more until softer and the sauce is absorbed.\r\nAdd the garlic and cook until fragrant.\r\nAdd the green onions on top.\r\nOptional: cook protein of choice on the side, then toss it together!"
-  }
+  },
 
   {
     label: "Paleo Salmon Salad Veggie Bowl",
@@ -492,12 +491,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://www.cottercrunch.com/wp-content/uploads/2015/05/IMG_2961-two.jpg",
+    recipe_img: "https://paleoleap.com/pictures/2/salmon-beet-salad-main-large-2.jpg",
 
     ingredients: "4-oz	ounce grilled or baked salmon\r\n3-4 cup seasonal greens\r\n1/2	cup slices zucchini and squash\r\n1/2	cup raspberries\r\n1	tbsp balsamic glaze\r\n2 tbsp avocado or olive oil\r\ndash of sea salt\r\ndash of pepper\r\n2	thyme sprigs\r\nparmesan crumbles (optional, not paleo though)\r\nlemon juice",
 
     directions: "First, slice your zucchini and squash, sautee in skillet with 1/2 tbsp oil and a little bit of pepper/salt. Also, make sure your salmon is already cooked. I cook mine in 1 tbsp oil, lemon, pepper and salt for 10 minutes at 400F or so.\r\nOnce the the zucchini and salmon and cooked, go ahead and build your bowl. Greens first, then veggies, and salmon. Drizzle in your balsamic glaze, thyme sprigs leaves, and the rest of your oil. Toss all together and place in bowl.\r\nAdd your raspberries last with a touch of lemon juice on top.Sprinkle with parmesan if desired"
-  }
+  },
 
   {
     label: "Grilled Paleo Pizza",
@@ -506,12 +505,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://www.wickedspatula.com/wp-content/uploads/2015/06/Paleo-Grilled-Pizza-3.jpg",
+    recipe_img: "http://images.shape.mdpcdn.com/sites/shape.com/files/styles/slide/public/paleo-grilled-pizza.jpg",
 
     ingredients: "1 cup tapioca starch\r\n1/4 cup coconut flour\r\n2 eggs\r\n1 cup water\r\nPinch of salt\r\nYour favorite sauce\r\nProsciutto\r\nFresh Tomatoes\r\nJalapeños\r\nWatercress or spinach\r\nOnion\r\nPeppers\r\nFresh Basil",
 
     directions: "Mix the ingredients together for the crust until smooth.\r\nPreheat your grill to high.\r\nHeat a large cast iron skillet over high heat until very hot. Pour in just a tiny bit of olive oil to grease the skillet unless it's seasoned perfectly. Pour in half the crust mixture and allow to cook until the top begins to set and bubble. Flip and allow to cook until it begins to crisp up. It should be golden brown and crisp on the outside. Transfer to a plate and top with desired toppings. Repeat with remaining batter.\r\nCarefully transfer pizzas to the grill (the crusts are probably still a little pliable) and allow to cook about 6-7 minutes or until the crust is firm but not burnt."
-  }
+  },
 
   {
     label: "Stuffed Avocados Shrimp Mango",
@@ -520,12 +519,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://farm2.staticflickr.com/1472/26736870476_d4475fe4b0_o.jpg",
+    recipe_img: "https://i.pinimg.com/736x/46/d1/49/46d1496c316bb527d65e381272b3aecd--shrimp-stuffed-avocado-shrimp-avocado.jpg",
 
     ingredients: "1 jalapeño pepper, stemmed (deseeded for a milder sauce)\r\n¼ cup packed fresh cilantro leaves and tender stems\r\n½ cup avocado oil mayo\r\n1 tablespoon lime juice, or more to taste\r\n¼ cup extra virgin olive oil\r\nSea salt, to taste\r\n1 tablespoon avocado oil or olive oil\r\n1 shallot, minced\r\n1 large clove garlic, minced\r\n1 pound small raw shrimp (40-50 count), peeled and deveined, tails removed\r\n½ teaspoon bittersweet smoked paprika\r\nSea salt and freshly ground black pepper, to taste\r\n3 champagne mangos, chopped\r\n3 scallions, trimmed and sliced\r\nHalf a lime\r\n4 Haas avocados, halved, pits removed\r\nChopped cilantro, for serving",
 
     directions: "To make the aioli, pulse the jalapeño, cilantro, mayo, and lime juice in a food processor until blended. With the food processor running, add the olive oil in a steady stream. Season with sea salt to taste. Set aside while you make the stuffed avocados.\r\nHeat a large skillet over medium heat and add the oil. When the pan is hot, add the shallot and cook, stirring occasionally, until beginning to brown, 2-3 minutes. Stir in the garlic and cook until fragrant (less than a minute). Raise the heat to medium-high and add the shrimp in a single layer. Sprinkle on the paprika and some salt and pepper. Allow the shrimp to cook for about 3 minutes, then flip over and cook for about 2 minutes on the second side, or until cooked through. Turn off the heat and stir thoroughly to incorporate the seasonings.\r\nTransfer the shrimp to a bowl and stir in the mango chunks, sliced scallions, and a squeeze of lime. Taste and add more salt, pepper, or lime juice if desired.\r\nSpoon the shrimp and mango filling into the avocado halves (if the avocado pits are small or you want to fit more filling in each one, you can use a spoon to scoop out some of the avocado flesh). Serve topped with chopped cilantro and the jalapeño aioli."
-  }
+  },
 
   {
     label: "Paleo Tuna Green Chile Zoodle Casserole",
@@ -534,13 +533,13 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://www.cottercrunch.com/wp-content/uploads/2016/08/tuna-green-chile-zoodle-casserole-whole-30-paleo-large.jpg",
+    recipe_img: "https://i.pinimg.com/736x/70/12/f9/7012f975d3816f9b6ff61bfb607a1502--paleo-food-paleo-recipes.jpg",
 
     ingredients: "Three 6-7in zucchini\r\nTwo 5 oz canned tuna\r\n4	oz of diced green chiles\r\n1/2	c real mayo with olive oil or we use Primal Kitchen Chipotle Mayo *add 1/4 c more if you want extra creamy\r\n2	tbsp chopped chives (plus extra for topping)\r\n1/2 tsp salt\r\n1 tbsp organic mustard\r\n1/4	tsp garlic powder\r\n1/4 tsp black pepper\r\n1/2 c chopped onion (peeled)\r\n1/2	cup chopped celery\r\n1	tbsp avocado or olive oil\r\n2	tbsp coconut flour or tapioca starch\r\n1/2	cup coconut milk or cream\r\n1/2	tsp chili pepper or red pepper flakes\r\nParsley to garnish (optional)",
 
     directions: "Preheat oven to 350F.\r\nOil a 9x 13 shallow casserole dish. Set aside.\r\nRibbon cut or spiralize your zucchini into noodles. Press/Squeeze as much excess water out of them as you can. You can do so with a paper towel. Set aside.\r\nIn another bowl, combine your tuna (drained), mayo, green chiles, chives, mustard, pepper, and garlic powder. Mix thoroughly. Set aside.\r\nOil a medium skillet. Add in your onion and celery and seasoning of choice. Cook for about 6 minute so medium or until onion brown a bit.\r\nNext add your coconut flour and milk to the skillet. Stir together with the celery and onion mix until no longer clumpy. this basically acts as a thickener. It's okay if it's not a smooth mixture, just make sure it's mixable when adding to the zucchini noodles.\r\n
     Add your zucchini noodles to the skillet and toss all together. Cover and let the noodles and mix cook together for 1 or 2 minutes on medium heat until zucchini is softened but not thoroughly cooked. Don't let it get soggy.\r\nRemove skillet from heat and pour contents into a large bowl.\r\nMix your tuna green chile mix in the same large bowl.\r\nToss everything together.\r\nPour mix from the large bowl into your casserole dish. Top with extra seasoning of choice.\r\nBake for 10-15 minutes or until edges are brown. If the casserole does not brown after 15 minutes, leave in an extra 5-10 or until crispy edges.\r\nBroil last minute or so to make crispier edges.\r\nRemove from oven.\r\nGarnish with optional parsley, chives, and top with red chili pepper flakes.\r\nServe immediately.\r\nKeeps well in sealed container in fridge for up to 1 week. Freezes for up to 6 weeks but will contain extra water once thawed out."
-  }
+  },
 
   {
     label: "Easy Paleo Turkey Meatballs with Apples and Herbs",
@@ -549,12 +548,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://www.paleorunningmomma.com/wp-content/uploads/2016/10/turkey-meatballs-5.jpg",
+    recipe_img: "http://divascancook.com/wp-content/uploads/2017/03/basic-turkey-meatballs-recipes-1024x576.jpg",
 
     ingredients: "1.25 lbs ground turkey 85-94% lean (not too lean)\r\n1 medium apple peeled and shredded/grated\r\n1 egg\r\n2 tbsp almond flour\r\n1 Tbsp fresh rosemary finely chopped\r\n1 Tbsp fresh thyme finely chopped\r\n1/2 Tbsp fresh sage leaves finely chopped\r\n1/2 tsp fine grain sea salt\r\nblack pepper to taste\r\n1 tbsp coconut oil for frying or your favorite cooking fat",
 
     directions: "Preheat your oven to 400 degrees and have a large oven proof skillet ready to cook the meatballs.\r\nIn a large mixing bowl, combine all the ingredients and mix with your hands to evenly distribute, but don't overwork the meat.\r\nPreheat your oven proof skillet over med-hi heat and add the coconut oil. Form the turkey mixture into 13-14 meatballs and add to the hot skillet. Allow them to brown on all sides, turning as needed, for 5 minutes.\r\nAfter the meatballs are browned, transfer the skillet to the preheated oven and bake for 8-10 more minutes until juices run clear and they're cooked through. Remove from oven, and serve with your favorite veggies noodles or potatoes, with more fresh herbs for garnish."
-  }
+  },
 
   {
     label: "Crispy Paleo Chicken Tenders",
@@ -563,12 +562,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://www.paleorunningmomma.com/wp-content/uploads/2016/08/Chicken-tenders-2.jpg",
+    recipe_img: "https://paleocomfortfoods.com/wp-content/uploads/2013/09/chicken-tenders-920.jpg",
 
     ingredients: "1.5 lbs chicken tenderloins organic, sliced evenly\r\n1 egg whisked\r\n3/4 cup Cassava flour\r\n1/4 cup Coconut flour\r\n2 tsp fine grain sea salt\r\n1 tsp onion powder\r\n1 tsp smoked paprika\r\n1/4 tsp black pepper\r\n1/4 cup plus up to 2 tbsp more of cooking fat",
 
     directions: "In a large bowl, combine the cassava flour, coconut flour, salt, and spices. In a small bowl, whisk your egg. For this recipe, you will be coating the chicken in the egg, then grain free flour/spice mixture, and then pan frying.\r\nHeat a large, heavy skillet over medium-high heat and add your cooking fat of choice.\r\nTest the oil by dropping in a tiny bit of the breading to see if it sizzles. Adjust your heat accordingly.\r\nBegin to dredge each chicken tenderloin in the whisked egg, followed by the flour mixture. Shake off excess and add to the skillet, repeat until the skillet is filled up.\r\nCook on one side until golden brown and crisp, then carefully turn each one over to cook the second side. Add up to 2 tbsp more cooking fat if necessary, and adjust the heat either up or down for even browning.\r\nOnce both sides are evenly golden brown and the middle is cooked through, transfer the chicken tenders to a baking sheet lined with paper towel to drain excess oil.\r\nRepeat the process for the remaining chicken tenders, adding more oil and adjusting heat if necessary."
-  }
+  },
 
   {
     label: "Lebanese Lemon Chicken",
@@ -577,13 +576,13 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://farm1.staticflickr.com/567/21384090705_fb4ab62356_o.jpg",
+    recipe_img: "https://i.pinimg.com/originals/fd/e8/bd/fde8bdb1f21e9f839ae6565527e13c53.jpg",
 
     ingredients: "3 organic lemons\r\n2 tablespoons extra virgin olive oil, plus more for cooking\r\n 1/2 teaspoon ground turmeric\r\n1½ teaspoons flaky sea salt\r\n Freshly ground black pepper\r\n 3 pounds boneless, skinless chicken thighs (about 12 thighs)\r\n2 large shallots or 1 large onion\r\n 2 sprigs of fresh rosemary\r\n2 sprigs of fresh thyme",
 
     directions: "Juice one of the lemons until you have 2 tablespoons of lemon juice. Put the juice in a large bowl and add the 2 tablespoons of olive oil along with the turmeric, sea salt, and a generous amount of freshly ground black pepper.\r\nAdd the chicken thighs to the bowl and toss to coat. Let the chicken marinate briefly at room temperature while you prepare the other ingredients.\r\nTrim the ends off the other two lemons and slice them into ¼-inch thick rounds. Remove any visible seeds. Halve, peel, and slice the shallots.\r\nHeat two large cast iron skillets over medium-high heat (or use one skillet and cook the chicken in two batches). Add enough olive oil to coat the bottom with a thin layer of oil.\r\n
     Divide the chicken pieces between the two pans with the smooth side of the chicken (where the skin was) facing down, making sure to leave a little room between the pieces so they can brown. Cook for about 5 minutes, until nicely browned on the bottom, and then flip and cook for 8-10 minutes on the second side, until just cooked through, lowering the heat slightly if necessary. Use tongs or a slotted spatula to transfer the chicken pieces to a plate.\r\nAdd the lemons, shallots, and herb sprigs to the pans. Let cook undisturbed for 3-4 minutes, until the lemons are browned on the bottom. Pour ½ cup water into each pan and stir, scraping the browned bits from the bottom. Reduce the heat to medium, add the chicken back to the pans, and cook for 4-5 minutes so the flavors can meld. Serve the chicken, shallots, and pan juices hot over rice or cauliflower rice."
-  }
+  },
 
   {
     label: "Paleo Angel Food Cake",
@@ -598,7 +597,7 @@ recipes = Recipe.create([
 
     directions: "Preheat the oven to 350ºF and adjust the rack to the middle position.\r\nPlace the egg whites and lemon juice in the bowl of a standing mixer. Whisk the egg mixture on medium-high until foamy, about 30 seconds. Add the salt, cream of tartar and vanilla. Whisk the mixture on medium-high until soft peaks form, about 1-2 minutes.\r\nWith the mixer on medium-high, slowly add 1/2 cup of the maple sugar, 1 tablespoon at a time. Sift the remaining 1/4 cup maple sugar and arrowroot flour into a small bowl. With the mixer on medium, slowly add the arrowroot mixture. Turn the speed up to medium-high and whip until smooth (there might be some tiny little lumps from the sugar, but it will melt in the oven while baking).\r\n
     Pour the batter into a clean (and NOT oiled), 12-cup angel food cake pan (I'm still on the look-out for a glass or stainless steel angel food cake pan. If you know where to purchase one, please let me know!). Bake for 40-45 minutes, until cake is puffed and the top is just turning golden brown.\r\nRemove the cake from the oven. Carefully turn the cake upside-down and place on top of a can. Let cool completely, about 1 hour. Run a knife around the outside of the cake and invert onto a cake platter (you might need to shake the cake a little to get it to separate from the center tube of the cake pan). Serve alone or with whipped cream and berries."
-  }
+  },
 
   {
     label: "Chocolate Chip Coconut Flour Pumpkin Bars",
@@ -607,12 +606,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://www.ambitiouskitchen.com/wp-content/uploads/2015/09/Chocolate-Pumpkin-Bars-4.jpg",
+    recipe_img: "http://healthyhomestead.com/wp-content/uploads/2015/10/Chocolate-Chip-Coconut-Flour-Pumpkin-Bars.jpg",
 
     ingredients: "1 cup canned pumpkin puree\r\n1/4 cup pure maple syrup\r\n1 teaspoon vanilla extract\r\n1/4 cup almond butter\r\n1 tablespoon unsweetened almond milk\r\n2 eggs\r\n1/2 cup coconut flour\r\n3/4 teaspoon baking soda\r\n1/8 teaspoon salt\r\n1 teaspoon cinnamon\r\n1/2 teaspoon ginger\r\n1/4 teaspoon nutmeg\r\n1/8 teaspoon ground cloves\r\n1/2 cup dark chocolate chips, divided",
 
     directions: "Preheat oven to 350 degrees F. Line an 8x8 inch baking pan with parchment paper and spray with nonstick cooking spray.\r\nAdd pumpkin puree, maple syrup, vanilla extract, almond butter, almond milk and eggs to a large bowl and mix until well combined, smooth and creamy.\r\nAdd in coconut flour, baking soda, salt and the remaining spices. Gently fold in 1/3 cup of chocolate chips into the batter. Spread batter evenly in prepared pan. Bake for 20-25 minutes or until toothpick comes out clean in the middle. Transfer pan to a wire rack to cool.\r\nMelt remaining 1/4 cup of chocolate chip in a small saucepan over low heat. Once completely melted, drizzle the chocolate over the bars. Another option is to sprinkle the remaining chocolate over the top of the bars right when they come out of the oven. It's up to you! Cut into 12 bars."
-  }
+  },
 
   {
     label: "Paleo Pumpkin Donuts",
@@ -621,13 +620,13 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://www.texanerin.com/content/uploads/2015/10/paleo-pumpkin-donut-holes-2.jpg",
+    recipe_img: "https://www.texanerin.com/content/uploads/2015/10/paleo-pumpkin-donut-holes-3.jpg",
 
     ingredients: "1/2 cup coconut flour\r\n3/4 cup almond flour\r\n1 1/4 teaspoons baking soda\r\n3 1/2 teaspoons pumpkin pie spice\r\n1/4 teaspoon salt\r\n4 large eggs, room temperature\r\n7 tablespoons coconut oil or unsalted butter, melted\r\n1/2 cup maple syrup\r\n2 tablespoons coconut sugar or brown sugar\r\n1/2 cup canned pumpkin puree (not pumpkin pie filling)\r\n2 teaspoons vanilla extract\r\n1/3 cup coconut sugar or granulated sugar\r\n1 1/2 teaspoons ground cinnamon",
 
     directions: "Preheat the oven to 350 °F. Line a mini muffin pan with 24 muffin liners.\r\nIn a large bowl, mix together the dry ingredients (coconut flour through salt).\r\nIn a separate medium bowl, mix together the wet ingredients (eggs through vanilla).\r\nAdd the dry mixture to the wet mixture and stir just until combined.\r\nPour the batter evenly into the muffin liners, filling each liner until almost completely full. You'll likely have enough batter for another six donut holes.\r\nBake for 11-13 minutes or until a toothpick inserted in the middle comes out clean. Turn out onto a wire rack to cool completely. These need to rest for at least an hour before serving, both because of taste and texture.\r\n
     When ready to serve, mix the cinnamon with the sugar in a small bowl. Roll the donut holes in the cinnamon sugar. As these donut holes are quite moist, the cinnamon sugar tends to liquify overnight, which is why it's recommended to roll the donuts in the sugar no more than 8 hours before serving.\r\nStore in an airtight container for up to 2 days."
-  }
+  },
 
   {
     label: "Paleo Strawberry Crumble",
@@ -636,12 +635,12 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "http://www.theroastedroot.net/wp-content/uploads/2014/07/paleo_strawberry_crumble_10.jpg",
+    recipe_img: "http://stephiecooks.com/wp-content/uploads/2014/07/paleo_strawberry_crumble_2.jpg",
 
     ingredients: "4 cups fresh ripe strawberries halved\r\n2 tablespoons tapioca flour\r\n2 teaspoons pure vanilla extract\r\n1 tablespoon fresh lemon juice\r\n2 tablespoons pure maple syrup\r\n1 cup almond flour/meal\r\n½ teaspoon kosher salt\r\n3 tablespoons coconut oil or grapeseed oil\r\n3 tablespoons pure maple syrup",
 
     directions: "Preheat the oven to 350 degrees F.\r\nIn a mixing bowl, toss together the strawberries, tapioca flour, vanilla extract, lemon juice, and maple syrup. Transfer to an 8” x 8” baking pan.\r\nMix together the ingredients for the crumble topping in a mixing bowl. Evenly spread it over the strawberries and bake in the oven for 30 minutes, until the strawberries are juicy and bubbly and the topping is golden-brown.\r\nLet stand for 10 minutes before serving with ice cream."
-  }
+  },
 
   {
     label: "Paleo Edible Chocolate Chip Cookie Dough",
@@ -650,7 +649,7 @@ recipes = Recipe.create([
 
     diet: "Paleo",
 
-    recipe_img: "https://www.wickedspatula.com/wp-content/uploads/2015/05/Cookie-Dough-use.jpg",
+    recipe_img: "https://draxe.com/wp-content/uploads/2016/01/Edible-Chocolate-Chip-Cookie-Dough-e1453365265592.jpg",
 
     ingredients: "1/2 cup packed almond flour\r\n1/4 cup tapioca flour\r\n5 tablespoons cold unsalted grass-fed butter\r\n2-3 teaspoons honey, to taste\r\n3/4 teaspoon vanilla\r\n1 ounce chopped dark 85% chocolate\r\nGenerous pinch of sea salt",
 
