@@ -1,35 +1,41 @@
 # Meal 123
-
-Meal 123 is an easy to use application that takes the guesswork out of planning and shopping for healthy meals.
+Cooking is a big part of my routine but with a busy schedule I wanted to make it a less time consuming endeavor. Meal123 is an easy to use application that takes the guesswork out of planning meals. It allows you to search and compile your own mealplan. This is still a work in progress.
 
 Features:
 
-* Generates weekly or monthly meal plans tailored to your dietary needs
+* Users can search and compile weekly meal plans
 
-* Generates a grocery list organized by categories such as dairy, meat, fresh produce and frozen produce for ease of shopping
+* Responsive design that considers both UI/UX
 
-* Checkout with peapod or freshdirect
+Instructions:
 
-* Pin recipes to your Pinterest account
+* Set up an account by signing up, or if you just want to take a quick look at the app you can use the following credentials: 
+    - email: jean@email.com
+    - password: 123456
+  
+* Once logged in you'll be redirected to the recipes page where you can begin favoriting or adding recipes to your mealplan!
 
-* Access recipe pins from your Pinterest account and incorporate into your meal plans
+Tech Used:
 
-Application Specs:
+* HTML5 & CSS3 (no frameworks)
 
-* HTML, CSS, JS, Ruby on Rails, ActiveRecord and Devise
+* Ruby, Ruby on Rails
 
-* System dependencies
+* ActiveRecord and Devise
 
-* Configuration
+* Deployed onto Heroku (https://secret-sierra-29085.herokuapp.com/)
 
-* Database creation
 
-* Database initialization
+To Dos:
 
-* How to run the test suite
+* Incorporate web scraping to recipe search process
 
-* Services (job queues, cache servers, search engines, etc.)
+* Generate a grocery list organized by categories for ease of shopping
 
-* Deployment instructions
+* Make site pinnable and able to access Pinterest recipe pins from user's Pinterest account
 
-* ...
+* Retrieve dietary information on each recipe using the EDAMAM API and incorporate in site recipe views
+
+
+
+![meal123](https://user-images.githubusercontent.com/26287155/26835840-22e1042c-4aa7-11e7-8b80-c6bc38e45709.png)
