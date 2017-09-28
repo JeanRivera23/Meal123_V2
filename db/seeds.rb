@@ -18,7 +18,304 @@
 # ])
 
 recipes = Recipe.create([
+  # All Recipes are included in No Restrictions diet
   # BREAKFAST
+  {
+    label: "Vegan Spinach Artichoke Quiche",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.vnutritionandwellness.com/wp-content/uploads/2016/04/Spinach-and-Artichoke-Quiche-5.jpg",
+
+    ingredients: "2 large tortillas\r\noil spray\r\n1 tb coconut or olive oil\r\n½ cup of onion, chopped\r\n2 cloves of garlic, minced\r\n2 cups of fresh spinach\r\n14 oz soft tofu\r\n½ cup nutritional yeast\r\n½ lemon, juiced\r\n1 tsp dried basil\r\n½ tsp turmeric\r\n¼ tsp salt\r\n¼ tsp pepper\r\n14 oz can of artichokes, drained and chopped",
+
+    directions: "Preheat oven to 350 degrees.\r\nSpray a pie plate with oil. Rip the 2 tortillas in half and arrange them so that the bottom and sides are covered. Bake for about 10-15 minutes checking a few times through to make sure the tortillas are staying put and not bubbling (break any bubbles if they form).\r\nWhile the crust is baking, heat oil in a large pan. Add onion and cook about 5 mins till translucent. Add garlic and cook for another 1-2 mins. Add spinach and cook another few minutes until spinach is wilted. Take off of heat.\r\nIn a food processor, add tofu, nutritional yeast, lemon juice, and spices. Process until smooth.\r\nAdd artichokes and onion mixture to food processor and plus 15-25 times until mixed.\r\nPut mixture into pie pan.\r\nBake for about 45 mins at 350."
+  },
+
+  {
+    label: "Vegan Breakfast Sandwich",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://veganhuggs.com/wp-content/uploads/2016/05/veganbreakfastsandwichNEW.jpg",
+
+    ingredients: "1 tablespoon coconut oil (or preferred cooking oil)\r\n1 14 oz container extra firm tofu , pressed & cut lengthwise into 6 even slices\r\n1 teaspoon turmeric\r\n1/2 teaspoon garlic powder\r\nSalt & pepper, to taste\r\n3 melty vegan cheese slices\r\n6 slices of bread, 3 or wraps\r\n1-2 tablespoons vegan mayo\r\n1 cup of greens (spinach, spring mix, green lettuce, romaine etc.)\r\n1-2 medium tomatoes, sliced thin\r\n6 pickle slices",
+
+    directions: "Season one side of the tofu with salt, garlic powder, and turmeric. I just sprinkled it out of the spice jars. You will season the second side in the pan, when it's time to flip them.\r\nIn a medium pan, heat oil over medium heat and place the tofu slices, seasoned side down on the pan. While the bottom side is cooking, season the top side. Let the tofu cook for 3 to 5 minutes, until slightly brown and crispy. Now flip the slices over and fry the other side for 3-5 minutes. Now's a good time to pop bread in toaster, if preferred.\r\nTo melt the cheese, on a baking sheet, place 2 slices of tofu side by side, with a slice of cheese on top of each set. Put it in the oven on broil for 1-3 minutes, until the cheese is melted. You can also use a toaster oven.\r\nSpread mayo on both sides of the bread. Place the 2 slices of tofu with cheese on one side. Add the greens and tomatoes (sprinkle with salt and pepper, if desired). Now add a couple of pickle slices and close the sandwich together. Cut diagonal."
+  },
+
+  {
+    label: "Sweet Potato and Apple Latkes",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i2.wp.com/static1.squarespace.com/static/55351d7ee4b097f55547d973/553e954ae4b04f3f253f77ff/569a741ca976af8774e57186/1452962854964//img.jpg?w=1080",
+
+    ingredients: "1 large sweet potato, peeled\r\n1 apple, peeled and quartered\r\n1/2 onion, diced\r\n1 tsp salt\r\n1 tbsp arrowroot powder\r\n2 tbsp spelt flour\r\n1 tbsp olive oil\r\n1 tsp turmeric\r\npepper to taste\r\noptional: kale as garnish\r\n3 tbsp tahini\r\njuice of one lemon\r\n1 tbsp maple syrup\r\nwater as needed to thin sauce\r\noptional: squirt of sriracha",
+
+    directions: "Combine all of the ingredients for the tahini lemon sauce in a bowl and whisk together. Set aside.\r\nGrate the sweet potato and the apple into a large mixing bowl. Squeeze as much liquid out of the grated sweet potato and apple as possible and transfer the squeezed mixture into a clean bowl. Add the onion, salt, arrowroot, spelt flour, olive oil, turmeric, and pepper. Mix to combine.\r\nHeat a cast iron pan (or other skillet) over medium – high heat. Add apprx. 2 tbsp olive oil. When the pan is hot take a handful (about 1/4 cup) of the latke batter and squeeze it together into a flatish round patty. Place it on the hot pan and press down on it with a spatula. Cook for 2 – 4 minutes per side until golden brown and crispy. Transfer to a plate or wire rack covered in paper towel to cool. Repeat until all of the latkes are cooked (you can place the cooked ones in the oven at 200 to keep them warm while cooking). Serve hot with plenty of sauce!"
+  },
+
+  {
+    label: "Chickpea Scramble with Zucchini and Thyme",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://static1.squarespace.com/static/511dac8ee4b0adc428bf564e/t/57083ad10442625f6abbe9ea/1460157145103/Chickpea+Scramble+%7C+TastingPage.com?format=1000w",
+
+    ingredients: "1/2 cup chickpea flour\r\n1/2 cup vegetable broth\r\n1/4 cup onions, chopped\r\n1/2 cup zucchini, diced\r\n1 tablespoon fresh thyme, finely chopped\r\n1 teaspoon olive oil\r\nSalt and pepper to taste",
+
+    directions: "Place the chickpea flour and vegetable broth in a glass bowl and whisk until smooth.\r\nHeat a medium sized pan over medium-high heat and add oil. Once warm, add the onions and sauté until translucent. Then add the zucchini and cook about 5 minutes until the vegetables begin to brown. As the vegetables cook, season with salt, pepper and thyme and stir until incorporated.\r\nPour the chickpea flour - broth mixture over the vegetables and stir with a wooden spoon. It will begin to form clumps. Mix and break up as it continues to cook, for about 5-10 minutes. Once it's no longer wet and the raw flour taste has been cooked off, your scramble is complete."
+  },
+
+  {
+    label: "Vegan Southwest Sweet Potato Hash",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://www.blissfulbasil.com/wp-content/uploads/2014/06/31-DSC_3346.jpg",
+
+    ingredients: "1 tablespoon virgin coconut oil or olive oil\r\n2 cloves garlic, minced\r\n1 medium yellow onion, diced (about 2 cups)\r\n4 cups peeled and cubed sweet potatoes\r\n1 teaspoon smoked paprika\r\n1/2 teaspoon cumin\r\n1/2 teaspoon turmeric\r\n1/4-1/2 teaspoon sea salt or to taste\r\n1/4 cup chopped fresh cilantro\r\n1 ripe avocado, pitted and peeled\r\n1/2 to 1 lime\r\n1/2 poblano pepper, seeded and finely diced\r\nSea salt, to taste\r\n1 cup diced grape tomatoes\r\n1/2 cup finely diced white onion\r\n1/4 cup chopped fresh cilantro\r\nsea salt to taste\r\n1/2 cup coconut cream\r\n1 tablespoon minced chipotle peppers in adobo sauce\r\n1 tablespoon water\r\n1/4 teaspoon sea salt or to taste",
+
+    directions: "\r\nHeat the coconut oil in a large skillet over medium heat. Add in the garlic, yellow onion, sweet potatoes, paprika, cumin, turmeric, and sea salt. Let the mixture cook for 20-25 minutes, stirring just every few minutes so that the potatoes have a chance to develop a slight caramelization.\r\nOnce the sweet potatoes are tender, turn off the heat and stir in the fresh cilantro.\r\nAs the sweet potato hash cooks, scoop the flesh of one avocado into a bowl and mash it with a fork. Stir in the juice of 1/2 to one lime (or to taste), the diced poblano pepper, and sea salt, to taste.\r\nAdd the tomatoes, white onion, cilantro, and sea salt to a small bowl and stir.\r\nAdd the coconut cream, chipotle peppers, water, and sea salt to a blender. Blend on high for 1-2 minutes or until the mixture is almost completely smooth.\r\nScoop the sweet potato hash onto plates and top with the pico de gallo, guacamole, and a drizzle of the chipotle cream."
+  },
+
+  {
+    label: "Vegan Spring Minestrone",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/11/640x959/gallery-1489697997-danielle-occhiogrosso-minestrone-0417.jpg",
+
+    ingredients: "2 tbsp. olive oil\r\n2 medium carrots, chopped\r\n1 medium leek, thinly sliced\r\n8 sprigs fresh thyme, tied together\r\n3 large red potatoes, chopped\r\n2 qt. lower-sodium vegetable\r\n1 bunch asparagus, sliced\r\n1 can (15 oz.) navy beans, rinsed and drained (optional)\r\n2 tbsp. chopped fresh dill",
+
+    directions: "In 8-quart saucepot, heat 2 tablespoons olive oil on medium. Add carrots, leek, fresh thyme, and 1/4 teaspoon salt. Cook 8 minutes, stirring. Add red potatoes, chopped, and lower-sodium vegetable or chicken broth. Partially cover and heat to boiling on high; reduce heat to simmer. Cook 25 minutes or until potatoes are tender.\r\nAdd asparagus and simmer 3 minutes or until tender. Discard thyme. Stir in navy beans (optional), fresh dill, 1/4 teaspoon salt and 1⁄2 teaspoon pepper."
+  },
+
+  {
+    label: "Mushroom-Quinoa Burger",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/16/22/980x490/landscape-1464732896-ghk-0616-mushroom-quinoa-burger.jpg",
+
+    ingredients: "4 medium portobello mushroom caps (about 1 lb.), gills removed, chopped\r\n1/2 c. walnuts\r\n1 clove garlic\r\n2 tbsp. canola oil\r\n1/4 c. Chopped red onion\r\n3 green onions, chopped\r\n2 tsp. rice wine vinegar\r\n1 c. cooked quinoa\r\n1/2 c. cornstarch\r\nWhole-grain burger buns\r\nsprouts\r\nLettuce\r\nSliced tomatoes\r\n1/2 c. mayonnaise\r\n1 tsp. finely chopped fresh rosemary\r\n1 tsp. lemon juice\r\nKosher salt",
+
+    directions: "Preheat oven to 375 degrees F. In 3-quart, shallow baking dish, toss mushrooms with walnuts, garlic, 1 tablespoon oil, 3⁄4 teaspoon salt, and 1⁄4 teaspoon pepper; spread in even layer. Bake 20 minutes or until mushrooms are tender. Set aside to cool. Turn oven off.\r\nIn food processor, pulse mushroom mixture, red onion, green onions, and vinegar until mostly smooth, scraping side of bowl if necessary. Transfer mixture to a large bowl and stir in quinoa and cornstarch until well-blended. Cover bowl with plastic wrap and refrigerate 2 hours.\r\nPreheat oven to 375 degrees F. Line baking sheet with foil. Form mixture into 5 patties (about 1/2 in thick and 3 in wide). In a 12 in nonstick skillet, heat remaining 1 tablespoon oil on medium. In 2 batches, cook patties 5 minutes or until well-browned, turning over once. Transfer seared patties to prepared baking sheet. Bake 10 minutes or until hot in centers.\r\n
+    Meanwhile, combine mayonnaise, rosemary, lemon juice, and a pinch of salt. Keeps up to 5 days, refrigerated.\r\nServe burgers on buns with Rosemary Mayo, garnished with sprouts, lettuce, and tomato."
+  },
+
+  {
+    label: "Smoky Vegan Black Bean Soup",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/02/640x960/gallery-1484149670-febghk-smoky-vegan-black-bean-soup-mike-garten-1.jpg",
+
+    ingredients: "2 tbsp. extra virgin olive oil\r\n2 medium carrots, chopped\r\n2 stalks celery, sliced\r\n1 medium onion, finely chopped\r\n1/4 c. tomato paste\r\n3 cloves garlic, crushed with press\r\n1 1/2 tsp. ground cumin\r\n3 c. lower-sodium vegetable or chicken broth\r\n3 cans (15 oz. each) lower-sodium black beans, undrained\r\n1 c. frozen corn\r\nAvocado chunks and cilantro leaves, for serving",
+
+    directions: "In 12-inch skillet, heat oil on medium-high. Add carrots, celery and onion. Cook 6 to 8 minutes or until starting to brown, stirring occasionally. Add tomato paste, garlic and cumin. Cook, stirring, 1 to 2 minutes or until garlic is golden and tomato paste has browned. Stir in 1/2 cup broth, scraping up any browned bits.\r\nTransfer contents of skillet to 6- to 8-quart slow-cooker bowl along with beans, corn and remaining broth. Cover and cook on High for 4 hours or Low for 6 hours. Serve with avocado and cilantro."
+  },
+
+  {
+    label: "Peanutty Edamame and Noodle Salad",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/01/980x490/landscape-1483547957-ghk010117ykpeanuttyedamameandnoodlesalad.jpg",
+
+    ingredients: "3 bags (8 oz. each) shirataki noodles, rinsed and drained\r\n3 c. frozen shelled edamame\r\n2 c. frozen corn\r\n1/2 c. peanut butter\r\n1/2 c. rice vinegar\r\n1 tbsp. Sriracha hot sauce, plus more for serving\r\n2 tbsp. water\r\n1/2 tsp. salt\r\n3 c. shredded carrots\r\n1 pt. grape tomatoes, halved\r\n1 medium Granny Smith apple, quartered and thinly sliced\r\n1/2 c. fresh cilantro, chopped",
+
+    directions: "Heat large saucepot water to boiling on high. Add shirataki noodles, edamame and corn; boil 2 minutes. Rinse and drain well.\r\nIn large bowl, whisk peanut butter, rice vinegar, Sriracha hot sauce, water and salt. Add shredded carrots, tomatoes, apple, cilantro and noodle mixture. Toss until well coated. Serve with Sriracha."
+  },
+
+  {
+    label: "Vegan Crispy Tofu Bowl",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/30/640x960/gallery-1500912651-danielle-occhiogross-crispy-tofu-bowl-0817.jpg",
+
+    ingredients: "14 oz. extra-firm tofu\r\n1/2 small red onion, very thinly sliced\r\n1/4 c. red wine vinegar\r\n1/4 c. Thai sweet chili sauce\r\n1 tbsp. olive oil\r\n1 seedless cucumber, chopped\r\n3 tbsp. cornstarch\r\n2 tbsp. vegetable oil\r\n1 c. quinoa, cooked\r\n2 tbsp. roasted cashew halves\r\nParsley leaves, for garnish",
+
+    directions: "Slice tofu 1/4 inch thick. Place on cutting board between paper towels; top with baking sheet. Top with large cans or other weight; let stand 10 minutes. Soak red onion in cold water.\r\nWhisk red wine vinegar and Thai sweet chili sauce, olive oil and 1/4 teaspoon salt. Pat onion dry; toss with half of vinaigrette and cucumber.\r\nSprinkle tofu on both sides with cornstarch. In 12-inch skillet, heat vegetable oil on medium-high until hot. Carefully add tofu. Cook until deep golden brown, 2 to 3 minutes per side. Drain on paper towels.\r\nDivide quinoa among 4 bowls. Top each with salad, roasted cashew halves, parsley leaves and tofu."
+  },
+
+  {
+    label: "Bulgur Pilaf with Garbanzos and Dried Apricots",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/cm/15/12/5508ddc29818f-bulgur-pilaf-garbanzos-dried-apricots-xln.jpg",
+
+    ingredients: "¾ c. water\r\n1 can vegetable broth or chicken broth\r\n1 c. bulgur\r\n1 tbsp. olive oil\r\n1 small onion\r\n2 tsp. curry powder\r\n1 clove garlic\r\n1 can garbanzo beans (chickpeas)\r\n½ c. Dried apricot\r\n½ tsp. salt\r\n¼ c. fresh parsley leaves",
+
+    directions: "In 2-quart covered saucepan, heat water and 1 1/4 cups vegetable broth to boiling on high. Stir in bulgur; heat to boiling. Reduce heat to medium-low; cover and simmer 12 to 15 minutes or until liquid is absorbed. Remove saucepan from heat. Uncover and fluff bulgur with fork to separate grains.\r\nMeanwhile, in 12-inch nonstick skillet, heat oil on medium 1 minute. Add onion and cook 10 minutes, stirring occasionally. Stir in curry powder and garlic; cook 1 minute.\r\nStir in garbanzo beans, apricots, salt, and remaining 1/2 cup vegetable broth; heat to boiling. Remove saucepan from heat; stir in bulgur and parsley."
+  },
+
+  {
+    label: "Summer Pesto Pasta",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/19/640x960/gallery-1494268374-mike-garten-summer-pesto-pasta-0617.jpg",
+
+    ingredients: "1 lb. spaghetti\r\n2 ears corn, shucked\r\n1 medium yellow squash, cut into 1/2in-thick slices\r\n1 medium zucchini, cut into 1/2in-thick slices\r\n1 small bell pepper, seeded and cut into sixths\r\n4 green onions, trimmed\r\n2 tbsp. olive oil\r\n1 lemon\r\n1/2 c. store-bought refrigerated pesto\r\n1 pt. grape tomatoes, halved\r\n1/4 c. packed fresh parsley, chopped",
+
+    directions: "Heat grill on medium-high. Cook spaghetti as label directs. Rinse, drain well and let cool completely.\r\nIn large bowl, toss corn, squash, zucchini, bell pepper and onions with oil and 1/2 teaspoon each salt and black pepper until well coated. Grill corn, turning, 10 minutes or until charred in spots. Grill squash, zucchini and bell pepper 4 to 6 minutes or until tender and grill marks appear, turning once. Grill onions 2 minutes or until tender and slightly charred, turning occasionally.\r\nInto large bowl, from lemon, grate 1/2 teaspoon zest and squeeze 2 tablespoons juice. Whisk in pesto and 1/2 teaspoon each salt and pepper.\r\nChop squash, zucchini, pepper and onions; add to bowl with pesto. Cut kernels from cobs; add to bowl along with tomatoes, parsley and cooked pasta. Toss to combine. Serve at room temperature."
+  },
+
+  {
+    label: "Roasted Squash and Pumpkin Seed Mole Bowls",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/15/51/980x490/landscape-1450379193-ghk-0116-roasted-squash-and-pumpkin-seed-mole-bowl.jpg",
+
+    ingredients: "1 large butternut squash, peeled and cut into 1 in chunks\r\n3 tbsp. olive oil\r\n1/2 c. raw shelled pumpkin seeds, plus more for garnish\r\n1/2 tsp. cumin seeds\r\n1/2 tsp. dried oregano\r\n1/2 onion, cut into wedges\r\n2 tomatillos, husked and halved\r\n2 cloves garlic, halved\r\n1 jalapeno chile, sliced\r\n3/4 c. vegetable stock\r\n1/2 c. coconut milk\r\n1/2 c. parsley, chopped\r\n1/4 c. packed cilantro, chopped, plus more for garnish\r\nLime wedges, for garnish\r\nCooked rice, for serving",
+
+    directions: "Preheat oven to 400 degrees F. Toss squash with 2 tablespoons olive oil, 1 teaspoon salt, and 1/4 teaspoon pepper. Arrange on baking sheet; roast 35 to 40 minutes or until squash is tender, stirring occasionally.\r\nMeanwhile, in 10 in skillet, toast pumpkin seeds, cumin seed and oregano on medium 3 minutes or until fragrant, stirring. Remove from heat; set aside. In same skillet, heat remaining 1 tablespoon olive oil on medium. Add onion, tomatillos, garlic and jalapeno; cook 5 minutes or until slightly browned. Place vegetables, pumpkin seeds and spice mixture in blender or food processor. Pulse a few times; then add stock, coconut milk, parsley, cilantro, 3/4 teaspoon salt and 1/4 teaspoon pepper. Process until smooth. Makes 3 cups.\r\nReturn mixture to skillet; simmer on medium stirring often, 15 to 20 minutes or until slightly thickened. Divide rice and squash among 4 bowls; dollop with sauce. Serve remaining sauce on the side. Garnish with cilantro and lime wedges."
+  },
+
+  {
+    label: "Creamy Vegan Linguine with Wild Mushrooms",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/15/51/980x490/landscape-1450379149-ghk-0116-creamy-vegan-linguine-with-wild-mushrooms.jpg",
+
+    ingredients: "1 lb. linguine or fettuccine\r\n6 tbsp. olive oil\r\n12 oz. mixed mushrooms, thinly sliced\r\n3 cloves garlic, finely chopped\r\n1/4 c. nutritional yeast\r\n2 green onions, thinly sliced on an angle",
+
+    directions: "Cook linguine as label directs, reserving 3/4 cups pasta cooking water before draining. Return drained linguine to pot.\r\nMeanwhile, in 12 in skillet, heat oil on medium-high. Add mushrooms and garlic; cook 5 minutes or until mushrooms are browned and tender, stirring. Transfer to pot with cooked, drained linguine along with nutritional yeast, reserved cooking water, 1/2 teaspoon salt and 3/4 teaspoon coarsely ground pepper. Toss until well combined. Garnish with green onions."
+  },
+
+  {
+    label: "Grilled Asparagus and Shiitake Tacos",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/16/17/980x490/landscape-1461703583-ghk-0516-grilled-asparagus-and-shiitake-tacos.jpg",
+
+    ingredients: "3 tbsp. canola oil\r\n4 garlic cloves, crushed with press\r\n1 tsp. ground chipotle chile\r\n1/2 tsp. Kosher salt\r\n8 oz. shiitake mushrooms, stems discarded\r\n1 bunch green onions, trimmed\r\n8 corn tortillas, warmed\r\n1 c. homemade or prepared guacamole\r\nLime wedges\r\ncilantro sprigs\r\nHot sauce, for serving",
+
+    directions: "Heat grill on medium. In a large baking dish, combine oil, garlic, chipotle, and salt. Add asparagus, shiitakes, and green onions; toss to coat. Grill asparagus until tender and lightly charred, turning occasionally; 5 to 6 minutes. Grill shiitakes and green onions until lightly charred, turning occasionally; 4 to 5 minutes. Transfer vegetables to cutting board.\r\nCut asparagus and green onions into 2 in lengths and slice shiitakes. Serve with corn tortillas, guacamole, lime wedges, cilantro, and hot sauce."
+  },
+
+  {
+    label: "Cheeseless Black Bean Lasagna",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/cm/15/11/54fe7865b826e-ghk-0913-cheeseless-black-bean-lasagna-xln.jpg",
+
+    ingredients: "14 oz. extra-firm tofu\r\n2 can black beans\r\n1 can fire-roasted diced tomatoes\r\n1 can tomato paste\r\n1 c. water\r\n1 small onion\r\n1 tsp. dried oregano\r\n¼ tsp. garlic powder\r\n¼ c. raw cashews\r\n¼ c. nutritional yeast (optional)\r\n3 tbsp. olive oil\r\n2 tbsp. finely chopped fresh basil\r\n8 oz. no-boil lasagna noodles",
+
+    directions: "Place tofu between 4 paper towel sheets. Place heavy skilley on top for 1 hour, pressing down on tofu.\r\nMeanwhile, preheat oven to 375 degrees F. Into 4-quart saucepot, stir black baens, tomatoes, tomato paste, water, onion, oregano, garlic powder, 2 teaspoon. salt, and 1/2 teaspoon pepper. Heat to boiling on medium-high, stirring often. Reduce head to maintain simmer; simmer, uncovered, 30 minutes, stirring occasionally.\r\nWhile sauce cooks, in food processor, pulse cashews until finely ground; transfer to large bowl, along with pressed tofu. With hands, crumble tofu until texture resembles ricotta cheese. Stir in yeast (if using), olive oil, basil, 1/4 teaspoon salt, and 1/8 teaspoon pepper.\r\nIn 13- by 9-inch glass or ceramic baking dish, spread 1 cup tomato sauce and tofu mixture; repeat layering twice. Top with 1 cup sauce. Spread sauce to completely cover noodles. Bake, uncovered, 40 minutes or until noodles are tender. Let stand 15 minutes before serving."
+  },
+
+  {
+    label: "Vegan Lemon Pudding",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/04/4-ingredient-lemon-curd.jpg?fit=1200%2C750",
+
+    ingredients: "1 1/2 cups fresh lemon juice (roughly 3-5 lemons)\r\n1/2 cup full-fat coconut milk\r\n2 tablespoons lemon zest (roughly 2 lemons)\r\n1/4 cup maple syrup\r\n1/4 cup arrowroot starch",
+
+    directions: "Dissolve arrowroot powder in 3 tablespoons coconut milk.\r\nIn a small pot, whisk together lemon juice, remaining coconut milk, and maple syrup. Bring to a boil over medium heat, stirring constantly, 7 minutes.\r\nAdd arrowroot mixture and stir until the mixture thickens, about 30 seconds. Remove from heat as soon as it thickens otherwise it will not thicken.\r\nPour the pudding into heatproof serving dishes and refrigerate to chill."
+  },
+
+  {
+    label: "Cinnamon Apple Dessert Tacos",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i2.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/08/cinnamon-apple-dessert-tacos.jpg?fit=1200%2C750",
+
+    ingredients: "6-7 large flour tortillas\r\nVegetable oil, for frying\r\n2/3 cup sugar\r\n2 teaspoons cinnamon\r\n4 large apples\r\n1 1/2 tablespoons vegan butter\r\n3 tablespoons coconut sugar\r\n1 teaspoon lemon juice\r\n1 teaspoon cinnamon\r\n1 teaspoon cornstarch\r\n1/3 cup water\r\n1 13.66-ounce can full-fat coconut milk (don’t use the water)\r\n1 teaspoon cinnamon\r\n2 tablespoons powdered sugar\r\n1 teaspoon vanilla sugar",
+
+    directions: "Using a small circle cutter like the top of a mason jar, cut out circles from your tortillas. You should get about 3 from each tortilla. (use a smaller size cutter for 2-3 bite-sized tacos).Combine sugar and cinnamon in a bowl and set aside. Heat about 1 1/2 cups of vegetable oil in a pan on the stove over medium heat. Place a scrap of tortilla in the oil to gauge if it’s hot enough — it should bubble instantly.\r\nUsing tongs, place one circle in the oil for about 5 seconds. Flip it over and fold it in half holding it folded for about 5 seconds or until browned. Flip over and fry the other side until crispy. Immediately remove from the oil, giving it a little shake and place into the cinnamon coconut sugar mix. Set in a taco rack or an upside down muffin pan to cool by placing them in between the muffin domes.\r\n
+    Peel and dice apples. Toss with lemon juice. Over medium heat, stir together butter, chopped apples, cinnamon, and coconut sugar. Add about 1/4 cup water and let cook on medium heat for about 4 minutes. Stir 1 teaspoon cornstarch into remaining water and add to pan. Continue cooking until most of the liquid removed and apples are soft.\r\nFill each taco with warm apple pie mixture and top with coconut whipped topping and a pinch of cinnamon."
+  },
+
+  {
+    label: "Vegan Mini Mint Chocolate Cheesecakes",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/08/mini-chocolate-mint-cheesecakes-1.jpg?fit=1200%2C750",
+
+    ingredients: "1 1/2 cups pitted Medjool dates\r\n1/2 cup raw unsalted almonds\r\n1/3 cup gluten-free oats\r\n1 teaspoon vanilla extract\r\n1 1/2 cups raw cashews, soaked overnight\r\n1 teaspoon vanilla extract\r\n1/4 teaspoon mint extract\r\n2 teaspoons apple cider vinegar\r\n1/4 cup agave nectar or other liquid sweetener\r\n1 teaspoon spirulina\r\n2-3 tablespoons almond milk\r\n2 tablespoons coconut oil\r\n1 cup vegan chocolate chips\r\n1/4 cup coconut oil",
+
+    directions: "In a food processor, add dates, almonds, oats, and vanilla. Pulse until ingredients are well blended and form a ball.\r\nGrease or line a 12-cup muffin tin.\r\nPress a rounded tablespoon of the crust mixture into the bottom of each cavity.\r\nAdd cashews, vanilla, mint, vinegar, agave nectar, spirulina, almond milk, and coconut oil to a blender. Blend on high until completely smooth.\r\nSpoon mixture over the crust layer. Place muffin tin in the freezer.\r\nMelt chocolate with coconut oil. Take muffin tin out of the freezer and spoon melted chocolate, evenly, into each cavity.\r\nPlace back in freezer for a couple of hours. Keep in freezer until ready to serve."
+  },
+
+  {
+    label: "Vegan Pistachio Coconut Dark Chocolate Truffles",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i1.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/07/pistachio-coconut-dark-chocolate-bites-2.jpg?fit=1200%2C750",
+
+    ingredients: "1/2 cup pistachios\r\n1/2 cup of desiccated coconut\r\n1 tablespoon coconut oil\r\n1/6 cup agave nectar or maple syrup\r\n1 cup chopped dark chocolate",
+
+    directions: "Place the pistachios and coconut in a food processor and blend until finely chopped. Melt the coconut oil then add the oil and agave nectar to the food processor and blend until combined and the mixture begins to form a ball.\r\nShape the mixture into balls and freeze for 10-20 minutes. Melt the chocolate and coat the balls, top with a few chopped pistachios then refrigerate to harden."
+  },
+
+  {
+    label: "Vegan Lemon Icebox Pie",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i2.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/07/lemon-icebox-pie1.jpg?fit=1200%2C750",
+
+    ingredients: "1 cup almonds\r\n1/2 cup shredded unsweetened coconut\r\n3/4 cup dates, pitted\r\n1/2 teaspoon vanilla bean powder or extract\r\nA pinch of pink salt\r\nA splash of water to help blend, if needed\r\n2 13.5-ounce cans full-fat coconut milk, solid cream only, cans refrigerated overnight\r\n1 medium zucchini peeled, grated, and squeezed dry (roughly 3/4 cup)\r\n2 tablespoons lemon zest from 2 large lemons, divided\r\n1/3 cup, plus 1 tablespoon fresh lemon juice from 2 large lemons\r\n1/2 cup coconut oil, melted\r\n1/2 cup pure maple syrup\r\n1 teaspoon vanilla extract\r\nA pinch of pink salt\r\nExtra lemons, for zesting/slicing for garnish",
+
+    directions: "Pulse crust ingredients in food processor until sticky crumbles form.\r\nPress into a parchment-lined 7-inch springform pan.\r\nAdd zucchini to a food processor with 1 tablespoon lemon zest and blend thoroughly.\r\nAdd the remaining ingredients, except oil, and blend, scraping down the sides as needed.\r\nStream in melted coconut oil with the processor running.\r\nTaste and adjust with more zest or sweetener, if needed.\r\nPour filling over crust.\r\nFreeze for about 3 hours, or until firm.\r\nTransfer to refrigerator for another hour or two, to make slicing easier.\r\nGarnish with more lemon zest, lemon slices, or whipped coconut cream.\r\nSlice and enjoy chilled, or return to the freezer for a firmer, frozen treat."
+  },
+
   {
     label: "Corned Beef Hash",
 
@@ -363,6 +660,305 @@ recipes = Recipe.create([
 
     category: "breakfast",
 
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.bakerita.com/wp-content/uploads/2014/08/Paleo-Chocolate-Chunk-Banana-Bread-2-1-768x1152.jpg",
+
+    ingredients: "2½ cups mashed bananas\r\n4 eggs\r\n1/2 cup almond butter\r\n4 tablespoons coconut oil melted\r\n1/2 cup coconut flour\r\n1/2 teaspoon cinnamon\r\n1 teaspoon baking soda\r\n1 teaspoon baking powder\r\n1 teaspoon vanilla extract\r\npinch of sea salt\r\n6 oz. dark chocolate chopped",
+
+    directions: "Grease one 9x5 loaf pan (or 8x8 square pan, which is what I used) and preheat the oven to 350ºF.\r\nIn a large bowl or mixer, combine the mashed bananas, eggs, coconut oil, vanilla extract and nut butter until fully combined.\r\nAdd the coconut flour, cinnamon, baking soda, baking powder, and sea salt to the wet ingredients and mix well. Fold in the chocolate chunks.\r\nPour the batter into the prepared pan and spread it evenly.\r\nBake in the preheated oven for about 40 minutes if using a square pan, and 50-60 if using a loaf pan. A toothpick inserted into the center should come out clean.\r\nRemove from oven and allow to cool on a wire rack for about 1/2 hour. Flip out onto a cooling rack to finish cooling."
+  },
+
+  {
+    label: "Sweet Potato Paleo Muffins",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://969873155.r.lightningbase-cdn.com/wp-content/uploads/2015/02/paleo-muffins-2.jpg",
+
+    ingredients: "3/4 cup mashed sweet potato\r\n1/2 cup shredded carrot\r\n1/2 cup grated apple\r\n1/2 cup shredded coconut\r\n1/2 cup raisins\r\n1/4 cup chopped dried figs\r\n1/2 cup chopped walnuts\r\n3/4 cup almond flour\r\n1/8 cup maple syrup (or honey)\r\n1 tsp cinnamon\r\n1/8 tsp nutmeg\r\n1 tsp. baking powder\r\n2 eggs",
+
+    directions: "Preheat oven to 350 F (175 C).\r\nMix everything together in one large bowl.\r\nGrease muffin tin with coconut oil or use paper liners. Divide batter into 9 muffin tins.\r\nBake for about 30-35 minutes, until muffin is cooked through and the top is golden. Remove from oven and let stand for 10 minutes.\r\nRemove muffins and let cool on a baking rack. Store in an airtight container, I would probably keep these in the fridge since there is no fat to preserve them."
+  },
+
+  {
+    label: "Coconut Flour Pancakes",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.ketovale.com/wp-content/uploads/2017/07/Coconut-Flour-Pancakes-Recipe-600x400.jpg",
+
+    ingredients: "2 tbsp extra virgin coconut oil\r\n1 tbsp raw honey\r\n3 large eggs\r\n1/4 cup coconut milk\r\n1/2 tsp vanilla extract\r\n1/4 cup coconut flour, sifted\r\n1/4 tsp\r\ncream of tartar\r\n1/8 tsp\r\nbaking soda\r\n1/8 tsp sea salt",
+
+    directions: "Cream together the coconut oil and honey. Add the eggs one at a time.\r\nAdd coconut milk and vanilla. Mix until smooth.\r\nAdd coconut flour. Mix until smooth.\r\nLastly add cream of tartar, baking soda and salt.\r\nDo not overmix. Overmixing will result in the baking agents (cream of tartar & baking soda) not working.\r\nUse a laddle and pour small amount of batter into a crepe pan with grass fed ghee/butter etc on medium heat.\r\nFlip once the bottom is light brown. The pancakes will not bubble as much as “regular” pancakes.\r\nServe immediately with a drizzle of maple syrup."
+  },
+
+  {
+    label: "Paleo Breakfast Casserole",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.paleorunningmomma.com/wp-content/uploads/2016/11/breakfast-casserole-8.jpg",
+
+    ingredients: "1 large sweet potato, peeled and finely chopped\r\n 4 slices bacon\r\n2 fully-cooked sausage links, finely chopped (I used Wellshire Farms turkey andouille sausage)\r\n6-8 kale leaves, stems removed, torn into bite-size pieces\r\n1 teaspoon cumin\r\n1 teaspoon coriander\r\n6 large eggs\r\n¼ cup milk of choice or water\r\n 1 tablespoon nutritional yeast",
+
+    directions: "Preheat the oven to 375°F and grease a 9x13 pan (or similar sized casserole dish--I use and love this one!) with olive oil.\r\nPut the sweet potato chunks in a microwaveable bowl and add ¼ cup water. Cover the bowl with parchment and microwave for 3-5 minutes, until the sweet potatoes are tender when poked with a fork. Drain any excess water. If you'd rather not use a microwave, you can also just steam the sweet potato on the stovetop.\r\nChop the bacon crosswise into pieces about half an inch wide. Fry the bacon in a large skillet over medium heat until almost crisp. Add the sausage, raise the heat to medium high, and cook until nicely browned. Add the kale and cook, stirring frequently, until wilted. Stir in the cumin, coriander, and cooked sweet potato and remove from the heat.\r\nBeat the eggs in a large bowl with the milk or water and nutritional yeast. Add the meat and vegetable mixture to the bowl and stir. Pour everything into the prepared baking dish, using a spoon to spread everything out so it's evenly distributed.\r\nBake for 20 minutes, or until the eggs are just set. Cool for at least 5 minutes before serving. Slice into squares and serve hot.\r\nLeftovers can be stored in the refrigerator for up to 3 days. I reheat mine for about a minute in the microwave."
+  },
+
+  {
+    label: "Italian Spaghetti Squash Breakfast Casserole",
+
+    category: "breakfast",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i.pinimg.com/originals/2f/9c/06/2f9c06207d47ad8deebec1913ec03b19.jpg",
+
+    ingredients: "1	large spaghetti squash, halved lengthwise and seeded\r\n4	tbsp butter, ghee or bacon fat, divided\r\nsea salt and black pepper, to taste\r\n1 cup onion, diced\r\n2	cloves garlic, minced\r\n1/2 tsp dried Italian seasoning\r\n1/2 cup organic tomatoes, diced\r\n3	oz Italian salami, thinly sliced\r\n1/2 cup kalamata olives, halved\r\n4	large pastured eggs\r\na handful of Italian flat leaf parsley, rough chopped",
+
+    directions: "Preheat oven to 400° Place spaghetti squash halves cut side up on a rimmed baking sheet. Spread 1 tbsp of butter over top of each half. Sprinkle generously with sea salt and black pepper. Bake for 45 minutes to an hour or until tender.\r\nWhile the spaghetti squash is baking, heat an ovenproof skillet over medium-low heat. To the pan add the remaining 2 tbsp of butter. Once the butter is melted, add the onions, garlic, sea salt and pepper (to taste) to the pan.\r\nOnce the onions begin to caramelize, add the tomatoes and salami. Saute an additional 10 minutes and then mix in the kalamata olives.\r\nOnce the spaghetti squash is finished roasting, use a fork to scrape out the flesh from both halves. Mix the spaghetti squash in with the onion and salami mixture.\r\nUse a large spoon to create 4 deep wells in the mixture. Crack an egg into each well.\r\nPlace the pan in the oven and bake until the whites of the eggs are cooked through.\r\nSprinkle fresh parsley over the top before serving."
+  },
+
+  {
+    label: "Lettuce ‘Tacos’ with Chipotle Chicken",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://bevcooks.com/wp-content/uploads/2013/02/DSC_0066.jpg",
+
+    ingredients: "400g of skinless chicken breast cut into fairly thin strips\r\nsplash of olive oil for frying\r\n1 red onion finely sliced\r\n1  400g can of tomatoes (whole or chopped)\r\n1 T of finely chopped chipotle in adobo sauce (or substitute with finely chopped pickled jalapeno chillis and a pinch of dried chilli flakes)\r\n1/2 t cumin\r\npinch of brown sugar and salt and pepper to season\r\nlettuce leaves to make your tacos\r\nfresh cilantro leaves\r\nsliced pickled jalapeno chillies\r\nslices of avocado or make a guacamole\r\nfresh tomatoes and slices of spring onion to make a rustic salsa\r\nlime wedges to spritz",
+
+    directions: "Heat the olive oil in a non-stick frying pan and quickly fry your chicken pieces until they turn golden. Set aside.\r\nIn the same pan, add another small splash of olive oil and fry your onion until it softens.\r\nAdd your tomatoes, cumin, sugar and chipotle and simmer for around 15 - 25 minutes until the tomato sauce starts to thicken around the edges of the pan.\r\nAdd the chicken back into the sauce and allow to cook for about 5 minutes.\r\nAssemble all the elements to make your tacos in separate bowls and serve so that every one can make up their own.\r\nI like to give the chicken a good spritz of lime juice. This freshens things up and amplifies the flavours."
+  },
+
+  {
+    label: "Cuban Picadillo Lettuce Wraps",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.thenourishinggourmet.com/wp-content/uploads/2014/07/Cuban-Picadillo-Lettuce-Wraps-Slider.jpg",
+
+    ingredients: "1 pound ground beef, preferably grass-fed\r\n2 Tablespoons tallow, lard, or coconut oil\r\n1 medium onion, about 1.5 cups diced small\r\n1 large green bell pepper, about 1.5 cups diced\r\n½ teaspoon salt\r\n1 teaspoon black pepper, freshly ground\r\n1 teaspoon ground cumin\r\n½ teaspoon ground cinnamon\r\n1 14 oz can whole tomatoes\r\n¼ cup currants\r\n2 Tablespoons green olives with pimiento, diced\r\n2 Tablespoons drained capers\r\n2 Tablespoons olive brine (or white wine vinegar and salt to taste)\r\n⅓ cup minced shallot or red onion\r\n⅔ cup diced tomatoes\r\n2 Tablespoons minced cilantro\r\n2 teaspoons fresh lime juice\r\nsalt to taste\r\nLettuce leaves or cabbage leaves\r\nCooked brown or white rice (optional)\r\nChopped cilantro (optional)",
+
+    directions: "Heat large skillet or Dutch oven over medium heat. Add beef. Crumble and stir occasionally as it cooks. Remove and set aside.\r\nAdd tallow or oil to pan. Add onions and cook until beginning to soften, about 3-4 minutes. Add bell pepper and cook 3 more minutes. Stir in garlic, then add the salt, black pepper, cumin, and cinnamon and stir for 30 seconds, until fragrant.\r\nAdd cooked beef, canned tomatoes, currants, diced olives, capers, and olive brine. Break up the tomatoes into small pieces while the mixture comes to a boil.\r\nReduce heat to low, cover, and simmer for 10-20 minutes.\r\nMeanwhile, prepare the pico de gallo. Combine minced shallot, chopped tomatoes, minced cilantro, lime juice, and a dash of salt, then set aside.\r\nTo serve, fill each lettuce leaf with the beef mixture, a spoonful of rice (if desired), and a spoonful of pico de gallo or cilantro. Enjoy!"
+  },
+
+  {
+    label: "California Turkey and Bacon Lettuce Wraps",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://foodblogs-sympledesignllc.netdna-ssl.com/TdBxmPfKnWyUl8yd6ZxDTlaLkLY=/800x800/smart/iowagirleats.com%2Fwp-content%2Fuploads%2F2015%2F07%2FCalifornia-Turkey-and-Bacon-Lettuce-Wrap-iowagirleats-01.jpg",
+
+    ingredients: "1 head iceberg lettuce\r\n4 slices gluten-free deli turkey (I like Applegate Farms)\r\n4 slices gluten-free bacon, cooked (I like Applegate Farms)\r\n1 avocado, thinly sliced\r\n1 roma tomato, thinly sliced\r\n1/2 cup gluten-free mayonnaise (I like Hellmann's Olive Oil Mayo)\r\n6 large basil leaves, torn\r\n1 teaspoon lemon juice\r\n1 garlic clove, chopped\r\nsalt\r\npepper",
+
+    directions: "For the Basil-Mayo: combine ingredients in a small food processor then process until smooth. Alternatively, mince basil and garlic then whisk all ingredients together. Can be done a couple days a head of time.\r\nLay out two large lettuce leaves then layer on 1 slice of turkey and slather with Basil-Mayo. Layer on a second slice of turkey followed by the bacon, and a few slices of both avocado and tomato. Season lightly with salt and pepper then fold the bottom up, the sides in, and roll like a burrito. Slice in half then serve cold."
+  },
+
+  {
+    label: "Paleo Egg Roll In A Bowl",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://peaceloveandlowcarb.com/wp-content/uploads/2016/11/Paleo-Egg-Roll-in-a-Bowl-Crack-Slaw-Low-Carb-Gluten-Free-Peace-Love-and-Low-Carb-.jpg",
+
+    ingredients: "1 small head of cabbage, chopped into slices\r\n2 large carrots, cut into long strips (using THIS)\r\n1 tbsp unflavored coconut oil (found HERE)\r\n1/3 cup coconut aminos (found HERE)\r\n1 tbsp sesame oil (found HERE)\r\n2 garlic cloves, minced\r\n4 green onions, diced for garnish\r\nOptional: protein of choice",
+
+    directions: "Melt the coconut oil over medium high heat. Add the cabbage.\r\nAdd the carrot.\r\nSautee until soft. If it gets too dry, add a little water and let it evaporate and help soften the veggies.\r\nAdd the coconut aminos and sesame oil.\r\nSautee some more until softer and the sauce is absorbed.\r\nAdd the garlic and cook until fragrant.\r\nAdd the green onions on top.\r\nOptional: cook protein of choice on the side, then toss it together!"
+  },
+
+  {
+    label: "Paleo Salmon Salad Veggie Bowl",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://paleoleap.com/pictures/2/salmon-beet-salad-main-large-2.jpg",
+
+    ingredients: "4-oz	ounce grilled or baked salmon\r\n3-4 cup seasonal greens\r\n1/2	cup slices zucchini and squash\r\n1/2	cup raspberries\r\n1	tbsp balsamic glaze\r\n2 tbsp avocado or olive oil\r\ndash of sea salt\r\ndash of pepper\r\n2	thyme sprigs\r\nparmesan crumbles (optional, not paleo though)\r\nlemon juice",
+
+    directions: "First, slice your zucchini and squash, sautee in skillet with 1/2 tbsp oil and a little bit of pepper/salt. Also, make sure your salmon is already cooked. I cook mine in 1 tbsp oil, lemon, pepper and salt for 10 minutes at 400F or so.\r\nOnce the the zucchini and salmon and cooked, go ahead and build your bowl. Greens first, then veggies, and salmon. Drizzle in your balsamic glaze, thyme sprigs leaves, and the rest of your oil. Toss all together and place in bowl.\r\nAdd your raspberries last with a touch of lemon juice on top.Sprinkle with parmesan if desired"
+  },
+
+  {
+    label: "Grilled Paleo Pizza",
+
+    category: "lunch",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://images.shape.mdpcdn.com/sites/shape.com/files/styles/slide/public/paleo-grilled-pizza.jpg",
+
+    ingredients: "1 cup tapioca starch\r\n1/4 cup coconut flour\r\n2 eggs\r\n1 cup water\r\nPinch of salt\r\nYour favorite sauce\r\nProsciutto\r\nFresh Tomatoes\r\nJalapeños\r\nWatercress or spinach\r\nOnion\r\nPeppers\r\nFresh Basil",
+
+    directions: "Mix the ingredients together for the crust until smooth.\r\nPreheat your grill to high.\r\nHeat a large cast iron skillet over high heat until very hot. Pour in just a tiny bit of olive oil to grease the skillet unless it's seasoned perfectly. Pour in half the crust mixture and allow to cook until the top begins to set and bubble. Flip and allow to cook until it begins to crisp up. It should be golden brown and crisp on the outside. Transfer to a plate and top with desired toppings. Repeat with remaining batter.\r\nCarefully transfer pizzas to the grill (the crusts are probably still a little pliable) and allow to cook about 6-7 minutes or until the crust is firm but not burnt."
+  },
+
+  {
+    label: "Stuffed Avocados Shrimp Mango",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i.pinimg.com/736x/46/d1/49/46d1496c316bb527d65e381272b3aecd--shrimp-stuffed-avocado-shrimp-avocado.jpg",
+
+    ingredients: "1 jalapeño pepper, stemmed (deseeded for a milder sauce)\r\n¼ cup packed fresh cilantro leaves and tender stems\r\n½ cup avocado oil mayo\r\n1 tablespoon lime juice, or more to taste\r\n¼ cup extra virgin olive oil\r\nSea salt, to taste\r\n1 tablespoon avocado oil or olive oil\r\n1 shallot, minced\r\n1 large clove garlic, minced\r\n1 pound small raw shrimp (40-50 count), peeled and deveined, tails removed\r\n½ teaspoon bittersweet smoked paprika\r\nSea salt and freshly ground black pepper, to taste\r\n3 champagne mangos, chopped\r\n3 scallions, trimmed and sliced\r\nHalf a lime\r\n4 Haas avocados, halved, pits removed\r\nChopped cilantro, for serving",
+
+    directions: "To make the aioli, pulse the jalapeño, cilantro, mayo, and lime juice in a food processor until blended. With the food processor running, add the olive oil in a steady stream. Season with sea salt to taste. Set aside while you make the stuffed avocados.\r\nHeat a large skillet over medium heat and add the oil. When the pan is hot, add the shallot and cook, stirring occasionally, until beginning to brown, 2-3 minutes. Stir in the garlic and cook until fragrant (less than a minute). Raise the heat to medium-high and add the shrimp in a single layer. Sprinkle on the paprika and some salt and pepper. Allow the shrimp to cook for about 3 minutes, then flip over and cook for about 2 minutes on the second side, or until cooked through. Turn off the heat and stir thoroughly to incorporate the seasonings.\r\nTransfer the shrimp to a bowl and stir in the mango chunks, sliced scallions, and a squeeze of lime. Taste and add more salt, pepper, or lime juice if desired.\r\nSpoon the shrimp and mango filling into the avocado halves (if the avocado pits are small or you want to fit more filling in each one, you can use a spoon to scoop out some of the avocado flesh). Serve topped with chopped cilantro and the jalapeño aioli."
+  },
+
+  {
+    label: "Paleo Tuna Green Chile Zoodle Casserole",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i.pinimg.com/736x/70/12/f9/7012f975d3816f9b6ff61bfb607a1502--paleo-food-paleo-recipes.jpg",
+
+    ingredients: "Three 6-7in zucchini\r\nTwo 5 oz canned tuna\r\n4	oz of diced green chiles\r\n1/2	c real mayo with olive oil or we use Primal Kitchen Chipotle Mayo *add 1/4 c more if you want extra creamy\r\n2	tbsp chopped chives (plus extra for topping)\r\n1/2 tsp salt\r\n1 tbsp organic mustard\r\n1/4	tsp garlic powder\r\n1/4 tsp black pepper\r\n1/2 c chopped onion (peeled)\r\n1/2	cup chopped celery\r\n1	tbsp avocado or olive oil\r\n2	tbsp coconut flour or tapioca starch\r\n1/2	cup coconut milk or cream\r\n1/2	tsp chili pepper or red pepper flakes\r\nParsley to garnish (optional)",
+
+    directions: "Preheat oven to 350F.\r\nOil a 9x 13 shallow casserole dish. Set aside.\r\nRibbon cut or spiralize your zucchini into noodles. Press/Squeeze as much excess water out of them as you can. You can do so with a paper towel. Set aside.\r\nIn another bowl, combine your tuna (drained), mayo, green chiles, chives, mustard, pepper, and garlic powder. Mix thoroughly. Set aside.\r\nOil a medium skillet. Add in your onion and celery and seasoning of choice. Cook for about 6 minute so medium or until onion brown a bit.\r\nNext add your coconut flour and milk to the skillet. Stir together with the celery and onion mix until no longer clumpy. this basically acts as a thickener. It's okay if it's not a smooth mixture, just make sure it's mixable when adding to the zucchini noodles.\r\n
+    Add your zucchini noodles to the skillet and toss all together. Cover and let the noodles and mix cook together for 1 or 2 minutes on medium heat until zucchini is softened but not thoroughly cooked. Don't let it get soggy.\r\nRemove skillet from heat and pour contents into a large bowl.\r\nMix your tuna green chile mix in the same large bowl.\r\nToss everything together.\r\nPour mix from the large bowl into your casserole dish. Top with extra seasoning of choice.\r\nBake for 10-15 minutes or until edges are brown. If the casserole does not brown after 15 minutes, leave in an extra 5-10 or until crispy edges.\r\nBroil last minute or so to make crispier edges.\r\nRemove from oven.\r\nGarnish with optional parsley, chives, and top with red chili pepper flakes.\r\nServe immediately.\r\nKeeps well in sealed container in fridge for up to 1 week. Freezes for up to 6 weeks but will contain extra water once thawed out."
+  },
+
+  {
+    label: "Easy Paleo Turkey Meatballs with Apples and Herbs",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://divascancook.com/wp-content/uploads/2017/03/basic-turkey-meatballs-recipes-1024x576.jpg",
+
+    ingredients: "1.25 lbs ground turkey 85-94% lean (not too lean)\r\n1 medium apple peeled and shredded/grated\r\n1 egg\r\n2 tbsp almond flour\r\n1 Tbsp fresh rosemary finely chopped\r\n1 Tbsp fresh thyme finely chopped\r\n1/2 Tbsp fresh sage leaves finely chopped\r\n1/2 tsp fine grain sea salt\r\nblack pepper to taste\r\n1 tbsp coconut oil for frying or your favorite cooking fat",
+
+    directions: "Preheat your oven to 400 degrees and have a large oven proof skillet ready to cook the meatballs.\r\nIn a large mixing bowl, combine all the ingredients and mix with your hands to evenly distribute, but don't overwork the meat.\r\nPreheat your oven proof skillet over med-hi heat and add the coconut oil. Form the turkey mixture into 13-14 meatballs and add to the hot skillet. Allow them to brown on all sides, turning as needed, for 5 minutes.\r\nAfter the meatballs are browned, transfer the skillet to the preheated oven and bake for 8-10 more minutes until juices run clear and they're cooked through. Remove from oven, and serve with your favorite veggies noodles or potatoes, with more fresh herbs for garnish."
+  },
+
+  {
+    label: "Crispy Paleo Chicken Tenders",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://paleocomfortfoods.com/wp-content/uploads/2013/09/chicken-tenders-920.jpg",
+
+    ingredients: "1.5 lbs chicken tenderloins organic, sliced evenly\r\n1 egg whisked\r\n3/4 cup Cassava flour\r\n1/4 cup Coconut flour\r\n2 tsp fine grain sea salt\r\n1 tsp onion powder\r\n1 tsp smoked paprika\r\n1/4 tsp black pepper\r\n1/4 cup plus up to 2 tbsp more of cooking fat",
+
+    directions: "In a large bowl, combine the cassava flour, coconut flour, salt, and spices. In a small bowl, whisk your egg. For this recipe, you will be coating the chicken in the egg, then grain free flour/spice mixture, and then pan frying.\r\nHeat a large, heavy skillet over medium-high heat and add your cooking fat of choice.\r\nTest the oil by dropping in a tiny bit of the breading to see if it sizzles. Adjust your heat accordingly.\r\nBegin to dredge each chicken tenderloin in the whisked egg, followed by the flour mixture. Shake off excess and add to the skillet, repeat until the skillet is filled up.\r\nCook on one side until golden brown and crisp, then carefully turn each one over to cook the second side. Add up to 2 tbsp more cooking fat if necessary, and adjust the heat either up or down for even browning.\r\nOnce both sides are evenly golden brown and the middle is cooked through, transfer the chicken tenders to a baking sheet lined with paper towel to drain excess oil.\r\nRepeat the process for the remaining chicken tenders, adding more oil and adjusting heat if necessary."
+  },
+
+  {
+    label: "Lebanese Lemon Chicken",
+
+    category: "dinner",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://i.pinimg.com/originals/fd/e8/bd/fde8bdb1f21e9f839ae6565527e13c53.jpg",
+
+    ingredients: "3 organic lemons\r\n2 tablespoons extra virgin olive oil, plus more for cooking\r\n 1/2 teaspoon ground turmeric\r\n1½ teaspoons flaky sea salt\r\n Freshly ground black pepper\r\n 3 pounds boneless, skinless chicken thighs (about 12 thighs)\r\n2 large shallots or 1 large onion\r\n 2 sprigs of fresh rosemary\r\n2 sprigs of fresh thyme",
+
+    directions: "Juice one of the lemons until you have 2 tablespoons of lemon juice. Put the juice in a large bowl and add the 2 tablespoons of olive oil along with the turmeric, sea salt, and a generous amount of freshly ground black pepper.\r\nAdd the chicken thighs to the bowl and toss to coat. Let the chicken marinate briefly at room temperature while you prepare the other ingredients.\r\nTrim the ends off the other two lemons and slice them into ¼-inch thick rounds. Remove any visible seeds. Halve, peel, and slice the shallots.\r\nHeat two large cast iron skillets over medium-high heat (or use one skillet and cook the chicken in two batches). Add enough olive oil to coat the bottom with a thin layer of oil.\r\n
+    Divide the chicken pieces between the two pans with the smooth side of the chicken (where the skin was) facing down, making sure to leave a little room between the pieces so they can brown. Cook for about 5 minutes, until nicely browned on the bottom, and then flip and cook for 8-10 minutes on the second side, until just cooked through, lowering the heat slightly if necessary. Use tongs or a slotted spatula to transfer the chicken pieces to a plate.\r\nAdd the lemons, shallots, and herb sprigs to the pans. Let cook undisturbed for 3-4 minutes, until the lemons are browned on the bottom. Pour ½ cup water into each pan and stir, scraping the browned bits from the bottom. Reduce the heat to medium, add the chicken back to the pans, and cook for 4-5 minutes so the flavors can meld. Serve the chicken, shallots, and pan juices hot over rice or cauliflower rice."
+  },
+
+  {
+    label: "Paleo Angel Food Cake",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://deliciouslyorganic.net/wp-content/uploads/2015/07/Paleo-Grain-Free-Angel-Food-Cake-H2.jpg",
+
+    ingredients: "12 large egg whites, room temperature\r\n1 teaspoon fresh lemon juice\r\n1/4 teaspoon Celtic sea salt\r\n1 1/4 teaspoons cream of tartar\r\n1 tablespoon pure vanilla extract\r\n3/4 cup maple or coconut sugar\r\n1 cup arrowroot flour\r\n1 1/2 cups heavy cream, whipped (or whipped coconut cream for Paleo), optional\r\n1 pint berries (optional)",
+
+    directions: "Preheat the oven to 350ºF and adjust the rack to the middle position.\r\nPlace the egg whites and lemon juice in the bowl of a standing mixer. Whisk the egg mixture on medium-high until foamy, about 30 seconds. Add the salt, cream of tartar and vanilla. Whisk the mixture on medium-high until soft peaks form, about 1-2 minutes.\r\nWith the mixer on medium-high, slowly add 1/2 cup of the maple sugar, 1 tablespoon at a time. Sift the remaining 1/4 cup maple sugar and arrowroot flour into a small bowl. With the mixer on medium, slowly add the arrowroot mixture. Turn the speed up to medium-high and whip until smooth (there might be some tiny little lumps from the sugar, but it will melt in the oven while baking).\r\n
+    Pour the batter into a clean (and NOT oiled), 12-cup angel food cake pan (I'm still on the look-out for a glass or stainless steel angel food cake pan. If you know where to purchase one, please let me know!). Bake for 40-45 minutes, until cake is puffed and the top is just turning golden brown.\r\nRemove the cake from the oven. Carefully turn the cake upside-down and place on top of a can. Let cool completely, about 1 hour. Run a knife around the outside of the cake and invert onto a cake platter (you might need to shake the cake a little to get it to separate from the center tube of the cake pan). Serve alone or with whipped cream and berries."
+  },
+
+  {
+    label: "Chocolate Chip Coconut Flour Pumpkin Bars",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://healthyhomestead.com/wp-content/uploads/2015/10/Chocolate-Chip-Coconut-Flour-Pumpkin-Bars.jpg",
+
+    ingredients: "1 cup canned pumpkin puree\r\n1/4 cup pure maple syrup\r\n1 teaspoon vanilla extract\r\n1/4 cup almond butter\r\n1 tablespoon unsweetened almond milk\r\n2 eggs\r\n1/2 cup coconut flour\r\n3/4 teaspoon baking soda\r\n1/8 teaspoon salt\r\n1 teaspoon cinnamon\r\n1/2 teaspoon ginger\r\n1/4 teaspoon nutmeg\r\n1/8 teaspoon ground cloves\r\n1/2 cup dark chocolate chips, divided",
+
+    directions: "Preheat oven to 350 degrees F. Line an 8x8 inch baking pan with parchment paper and spray with nonstick cooking spray.\r\nAdd pumpkin puree, maple syrup, vanilla extract, almond butter, almond milk and eggs to a large bowl and mix until well combined, smooth and creamy.\r\nAdd in coconut flour, baking soda, salt and the remaining spices. Gently fold in 1/3 cup of chocolate chips into the batter. Spread batter evenly in prepared pan. Bake for 20-25 minutes or until toothpick comes out clean in the middle. Transfer pan to a wire rack to cool.\r\nMelt remaining 1/4 cup of chocolate chip in a small saucepan over low heat. Once completely melted, drizzle the chocolate over the bars. Another option is to sprinkle the remaining chocolate over the top of the bars right when they come out of the oven. It's up to you! Cut into 12 bars."
+  },
+
+  {
+    label: "Paleo Pumpkin Donuts",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://www.texanerin.com/content/uploads/2015/10/paleo-pumpkin-donut-holes-3.jpg",
+
+    ingredients: "1/2 cup coconut flour\r\n3/4 cup almond flour\r\n1 1/4 teaspoons baking soda\r\n3 1/2 teaspoons pumpkin pie spice\r\n1/4 teaspoon salt\r\n4 large eggs, room temperature\r\n7 tablespoons coconut oil or unsalted butter, melted\r\n1/2 cup maple syrup\r\n2 tablespoons coconut sugar or brown sugar\r\n1/2 cup canned pumpkin puree (not pumpkin pie filling)\r\n2 teaspoons vanilla extract\r\n1/3 cup coconut sugar or granulated sugar\r\n1 1/2 teaspoons ground cinnamon",
+
+    directions: "Preheat the oven to 350 °F. Line a mini muffin pan with 24 muffin liners.\r\nIn a large bowl, mix together the dry ingredients (coconut flour through salt).\r\nIn a separate medium bowl, mix together the wet ingredients (eggs through vanilla).\r\nAdd the dry mixture to the wet mixture and stir just until combined.\r\nPour the batter evenly into the muffin liners, filling each liner until almost completely full. You'll likely have enough batter for another six donut holes.\r\nBake for 11-13 minutes or until a toothpick inserted in the middle comes out clean. Turn out onto a wire rack to cool completely. These need to rest for at least an hour before serving, both because of taste and texture.\r\n
+    When ready to serve, mix the cinnamon with the sugar in a small bowl. Roll the donut holes in the cinnamon sugar. As these donut holes are quite moist, the cinnamon sugar tends to liquify overnight, which is why it's recommended to roll the donuts in the sugar no more than 8 hours before serving.\r\nStore in an airtight container for up to 2 days."
+  },
+
+  {
+    label: "Paleo Strawberry Crumble",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "http://stephiecooks.com/wp-content/uploads/2014/07/paleo_strawberry_crumble_2.jpg",
+
+    ingredients: "4 cups fresh ripe strawberries halved\r\n2 tablespoons tapioca flour\r\n2 teaspoons pure vanilla extract\r\n1 tablespoon fresh lemon juice\r\n2 tablespoons pure maple syrup\r\n1 cup almond flour/meal\r\n½ teaspoon kosher salt\r\n3 tablespoons coconut oil or grapeseed oil\r\n3 tablespoons pure maple syrup",
+
+    directions: "Preheat the oven to 350 degrees F.\r\nIn a mixing bowl, toss together the strawberries, tapioca flour, vanilla extract, lemon juice, and maple syrup. Transfer to an 8” x 8” baking pan.\r\nMix together the ingredients for the crumble topping in a mixing bowl. Evenly spread it over the strawberries and bake in the oven for 30 minutes, until the strawberries are juicy and bubbly and the topping is golden-brown.\r\nLet stand for 10 minutes before serving with ice cream."
+  },
+
+  {
+    label: "Paleo Edible Chocolate Chip Cookie Dough",
+
+    category: "dessert",
+
+    diet: "No Restrictions",
+
+    recipe_img: "https://draxe.com/wp-content/uploads/2016/01/Edible-Chocolate-Chip-Cookie-Dough-e1453365265592.jpg",
+
+    ingredients: "1/2 cup packed almond flour\r\n1/4 cup tapioca flour\r\n5 tablespoons cold unsalted grass-fed butter\r\n2-3 teaspoons honey, to taste\r\n3/4 teaspoon vanilla\r\n1 ounce chopped dark 85% chocolate\r\nGenerous pinch of sea salt",
+
+    directions: "Combine all ingredients (except chocolate) in a blender and blend until smooth.\r\nTaste and see if you need a bit more honey, vanilla, or salt depending on your taste. If you do just add a little bit at a time until you're satisfied.\r\nStir in the chocolate and serve."
+  },
+
+# Paleo Recipes
+  {
+    label: "Paleo Chocolate Chunk Banana Bread",
+
+    category: "breakfast",
+
     diet: "Paleo",
 
     recipe_img: "https://www.bakerita.com/wp-content/uploads/2014/08/Paleo-Chocolate-Chunk-Banana-Bread-2-1-768x1152.jpg",
@@ -654,6 +1250,317 @@ recipes = Recipe.create([
     ingredients: "1/2 cup packed almond flour\r\n1/4 cup tapioca flour\r\n5 tablespoons cold unsalted grass-fed butter\r\n2-3 teaspoons honey, to taste\r\n3/4 teaspoon vanilla\r\n1 ounce chopped dark 85% chocolate\r\nGenerous pinch of sea salt",
 
     directions: "Combine all ingredients (except chocolate) in a blender and blend until smooth.\r\nTaste and see if you need a bit more honey, vanilla, or salt depending on your taste. If you do just add a little bit at a time until you're satisfied.\r\nStir in the chocolate and serve."
+  },
+
+# Vegan Recipes
+  {
+    label: "Vegan Spinach Artichoke Quiche",
+
+    category: "breakfast",
+
+    diet: "Vegan",
+
+    recipe_img: "https://www.vnutritionandwellness.com/wp-content/uploads/2016/04/Spinach-and-Artichoke-Quiche-5.jpg",
+
+    ingredients: "2 large tortillas\r\noil spray\r\n1 tb coconut or olive oil\r\n½ cup of onion, chopped\r\n2 cloves of garlic, minced\r\n2 cups of fresh spinach\r\n14 oz soft tofu\r\n½ cup nutritional yeast\r\n½ lemon, juiced\r\n1 tsp dried basil\r\n½ tsp turmeric\r\n¼ tsp salt\r\n¼ tsp pepper\r\n14 oz can of artichokes, drained and chopped",
+
+    directions: "Preheat oven to 350 degrees.\r\nSpray a pie plate with oil. Rip the 2 tortillas in half and arrange them so that the bottom and sides are covered. Bake for about 10-15 minutes checking a few times through to make sure the tortillas are staying put and not bubbling (break any bubbles if they form).\r\nWhile the crust is baking, heat oil in a large pan. Add onion and cook about 5 mins till translucent. Add garlic and cook for another 1-2 mins. Add spinach and cook another few minutes until spinach is wilted. Take off of heat.\r\nIn a food processor, add tofu, nutritional yeast, lemon juice, and spices. Process until smooth.\r\nAdd artichokes and onion mixture to food processor and plus 15-25 times until mixed.\r\nPut mixture into pie pan.\r\nBake for about 45 mins at 350."
+  },
+
+  {
+    label: "Vegan Breakfast Sandwich",
+
+    category: "breakfast",
+
+    diet: "Vegan",
+
+    recipe_img: "http://veganhuggs.com/wp-content/uploads/2016/05/veganbreakfastsandwichNEW.jpg",
+
+    ingredients: "1 tablespoon coconut oil (or preferred cooking oil)\r\n1 14 oz container extra firm tofu , pressed & cut lengthwise into 6 even slices\r\n1 teaspoon turmeric\r\n1/2 teaspoon garlic powder\r\nSalt & pepper, to taste\r\n3 melty vegan cheese slices\r\n6 slices of bread, 3 or wraps\r\n1-2 tablespoons vegan mayo\r\n1 cup of greens (spinach, spring mix, green lettuce, romaine etc.)\r\n1-2 medium tomatoes, sliced thin\r\n6 pickle slices",
+
+    directions: "Season one side of the tofu with salt, garlic powder, and turmeric. I just sprinkled it out of the spice jars. You will season the second side in the pan, when it's time to flip them.\r\nIn a medium pan, heat oil over medium heat and place the tofu slices, seasoned side down on the pan. While the bottom side is cooking, season the top side. Let the tofu cook for 3 to 5 minutes, until slightly brown and crispy. Now flip the slices over and fry the other side for 3-5 minutes. Now's a good time to pop bread in toaster, if preferred.\r\nTo melt the cheese, on a baking sheet, place 2 slices of tofu side by side, with a slice of cheese on top of each set. Put it in the oven on broil for 1-3 minutes, until the cheese is melted. You can also use a toaster oven.\r\nSpread mayo on both sides of the bread. Place the 2 slices of tofu with cheese on one side. Add the greens and tomatoes (sprinkle with salt and pepper, if desired). Now add a couple of pickle slices and close the sandwich together. Cut diagonal."
+  },
+
+  {
+    label: "Sweet Potato and Apple Latkes",
+
+    category: "breakfast",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i2.wp.com/static1.squarespace.com/static/55351d7ee4b097f55547d973/553e954ae4b04f3f253f77ff/569a741ca976af8774e57186/1452962854964//img.jpg?w=1080",
+
+    ingredients: "1 large sweet potato, peeled\r\n1 apple, peeled and quartered\r\n1/2 onion, diced\r\n1 tsp salt\r\n1 tbsp arrowroot powder\r\n2 tbsp spelt flour\r\n1 tbsp olive oil\r\n1 tsp turmeric\r\npepper to taste\r\noptional: kale as garnish\r\n3 tbsp tahini\r\njuice of one lemon\r\n1 tbsp maple syrup\r\nwater as needed to thin sauce\r\noptional: squirt of sriracha",
+
+    directions: "Combine all of the ingredients for the tahini lemon sauce in a bowl and whisk together. Set aside.\r\nGrate the sweet potato and the apple into a large mixing bowl. Squeeze as much liquid out of the grated sweet potato and apple as possible and transfer the squeezed mixture into a clean bowl. Add the onion, salt, arrowroot, spelt flour, olive oil, turmeric, and pepper. Mix to combine.\r\nHeat a cast iron pan (or other skillet) over medium – high heat. Add apprx. 2 tbsp olive oil. When the pan is hot take a handful (about 1/4 cup) of the latke batter and squeeze it together into a flatish round patty. Place it on the hot pan and press down on it with a spatula. Cook for 2 – 4 minutes per side until golden brown and crispy. Transfer to a plate or wire rack covered in paper towel to cool. Repeat until all of the latkes are cooked (you can place the cooked ones in the oven at 200 to keep them warm while cooking). Serve hot with plenty of sauce!"
+  },
+
+  {
+    label: "Chickpea Scramble with Zucchini and Thyme",
+
+    category: "breakfast",
+
+    diet: "Vegan",
+
+    recipe_img: "https://static1.squarespace.com/static/511dac8ee4b0adc428bf564e/t/57083ad10442625f6abbe9ea/1460157145103/Chickpea+Scramble+%7C+TastingPage.com?format=1000w",
+
+    ingredients: "1/2 cup chickpea flour\r\n1/2 cup vegetable broth\r\n1/4 cup onions, chopped\r\n1/2 cup zucchini, diced\r\n1 tablespoon fresh thyme, finely chopped\r\n1 teaspoon olive oil\r\nSalt and pepper to taste",
+
+    directions: "Place the chickpea flour and vegetable broth in a glass bowl and whisk until smooth.\r\nHeat a medium sized pan over medium-high heat and add oil. Once warm, add the onions and sauté until translucent. Then add the zucchini and cook about 5 minutes until the vegetables begin to brown. As the vegetables cook, season with salt, pepper and thyme and stir until incorporated.\r\nPour the chickpea flour - broth mixture over the vegetables and stir with a wooden spoon. It will begin to form clumps. Mix and break up as it continues to cook, for about 5-10 minutes. Once it's no longer wet and the raw flour taste has been cooked off, your scramble is complete."
+  },
+
+  {
+    label: "Vegan Southwest Sweet Potato Hash",
+
+    category: "breakfast",
+
+    diet: "Vegan",
+
+    recipe_img: "http://www.blissfulbasil.com/wp-content/uploads/2014/06/31-DSC_3346.jpg",
+
+    ingredients: "1 tablespoon virgin coconut oil or olive oil\r\n2 cloves garlic, minced\r\n1 medium yellow onion, diced (about 2 cups)\r\n4 cups peeled and cubed sweet potatoes\r\n1 teaspoon smoked paprika\r\n1/2 teaspoon cumin\r\n1/2 teaspoon turmeric\r\n1/4-1/2 teaspoon sea salt or to taste\r\n1/4 cup chopped fresh cilantro\r\n1 ripe avocado, pitted and peeled\r\n1/2 to 1 lime\r\n1/2 poblano pepper, seeded and finely diced\r\nSea salt, to taste\r\n1 cup diced grape tomatoes\r\n1/2 cup finely diced white onion\r\n1/4 cup chopped fresh cilantro\r\nsea salt to taste\r\n1/2 cup coconut cream\r\n1 tablespoon minced chipotle peppers in adobo sauce\r\n1 tablespoon water\r\n1/4 teaspoon sea salt or to taste",
+
+    directions: "\r\nHeat the coconut oil in a large skillet over medium heat. Add in the garlic, yellow onion, sweet potatoes, paprika, cumin, turmeric, and sea salt. Let the mixture cook for 20-25 minutes, stirring just every few minutes so that the potatoes have a chance to develop a slight caramelization.\r\nOnce the sweet potatoes are tender, turn off the heat and stir in the fresh cilantro.\r\nAs the sweet potato hash cooks, scoop the flesh of one avocado into a bowl and mash it with a fork. Stir in the juice of 1/2 to one lime (or to taste), the diced poblano pepper, and sea salt, to taste.\r\nAdd the tomatoes, white onion, cilantro, and sea salt to a small bowl and stir.\r\nAdd the coconut cream, chipotle peppers, water, and sea salt to a blender. Blend on high for 1-2 minutes or until the mixture is almost completely smooth.\r\nScoop the sweet potato hash onto plates and top with the pico de gallo, guacamole, and a drizzle of the chipotle cream."
+  },
+
+  {
+    label: "Vegan Spring Minestrone",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/11/640x959/gallery-1489697997-danielle-occhiogrosso-minestrone-0417.jpg",
+
+    ingredients: "2 tbsp. olive oil\r\n2 medium carrots, chopped\r\n1 medium leek, thinly sliced\r\n8 sprigs fresh thyme, tied together\r\n3 large red potatoes, chopped\r\n2 qt. lower-sodium vegetable\r\n1 bunch asparagus, sliced\r\n1 can (15 oz.) navy beans, rinsed and drained (optional)\r\n2 tbsp. chopped fresh dill",
+
+    directions: "In 8-quart saucepot, heat 2 tablespoons olive oil on medium. Add carrots, leek, fresh thyme, and 1/4 teaspoon salt. Cook 8 minutes, stirring. Add red potatoes, chopped, and lower-sodium vegetable or chicken broth. Partially cover and heat to boiling on high; reduce heat to simmer. Cook 25 minutes or until potatoes are tender.\r\nAdd asparagus and simmer 3 minutes or until tender. Discard thyme. Stir in navy beans (optional), fresh dill, 1/4 teaspoon salt and 1⁄2 teaspoon pepper."
+  },
+
+  {
+    label: "Mushroom-Quinoa Burger",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/16/22/980x490/landscape-1464732896-ghk-0616-mushroom-quinoa-burger.jpg",
+
+    ingredients: "4 medium portobello mushroom caps (about 1 lb.), gills removed, chopped\r\n1/2 c. walnuts\r\n1 clove garlic\r\n2 tbsp. canola oil\r\n1/4 c. Chopped red onion\r\n3 green onions, chopped\r\n2 tsp. rice wine vinegar\r\n1 c. cooked quinoa\r\n1/2 c. cornstarch\r\nWhole-grain burger buns\r\nsprouts\r\nLettuce\r\nSliced tomatoes\r\n1/2 c. mayonnaise\r\n1 tsp. finely chopped fresh rosemary\r\n1 tsp. lemon juice\r\nKosher salt",
+
+    directions: "Preheat oven to 375 degrees F. In 3-quart, shallow baking dish, toss mushrooms with walnuts, garlic, 1 tablespoon oil, 3⁄4 teaspoon salt, and 1⁄4 teaspoon pepper; spread in even layer. Bake 20 minutes or until mushrooms are tender. Set aside to cool. Turn oven off.\r\nIn food processor, pulse mushroom mixture, red onion, green onions, and vinegar until mostly smooth, scraping side of bowl if necessary. Transfer mixture to a large bowl and stir in quinoa and cornstarch until well-blended. Cover bowl with plastic wrap and refrigerate 2 hours.\r\nPreheat oven to 375 degrees F. Line baking sheet with foil. Form mixture into 5 patties (about 1/2 in thick and 3 in wide). In a 12 in nonstick skillet, heat remaining 1 tablespoon oil on medium. In 2 batches, cook patties 5 minutes or until well-browned, turning over once. Transfer seared patties to prepared baking sheet. Bake 10 minutes or until hot in centers.\r\n
+    Meanwhile, combine mayonnaise, rosemary, lemon juice, and a pinch of salt. Keeps up to 5 days, refrigerated.\r\nServe burgers on buns with Rosemary Mayo, garnished with sprouts, lettuce, and tomato."
+  },
+
+  {
+    label: "Smoky Vegan Black Bean Soup",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/02/640x960/gallery-1484149670-febghk-smoky-vegan-black-bean-soup-mike-garten-1.jpg",
+
+    ingredients: "2 tbsp. extra virgin olive oil\r\n2 medium carrots, chopped\r\n2 stalks celery, sliced\r\n1 medium onion, finely chopped\r\n1/4 c. tomato paste\r\n3 cloves garlic, crushed with press\r\n1 1/2 tsp. ground cumin\r\n3 c. lower-sodium vegetable or chicken broth\r\n3 cans (15 oz. each) lower-sodium black beans, undrained\r\n1 c. frozen corn\r\nAvocado chunks and cilantro leaves, for serving",
+
+    directions: "In 12-inch skillet, heat oil on medium-high. Add carrots, celery and onion. Cook 6 to 8 minutes or until starting to brown, stirring occasionally. Add tomato paste, garlic and cumin. Cook, stirring, 1 to 2 minutes or until garlic is golden and tomato paste has browned. Stir in 1/2 cup broth, scraping up any browned bits.\r\nTransfer contents of skillet to 6- to 8-quart slow-cooker bowl along with beans, corn and remaining broth. Cover and cook on High for 4 hours or Low for 6 hours. Serve with avocado and cilantro."
+  },
+
+  {
+    label: "Peanutty Edamame and Noodle Salad",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/01/980x490/landscape-1483547957-ghk010117ykpeanuttyedamameandnoodlesalad.jpg",
+
+    ingredients: "3 bags (8 oz. each) shirataki noodles, rinsed and drained\r\n3 c. frozen shelled edamame\r\n2 c. frozen corn\r\n1/2 c. peanut butter\r\n1/2 c. rice vinegar\r\n1 tbsp. Sriracha hot sauce, plus more for serving\r\n2 tbsp. water\r\n1/2 tsp. salt\r\n3 c. shredded carrots\r\n1 pt. grape tomatoes, halved\r\n1 medium Granny Smith apple, quartered and thinly sliced\r\n1/2 c. fresh cilantro, chopped",
+
+    directions: "Heat large saucepot water to boiling on high. Add shirataki noodles, edamame and corn; boil 2 minutes. Rinse and drain well.\r\nIn large bowl, whisk peanut butter, rice vinegar, Sriracha hot sauce, water and salt. Add shredded carrots, tomatoes, apple, cilantro and noodle mixture. Toss until well coated. Serve with Sriracha."
+  },
+
+  {
+    label: "Vegan Crispy Tofu Bowl",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/30/640x960/gallery-1500912651-danielle-occhiogross-crispy-tofu-bowl-0817.jpg",
+
+    ingredients: "14 oz. extra-firm tofu\r\n1/2 small red onion, very thinly sliced\r\n1/4 c. red wine vinegar\r\n1/4 c. Thai sweet chili sauce\r\n1 tbsp. olive oil\r\n1 seedless cucumber, chopped\r\n3 tbsp. cornstarch\r\n2 tbsp. vegetable oil\r\n1 c. quinoa, cooked\r\n2 tbsp. roasted cashew halves\r\nParsley leaves, for garnish",
+
+    directions: "Slice tofu 1/4 inch thick. Place on cutting board between paper towels; top with baking sheet. Top with large cans or other weight; let stand 10 minutes. Soak red onion in cold water.\r\nWhisk red wine vinegar and Thai sweet chili sauce, olive oil and 1/4 teaspoon salt. Pat onion dry; toss with half of vinaigrette and cucumber.\r\nSprinkle tofu on both sides with cornstarch. In 12-inch skillet, heat vegetable oil on medium-high until hot. Carefully add tofu. Cook until deep golden brown, 2 to 3 minutes per side. Drain on paper towels.\r\nDivide quinoa among 4 bowls. Top each with salad, roasted cashew halves, parsley leaves and tofu."
+  },
+
+  {
+    label: "Bulgur Pilaf with Garbanzos and Dried Apricots",
+
+    category: "lunch",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/cm/15/12/5508ddc29818f-bulgur-pilaf-garbanzos-dried-apricots-xln.jpg",
+
+    ingredients: "¾ c. water\r\n1 can vegetable broth or chicken broth\r\n1 c. bulgur\r\n1 tbsp. olive oil\r\n1 small onion\r\n2 tsp. curry powder\r\n1 clove garlic\r\n1 can garbanzo beans (chickpeas)\r\n½ c. Dried apricot\r\n½ tsp. salt\r\n¼ c. fresh parsley leaves",
+
+    directions: "In 2-quart covered saucepan, heat water and 1 1/4 cups vegetable broth to boiling on high. Stir in bulgur; heat to boiling. Reduce heat to medium-low; cover and simmer 12 to 15 minutes or until liquid is absorbed. Remove saucepan from heat. Uncover and fluff bulgur with fork to separate grains.\r\nMeanwhile, in 12-inch nonstick skillet, heat oil on medium 1 minute. Add onion and cook 10 minutes, stirring occasionally. Stir in curry powder and garlic; cook 1 minute.\r\nStir in garbanzo beans, apricots, salt, and remaining 1/2 cup vegetable broth; heat to boiling. Remove saucepan from heat; stir in bulgur and parsley."
+  },
+
+  {
+    label: "Summer Pesto Pasta",
+
+    category: "dinner",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/17/19/640x960/gallery-1494268374-mike-garten-summer-pesto-pasta-0617.jpg",
+
+    ingredients: "1 lb. spaghetti\r\n2 ears corn, shucked\r\n1 medium yellow squash, cut into 1/2in-thick slices\r\n1 medium zucchini, cut into 1/2in-thick slices\r\n1 small bell pepper, seeded and cut into sixths\r\n4 green onions, trimmed\r\n2 tbsp. olive oil\r\n1 lemon\r\n1/2 c. store-bought refrigerated pesto\r\n1 pt. grape tomatoes, halved\r\n1/4 c. packed fresh parsley, chopped",
+
+    directions: "Heat grill on medium-high. Cook spaghetti as label directs. Rinse, drain well and let cool completely.\r\nIn large bowl, toss corn, squash, zucchini, bell pepper and onions with oil and 1/2 teaspoon each salt and black pepper until well coated. Grill corn, turning, 10 minutes or until charred in spots. Grill squash, zucchini and bell pepper 4 to 6 minutes or until tender and grill marks appear, turning once. Grill onions 2 minutes or until tender and slightly charred, turning occasionally.\r\nInto large bowl, from lemon, grate 1/2 teaspoon zest and squeeze 2 tablespoons juice. Whisk in pesto and 1/2 teaspoon each salt and pepper.\r\nChop squash, zucchini, pepper and onions; add to bowl with pesto. Cut kernels from cobs; add to bowl along with tomatoes, parsley and cooked pasta. Toss to combine. Serve at room temperature."
+  },
+
+  {
+    label: "Roasted Squash and Pumpkin Seed Mole Bowls",
+
+    category: "dinner",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/15/51/980x490/landscape-1450379193-ghk-0116-roasted-squash-and-pumpkin-seed-mole-bowl.jpg",
+
+    ingredients: "1 large butternut squash, peeled and cut into 1 in chunks\r\n3 tbsp. olive oil\r\n1/2 c. raw shelled pumpkin seeds, plus more for garnish\r\n1/2 tsp. cumin seeds\r\n1/2 tsp. dried oregano\r\n1/2 onion, cut into wedges\r\n2 tomatillos, husked and halved\r\n2 cloves garlic, halved\r\n1 jalapeno chile, sliced\r\n3/4 c. vegetable stock\r\n1/2 c. coconut milk\r\n1/2 c. parsley, chopped\r\n1/4 c. packed cilantro, chopped, plus more for garnish\r\nLime wedges, for garnish\r\nCooked rice, for serving",
+
+    directions: "Preheat oven to 400 degrees F. Toss squash with 2 tablespoons olive oil, 1 teaspoon salt, and 1/4 teaspoon pepper. Arrange on baking sheet; roast 35 to 40 minutes or until squash is tender, stirring occasionally.\r\nMeanwhile, in 10 in skillet, toast pumpkin seeds, cumin seed and oregano on medium 3 minutes or until fragrant, stirring. Remove from heat; set aside. In same skillet, heat remaining 1 tablespoon olive oil on medium. Add onion, tomatillos, garlic and jalapeno; cook 5 minutes or until slightly browned. Place vegetables, pumpkin seeds and spice mixture in blender or food processor. Pulse a few times; then add stock, coconut milk, parsley, cilantro, 3/4 teaspoon salt and 1/4 teaspoon pepper. Process until smooth. Makes 3 cups.\r\nReturn mixture to skillet; simmer on medium stirring often, 15 to 20 minutes or until slightly thickened. Divide rice and squash among 4 bowls; dollop with sauce. Serve remaining sauce on the side. Garnish with cilantro and lime wedges."
+  },
+
+  {
+    label: "Creamy Vegan Linguine with Wild Mushrooms",
+
+    category: "dinner",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/15/51/980x490/landscape-1450379149-ghk-0116-creamy-vegan-linguine-with-wild-mushrooms.jpg",
+
+    ingredients: "1 lb. linguine or fettuccine\r\n6 tbsp. olive oil\r\n12 oz. mixed mushrooms, thinly sliced\r\n3 cloves garlic, finely chopped\r\n1/4 c. nutritional yeast\r\n2 green onions, thinly sliced on an angle",
+
+    directions: "Cook linguine as label directs, reserving 3/4 cups pasta cooking water before draining. Return drained linguine to pot.\r\nMeanwhile, in 12 in skillet, heat oil on medium-high. Add mushrooms and garlic; cook 5 minutes or until mushrooms are browned and tender, stirring. Transfer to pot with cooked, drained linguine along with nutritional yeast, reserved cooking water, 1/2 teaspoon salt and 3/4 teaspoon coarsely ground pepper. Toss until well combined. Garnish with green onions."
+  },
+
+  {
+    label: "Grilled Asparagus and Shiitake Tacos",
+
+    category: "dinner",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/16/17/980x490/landscape-1461703583-ghk-0516-grilled-asparagus-and-shiitake-tacos.jpg",
+
+    ingredients: "3 tbsp. canola oil\r\n4 garlic cloves, crushed with press\r\n1 tsp. ground chipotle chile\r\n1/2 tsp. Kosher salt\r\n8 oz. shiitake mushrooms, stems discarded\r\n1 bunch green onions, trimmed\r\n8 corn tortillas, warmed\r\n1 c. homemade or prepared guacamole\r\nLime wedges\r\ncilantro sprigs\r\nHot sauce, for serving",
+
+    directions: "Heat grill on medium. In a large baking dish, combine oil, garlic, chipotle, and salt. Add asparagus, shiitakes, and green onions; toss to coat. Grill asparagus until tender and lightly charred, turning occasionally; 5 to 6 minutes. Grill shiitakes and green onions until lightly charred, turning occasionally; 4 to 5 minutes. Transfer vegetables to cutting board.\r\nCut asparagus and green onions into 2 in lengths and slice shiitakes. Serve with corn tortillas, guacamole, lime wedges, cilantro, and hot sauce."
+  },
+
+  {
+    label: "Cheeseless Black Bean Lasagna",
+
+    category: "dinner",
+
+    diet: "Vegan",
+
+    recipe_img: "http://ghk.h-cdn.co/assets/cm/15/11/54fe7865b826e-ghk-0913-cheeseless-black-bean-lasagna-xln.jpg",
+
+    ingredients: "14 oz. extra-firm tofu\r\n2 can black beans\r\n1 can fire-roasted diced tomatoes\r\n1 can tomato paste\r\n1 c. water\r\n1 small onion\r\n1 tsp. dried oregano\r\n¼ tsp. garlic powder\r\n¼ c. raw cashews\r\n¼ c. nutritional yeast (optional)\r\n3 tbsp. olive oil\r\n2 tbsp. finely chopped fresh basil\r\n8 oz. no-boil lasagna noodles",
+
+    directions: "Place tofu between 4 paper towel sheets. Place heavy skilley on top for 1 hour, pressing down on tofu.\r\nMeanwhile, preheat oven to 375 degrees F. Into 4-quart saucepot, stir black baens, tomatoes, tomato paste, water, onion, oregano, garlic powder, 2 teaspoon. salt, and 1/2 teaspoon pepper. Heat to boiling on medium-high, stirring often. Reduce head to maintain simmer; simmer, uncovered, 30 minutes, stirring occasionally.\r\nWhile sauce cooks, in food processor, pulse cashews until finely ground; transfer to large bowl, along with pressed tofu. With hands, crumble tofu until texture resembles ricotta cheese. Stir in yeast (if using), olive oil, basil, 1/4 teaspoon salt, and 1/8 teaspoon pepper.\r\nIn 13- by 9-inch glass or ceramic baking dish, spread 1 cup tomato sauce and tofu mixture; repeat layering twice. Top with 1 cup sauce. Spread sauce to completely cover noodles. Bake, uncovered, 40 minutes or until noodles are tender. Let stand 15 minutes before serving."
+  },
+
+  {
+    label: "Vegan Lemon Pudding",
+
+    category: "dessert",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/04/4-ingredient-lemon-curd.jpg?fit=1200%2C750",
+
+    ingredients: "1 1/2 cups fresh lemon juice (roughly 3-5 lemons)\r\n1/2 cup full-fat coconut milk\r\n2 tablespoons lemon zest (roughly 2 lemons)\r\n1/4 cup maple syrup\r\n1/4 cup arrowroot starch",
+
+    directions: "Dissolve arrowroot powder in 3 tablespoons coconut milk.\r\nIn a small pot, whisk together lemon juice, remaining coconut milk, and maple syrup. Bring to a boil over medium heat, stirring constantly, 7 minutes.\r\nAdd arrowroot mixture and stir until the mixture thickens, about 30 seconds. Remove from heat as soon as it thickens otherwise it will not thicken.\r\nPour the pudding into heatproof serving dishes and refrigerate to chill."
+  },
+
+  {
+    label: "Cinnamon Apple Dessert Tacos",
+
+    category: "dessert",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i2.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/08/cinnamon-apple-dessert-tacos.jpg?fit=1200%2C750",
+
+    ingredients: "6-7 large flour tortillas\r\nVegetable oil, for frying\r\n2/3 cup sugar\r\n2 teaspoons cinnamon\r\n4 large apples\r\n1 1/2 tablespoons vegan butter\r\n3 tablespoons coconut sugar\r\n1 teaspoon lemon juice\r\n1 teaspoon cinnamon\r\n1 teaspoon cornstarch\r\n1/3 cup water\r\n1 13.66-ounce can full-fat coconut milk (don’t use the water)\r\n1 teaspoon cinnamon\r\n2 tablespoons powdered sugar\r\n1 teaspoon vanilla sugar",
+
+    directions: "Using a small circle cutter like the top of a mason jar, cut out circles from your tortillas. You should get about 3 from each tortilla. (use a smaller size cutter for 2-3 bite-sized tacos).Combine sugar and cinnamon in a bowl and set aside. Heat about 1 1/2 cups of vegetable oil in a pan on the stove over medium heat. Place a scrap of tortilla in the oil to gauge if it’s hot enough — it should bubble instantly.\r\nUsing tongs, place one circle in the oil for about 5 seconds. Flip it over and fold it in half holding it folded for about 5 seconds or until browned. Flip over and fry the other side until crispy. Immediately remove from the oil, giving it a little shake and place into the cinnamon coconut sugar mix. Set in a taco rack or an upside down muffin pan to cool by placing them in between the muffin domes.\r\n
+    Peel and dice apples. Toss with lemon juice. Over medium heat, stir together butter, chopped apples, cinnamon, and coconut sugar. Add about 1/4 cup water and let cook on medium heat for about 4 minutes. Stir 1 teaspoon cornstarch into remaining water and add to pan. Continue cooking until most of the liquid removed and apples are soft.\r\nFill each taco with warm apple pie mixture and top with coconut whipped topping and a pinch of cinnamon."
+  },
+
+  {
+    label: "Vegan Mini Mint Chocolate Cheesecakes",
+
+    category: "dessert",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/08/mini-chocolate-mint-cheesecakes-1.jpg?fit=1200%2C750",
+
+    ingredients: "1 1/2 cups pitted Medjool dates\r\n1/2 cup raw unsalted almonds\r\n1/3 cup gluten-free oats\r\n1 teaspoon vanilla extract\r\n1 1/2 cups raw cashews, soaked overnight\r\n1 teaspoon vanilla extract\r\n1/4 teaspoon mint extract\r\n2 teaspoons apple cider vinegar\r\n1/4 cup agave nectar or other liquid sweetener\r\n1 teaspoon spirulina\r\n2-3 tablespoons almond milk\r\n2 tablespoons coconut oil\r\n1 cup vegan chocolate chips\r\n1/4 cup coconut oil",
+
+    directions: "In a food processor, add dates, almonds, oats, and vanilla. Pulse until ingredients are well blended and form a ball.\r\nGrease or line a 12-cup muffin tin.\r\nPress a rounded tablespoon of the crust mixture into the bottom of each cavity.\r\nAdd cashews, vanilla, mint, vinegar, agave nectar, spirulina, almond milk, and coconut oil to a blender. Blend on high until completely smooth.\r\nSpoon mixture over the crust layer. Place muffin tin in the freezer.\r\nMelt chocolate with coconut oil. Take muffin tin out of the freezer and spoon melted chocolate, evenly, into each cavity.\r\nPlace back in freezer for a couple of hours. Keep in freezer until ready to serve."
+  },
+
+  {
+    label: "Vegan Pistachio Coconut Dark Chocolate Truffles",
+
+    category: "dessert",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i1.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/07/pistachio-coconut-dark-chocolate-bites-2.jpg?fit=1200%2C750",
+
+    ingredients: "1/2 cup pistachios\r\n1/2 cup of desiccated coconut\r\n1 tablespoon coconut oil\r\n1/6 cup agave nectar or maple syrup\r\n1 cup chopped dark chocolate",
+
+    directions: "Place the pistachios and coconut in a food processor and blend until finely chopped. Melt the coconut oil then add the oil and agave nectar to the food processor and blend until combined and the mixture begins to form a ball.\r\nShape the mixture into balls and freeze for 10-20 minutes. Melt the chocolate and coat the balls, top with a few chopped pistachios then refrigerate to harden."
+  },
+
+  {
+    label: "Vegan Lemon Icebox Pie",
+
+    category: "dessert",
+
+    diet: "Vegan",
+
+    recipe_img: "https://i2.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/07/lemon-icebox-pie1.jpg?fit=1200%2C750",
+
+    ingredients: "1 cup almonds\r\n1/2 cup shredded unsweetened coconut\r\n3/4 cup dates, pitted\r\n1/2 teaspoon vanilla bean powder or extract\r\nA pinch of pink salt\r\nA splash of water to help blend, if needed\r\n2 13.5-ounce cans full-fat coconut milk, solid cream only, cans refrigerated overnight\r\n1 medium zucchini peeled, grated, and squeezed dry (roughly 3/4 cup)\r\n2 tablespoons lemon zest from 2 large lemons, divided\r\n1/3 cup, plus 1 tablespoon fresh lemon juice from 2 large lemons\r\n1/2 cup coconut oil, melted\r\n1/2 cup pure maple syrup\r\n1 teaspoon vanilla extract\r\nA pinch of pink salt\r\nExtra lemons, for zesting/slicing for garnish",
+
+    directions: "Pulse crust ingredients in food processor until sticky crumbles form.\r\nPress into a parchment-lined 7-inch springform pan.\r\nAdd zucchini to a food processor with 1 tablespoon lemon zest and blend thoroughly.\r\nAdd the remaining ingredients, except oil, and blend, scraping down the sides as needed.\r\nStream in melted coconut oil with the processor running.\r\nTaste and adjust with more zest or sweetener, if needed.\r\nPour filling over crust.\r\nFreeze for about 3 hours, or until firm.\r\nTransfer to refrigerator for another hour or two, to make slicing easier.\r\nGarnish with more lemon zest, lemon slices, or whipped coconut cream.\r\nSlice and enjoy chilled, or return to the freezer for a firmer, frozen treat."
   }
+
+  # {
+  #   label: "",
+  #
+  #   category: "",
+  #
+  #   diet: "",
+  #
+  #   recipe_img: "",
+  #
+  #   ingredients: "\r\n",
+  #
+  #   directions: "\r\n"
+  # }
 
   ])
