@@ -7,15 +7,14 @@
   top: 70px;
 }
 
+// Samsung Galaxy S5
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
-@media (min-width: 400px) {
-
-  .recipeIconsContainer {
+  .mealIconsContainer {
     position: relative;
-    top: 5px;
-    right: -31%;
-    // border: 1px solid black;
-    width: 60px;
+    top: 9px;
+    right: -14%;
+    width: 100px;
     height: auto;
     text-align: right;
     display: inline-block;
@@ -24,34 +23,762 @@
   .recFavIcon {
     position: relative;
     top: 0px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   .recPlusIcon {
     position: relative;
     top: 0px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   .editIcon {
     position: relative;
     top: 0px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   .deleteIcon {
     position: relative;
     top: 0px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   .iconForm {
     display: inline;
+    width: 20px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
+  .noMealsMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .noMealsMessage h1 {
+    font-size: 30px;
+    color: #FF9447;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noMealsMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+  .sunCalendar {
+    position: fixed;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #7cf7af;
+    z-index: 1;
+    color: white;
+
+    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    box-shadow: 1px 1px 10px -1px #706f70;
+  }
+
+  .sunCalendar div {
+    display: inline;
+    float: left;
+    width: 14.25%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .sunCalendar div:hover {
+    background-color: #a2fac6;
+  }
+
+  .day {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: .2em;
+  }
+
+  #calBtn {
+    color: white;
+  }
+
+  .sundayContainer {
+    position: relative;
+    margin: auto;
+    top: 110px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 80%;
+    background-color: #F0F0F0;
+  }
+
+  .sundayLi {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -20px;
+    vertical-align:top;
+  }
+
+  .sunProfileRecipes {
+    position: relative;
+    left: -35px;
+    margin: auto;
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .sunRecipeContainer {
+    position: relative;
+    width: 320px;
+    height: 135px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+
+  .sunRecipeImgContainer {
+    display: inline;
+    float: left;
+    clear: right;
+    width: 50%;
+    min-height: 135px;
+    margin: 0;
+    margin-right: 4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sunProfileRecipeImg {
+    position: relative;
+    display: inline;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 4%;
+  }
+
+  .sunRecipeContent {
+    position: relative;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .sunProfileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .sunRecipeP {
+    position: relative;
+    top: -45px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
+  .sunRecipeH2 {
+    position: relative;
+    top: -35px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+
+  .sunRecipeFavBtn {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sunFavBtnIcon {
     width: 15px;
+    height: 15px;
+  }
+
+  .sunFavBtnIcon:hover {
+    opacity: .5;
+  }
+
+}
+
+/* iPhone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+
+  .mealIconsContainer {
+    position: relative;
+    top: 9px;
+    right: -9%;
+    width: 100px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .deleteIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 20px;
+  }
+
+  .iconForm:hover {
+    opacity: .5;
+  }
+
+  .categoryP {
+    position: relative;
+    top: 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+  .labelH5 {
+    position: relative;
+    top: 0px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
+  .noMealsMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .noMealsMessage h1 {
+    font-size: 30px;
+    color: #FF9447;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noMealsMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+  .sunCalendar {
+    position: fixed;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #7cf7af;
+    z-index: 1;
+    color: white;
+
+    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    box-shadow: 1px 1px 10px -1px #706f70;
+  }
+
+  .sunCalendar div {
+    display: inline;
+    float: left;
+    width: 14.25%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .sunCalendar div:hover {
+    background-color: #a2fac6;
+  }
+
+  .day {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: .2em;
+  }
+
+  #calBtn {
+    color: white;
+  }
+
+  .sundayContainer {
+    position: relative;
+    margin: auto;
+    top: 110px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 80%;
+    background-color: #F0F0F0;
+  }
+
+  .sundayLi {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -20px;
+    vertical-align:top;
+  }
+
+  .sunProfileRecipes {
+    position: relative;
+    left: -35px;
+    margin: auto;
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .sunRecipeContainer {
+    position: relative;
+    width: 280px;
+    height: 135px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+
+  .sunRecipeImgContainer {
+    display: inline;
+    float: left;
+    clear: right;
+    width: 50%;
+    min-height: 135px;
+    margin: 0;
+    margin-right: 4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sunProfileRecipeImg {
+    position: relative;
+    display: inline;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 4%;
+  }
+
+  .sunRecipeContent {
+    position: relative;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .sunProfileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .sunRecipeP {
+    position: relative;
+    top: -45px;
+    line-height: 1.2em;
+    // width: 60px;
+  }
+
+  .sunRecipeH2 {
+    position: relative;
+    top: -35px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #919191;
+  }
+
+
+  .sunRecipeFavBtn {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sunFavBtnIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .sunFavBtnIcon:hover {
+    opacity: .5;
+  }
+}
+
+/*iPhone 6*/
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .mealIconsContainer {
+      position: relative;
+      top: 9px;
+      right: -14%;
+      width: 100px;
+      height: auto;
+      text-align: right;
+      display: inline-block;
+    }
+
+    .recFavIcon {
+      position: relative;
+      top: 0px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .recPlusIcon {
+      position: relative;
+      top: 0px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .editIcon {
+      position: relative;
+      top: 0px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .deleteIcon {
+      position: relative;
+      top: 0px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .iconForm {
+      display: inline;
+      width: 20px;
+    }
+
+    .iconForm:hover {
+      opacity: .5;
+    }
+
+    .categoryP {
+      position: relative;
+      top: 8px;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #919191;
+    }
+
+    .labelH5 {
+      position: relative;
+      top: 0px;
+      line-height: 1.2em;
+      // width: 60px;
+    }
+
+    .noMealsMessage {
+      position: relative;
+      top: 80px;
+      width: 90%;
+      height: 500px;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .noMealsMessage h1 {
+      font-size: 30px;
+      color: #FF9447;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      line-height: 1.5em;
+    }
+
+    .noMealsMessage p {
+      position: relative;
+      top: -5px;
+      font-size: 20px;
+      color: gray;
+      font-weight: normal;
+      line-height: 1.5em;
+    }
+
+    .sunCalendar {
+      position: fixed;
+      margin: auto;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      z-index: 1;
+      background-color: #7cf7af;
+      z-index: 1;
+      color: white;
+
+      -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+      -moz-box-shadow: 1px 1px 10px -1px #706f70;
+      box-shadow: 1px 1px 10px -1px #706f70;
+    }
+
+    .sunCalendar div {
+      display: inline;
+      float: left;
+      width: 14.25%;
+      height: 50px;
+      text-align: center;
+    }
+
+    .sunCalendar div:hover {
+      background-color: #a2fac6;
+    }
+
+    .day {
+      position: relative;
+      top: 2px;
+      font-size: 15px;
+      font-weight: medium;
+      letter-spacing: .2em;
+    }
+
+    #calBtn {
+      color: white;
+    }
+
+    .sundayContainer {
+      position: relative;
+      margin: auto;
+      top: 110px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 80%;
+      background-color: #F0F0F0;
+    }
+
+    .sundayLi {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      left: -20px;
+      vertical-align:top;
+    }
+
+    .sunProfileRecipes {
+      position: relative;
+      left: -35px;
+      margin: auto;
+      width: 320px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .sunRecipeContainer {
+      position: relative;
+      width: 320px;
+      height: 135px;
+      border: 1px solid #D9D9D9;
+      margin-bottom: 15px;
+      background-color: white;
+    }
+
+    .sunRecipeImgContainer {
+      display: inline;
+      float: left;
+      clear: right;
+      width: 50%;
+      min-height: 135px;
+      margin: 0;
+      margin-right: 4%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .sunProfileRecipeImg {
+      position: relative;
+      display: inline;
+      float: left;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      overflow: hidden;
+      padding-right: 4%;
+    }
+
+    .sunRecipeContent {
+      position: relative;
+      top: -15px;
+      padding: 4%;
+    }
+
+    .sunProfileA {
+      text-decoration: none;
+      color: #FF9447;
+      letter-spacing: .05em;
+    }
+
+    .sunRecipeP {
+      position: relative;
+      top: -45px;
+      line-height: 1.2em;
+      // width: 60px;
+    }
+
+    .sunRecipeH2 {
+      position: relative;
+      top: -35px;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #919191;
+    }
+
+
+    .sunRecipeFavBtn {
+      position: relative;
+      top: 0px;
+      left: 10%;
+      margin: 0px;
+      padding: 0px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .sunFavBtnIcon {
+      width: 15px;
+      height: 15px;
+    }
+
+    .sunFavBtnIcon:hover {
+      opacity: .5;
+    }
+}
+
+
+@media (min-width: 400px) {
+
+  .mealIconsContainer {
+    position: relative;
+    top: 9px;
+    right: -17%;
+    width: 100px;
+    height: auto;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .recFavIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .deleteIcon {
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .iconForm {
+    display: inline;
+    width: 20px;
   }
 
   .iconForm:hover {
@@ -162,8 +889,9 @@
 
   .sunProfileRecipes {
     position: relative;
+    left: 1px;
     margin: auto;
-    width: 380px;
+    width: 350px;
     padding-top: 20px;
     padding-bottom: 10px;
     overflow: hidden;
@@ -171,7 +899,7 @@
 
   .sunRecipeContainer {
     position: relative;
-    width: 380px;
+    width: 350px;
     height: 135px;
     border: 1px solid #D9D9D9;
     margin-bottom: 15px;
@@ -254,7 +982,7 @@
 
 @media (min-width: 550px) {
 
-  .recipeIconsContainer {
+  .mealIconsContainer {
     position: relative;
     top: 3px;
     right: -35%;
@@ -273,6 +1001,20 @@
   }
 
   .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .deleteIcon {
     position: relative;
     top: 0px;
     width: 15px;
@@ -453,7 +1195,7 @@
 
 @media (min-width: 750px) {
 
-  .recipeIconsContainer {
+  .mealIconsContainer {
     position: relative;
     top: 6px;
     right: -28%;
@@ -472,6 +1214,20 @@
   }
 
   .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .deleteIcon {
     position: relative;
     top: 0px;
     width: 15px;
@@ -666,7 +1422,7 @@
 
 @media (min-width: 1000px) {
 
-  .recipeIconsContainer {
+  .mealIconsContainer {
     position: relative;
     top: 6px;
     right: -32%;
@@ -685,6 +1441,20 @@
   }
 
   .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .deleteIcon {
     position: relative;
     top: 0px;
     width: 15px;
@@ -881,7 +1651,7 @@
 /* Larger than desktop HD*/
 
 @media (min-width: 1200px) {
-  .recipeIconsContainer {
+  .mealIconsContainer {
     position: relative;
     top: 6px;
     right: -33%;
@@ -900,6 +1670,20 @@
   }
 
   .recPlusIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .editIcon {
+    position: relative;
+    top: 0px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .deleteIcon {
     position: relative;
     top: 0px;
     width: 15px;

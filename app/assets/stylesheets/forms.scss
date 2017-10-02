@@ -32,12 +32,381 @@
   margin: 0px;
 }
 
-// .deviseBullets li {
-//   display: inline;
-// }
+
+// Samsung Galaxy S5
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .forgotModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 460px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .collectionSelectField {
+    width: 353px;
+    height: 22px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 25%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+}
+
+/* iPhone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+
+  .welcomeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .forgotModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  .formModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 460px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+    background-color: white;
+
+    -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+    -moz-box-shadow: 3px 4px 12px -1px #706f70;
+    box-shadow: 3px 4px 12px -1px #706f70;
+  }
+
+  i{
+    font-size: 12px;
+  }
+
+  .field {
+    text-align: center;
+  }
+
+  .selectField {
+    width: 70%;
+    height: 30px;
+  }
+
+  .collectionSelectField {
+    width: 353px;
+    height: 22px;
+  }
+
+  .formField {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+    -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+  }
+
+  #formH1 {
+    color: #FF9447;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+    font-weight: normal;
+  }
+
+  #signUpFormBtn {
+    margin: 10px;
+    background-color: #FF9447;
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #fe8b39;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 25%;
+  }
+
+  #signUpFormBtn:hover {
+    background-color: #FFB347;
+    border: 1px solid #fead3b;
+  }
+}
+
+/*iPhone 6*/
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .welcomeModal {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      height: 350px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 7px;
+      background-color: white;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    .forgotModal {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 350px;
+      height: 300px;
+      padding: 35px;
+      background-color: white;
+      border-radius: 7px;
+      background-color: white;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    .formModal {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+      height: 460px;
+      padding: 30px;
+      background-color: white;
+      border-radius: 7px;
+      background-color: white;
+
+      -webkit-box-shadow: 3px 4px 12px -1px #706f70;
+      -moz-box-shadow: 3px 4px 12px -1px #706f70;
+      box-shadow: 3px 4px 12px -1px #706f70;
+    }
+
+    i{
+      font-size: 12px;
+    }
+
+    .field {
+      text-align: center;
+    }
+
+    .selectField {
+      width: 70%;
+      height: 30px;
+    }
+
+    .collectionSelectField {
+      width: 353px;
+      height: 22px;
+    }
+
+    .formField {
+      margin-bottom: 20px;
+      margin-top: 5px;
+      border-radius: 5px;
+      width: 70%;
+      height: 30px;
+      text-align: center;
+      font-weight: lighter;
+
+      -webkit-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+      -moz-box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+      box-shadow: inset 7px 7px 15px -10px rgba(168,168,168,1);
+    }
+
+    #formH1 {
+      color: #FF9447;
+      letter-spacing: .05em;
+      font-size: 40px;
+      text-align: center;
+      border-bottom: 1px solid;
+      padding-bottom: 10px;
+      margin-top: 0px;
+      margin-bottom: 38px;
+      font-weight: normal;
+    }
+
+    #signUpFormBtn {
+      margin: 10px;
+      background-color: #FF9447;
+      color: white;
+      width: 130px;
+      height: 45px;
+      border-radius: 10px;
+      border: 1px solid #fe8b39;
+      font-size: 18px;
+      position: relative;
+      top: 5px;
+      left: 25%;
+    }
+
+    #signUpFormBtn:hover {
+      background-color: #FFB347;
+      border: 1px solid #fead3b;
+    }
+}
 
 /* Larger than mobile */
-
 @media (min-width: 400px) {
 
   .welcomeModal {

@@ -2,20 +2,22 @@
 <nav>
     <div class="logo">
 
-      <%= link_to "<h1 id='logoH1'>MEAL<span id='logoSpan'>123</span></h1>".html_safe, "/" %>
+      <!-- log out button -->
+      <% if user_signed_in? %>
+          <div class="settingLogOut">
+              <%= form_tag(destroy_user_session_path, :method => :delete) do %>
+                <%= submit_tag "Logout", class: "logOutBtn"%>
+              <% end %>
+          </div>
+      <% end %>
+
+
+      <!-- <%= link_to "<h1 id='logoH1'>MEAL<span id='logoSpan'>123</span></h1>".html_safe, "/" %> -->
 
     </div>
 
-    <!-- log out button -->
-    <% if user_signed_in? %>
-        <div class="settingLogOut">
-            <%= form_tag(destroy_user_session_path, :method => :delete) do %>
-              <%= submit_tag "Logout", class: "logOutBtn"%>
-            <% end %>
-        </div>
-    <% end %>
 
-    <div class="profileNav">
+    <div class="settingNav">
 
       <% if user_signed_in? %>
 

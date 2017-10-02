@@ -2,6 +2,203 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// Samsung Galaxy S5
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+  .noFavMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .noFavMessage h1 {
+    font-size: 28px;
+    color: #FF9447;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noFavMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+
+  .favoriteNav {
+    position: fixed;
+    top: 18px;
+    right: 1%;
+  }
+
+  .favoriteNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .favoriteNav img:hover {
+    opacity: .5;
+  }
+
+  #homeNavIcon{
+    margin-right: 6px;
+  }
+  #plusNavIcon{
+    margin-right: -3px;
+    margin-left: 0px;
+  }
+
+  .favoriteRecipes{
+    position: relative;
+    top: 60px;
+    width: 93%;
+    min-height: 100px;
+    overflow: hidden;
+    margin: auto;
+    padding: 3%;
+  }
+
+}
+
+/* iPhone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+  .noFavMessage {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .noFavMessage h1 {
+    font-size: 28px;
+    color: #FF9447;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+  }
+
+  .noFavMessage p {
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+
+  .favoriteNav {
+    position: fixed;
+    top: 18px;
+    right: 1%;
+  }
+
+  .favoriteNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+  }
+
+  .favoriteNav img:hover {
+    opacity: .5;
+  }
+
+  #homeNavIcon{
+    margin-right: 6px;
+  }
+  #plusNavIcon{
+    margin-right: -3px;
+    margin-left: 0px;
+  }
+
+  .favoriteRecipes{
+    position: relative;
+    top: 60px;
+    width: 93%;
+    min-height: 100px;
+    overflow: hidden;
+    margin: auto;
+    padding: 3%;
+  }
+}
+
+/*iPhone 6*/
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .noFavMessage {
+      position: relative;
+      top: 80px;
+      width: 90%;
+      height: 500px;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .noFavMessage h1 {
+      font-size: 28px;
+      color: #FF9447;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      line-height: 1.5em;
+    }
+
+    .noFavMessage p {
+      position: relative;
+      top: -5px;
+      font-size: 20px;
+      color: gray;
+      font-weight: normal;
+      line-height: 1.5em;
+    }
+
+
+    .favoriteNav {
+      position: fixed;
+      top: 18px;
+      right: 1%;
+    }
+
+    .favoriteNav img {
+      width: 23px;
+      height: 23px;
+      margin-right: 10px;
+    }
+
+    .favoriteNav img:hover {
+      opacity: .5;
+    }
+
+    #homeNavIcon{
+      margin-right: 6px;
+    }
+    #plusNavIcon{
+      margin-right: -3px;
+      margin-left: 0px;
+    }
+
+    .favoriteRecipes{
+      position: relative;
+      top: 60px;
+      width: 93%;
+      min-height: 100px;
+      overflow: hidden;
+      margin: auto;
+      padding: 3%;
+    }
+}
+
+
 @media (min-width: 400px) {
 
   .noFavMessage {
