@@ -35,6 +35,81 @@
  border: 1px solid #18d969;
 }
 
+
+/* mobile */
+@media (min-width: 320px) {
+  .homeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+
+  #carH1 {
+    margin: auto;
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
+  }
+
+  /*login button*/
+  #hb1 {
+    position: fixed;
+    top: 2px;
+    right: 1%;
+    z-index: 2;
+  }
+
+  // sign up button
+  #hb2 {
+    position: relative;
+    top: 10px;
+  }
+}
+
+/* iPhone 4/4S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  .homeModal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+
+  #carH1 {
+    margin: auto;
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 2px 2px #636363;
+    color: #fffff0;
+  }
+
+  /*login button*/
+  #hb1 {
+    position: fixed;
+    top: 2px;
+    right: 1%;
+    z-index: 2;
+  }
+
+  // sign up button
+  #hb2 {
+    position: relative;
+    top: 10px;
+  }
+}
+
 /* iPhone5 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
@@ -69,7 +144,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 }
 
@@ -106,7 +181,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 
 }
@@ -145,7 +220,7 @@
     // sign up button
     #hb2 {
       position: relative;
-      top: -10px;
+      top: 10px;
     }
 }
 
@@ -260,7 +335,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 
 }
@@ -364,7 +439,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 }
 
@@ -467,7 +542,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 }
 
@@ -569,7 +644,7 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 }
 
@@ -672,6 +747,6 @@
   // sign up button
   #hb2 {
     position: relative;
-    top: -10px;
+    top: 10px;
   }
 }

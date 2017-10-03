@@ -2,6 +2,292 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* mobile */
+@media (min-width: 320px) {
+  .profileNav {
+    position: fixed;
+    top: 18px;
+    right: 16%;
+  }
+
+  .profileNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    position: relative;
+    left: 50px;
+  }
+
+  .profileNav img:hover {
+    opacity: .5;
+  }
+
+  .calendar {
+    position: fixed;
+    margin: auto;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #7cf7af;
+    z-index: 1;
+    color: white;
+
+    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    box-shadow: 1px 1px 10px -1px #706f70;
+  }
+
+  .calendar div {
+    display: inline;
+    float: left;
+    width: 14.25%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .calendar div:hover {
+    background-color: #a2fac6;
+  }
+
+  .day {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: .2em;
+  }
+
+  #calBtn {
+    color: white;
+  }
+
+  .recipeContent {
+    position: relative;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .profileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .recipeFavBtn {
+    position: relative;
+    top: -110px;
+    left: 92%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editBtn {
+    position: relative;
+    top: -112px;
+    left: 86%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trashDiv {
+    position: relative;
+    top: -110px;
+    left: 98%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .plusDiv {
+    position: relative;
+    top: -110px;
+    left: 93%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editRecipeFavBtn {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .favBtnIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .editBtnIcon {
+    width: 17px;
+    height: 19px;
+  }
+
+  .trashIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .favBtnIcon:hover {
+    opacity: .5;
+  }
+}
+
+/* iPhone 4/4S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  .profileNav {
+    position: fixed;
+    top: 18px;
+    right: 16%;
+  }
+
+  .profileNav img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    position: relative;
+    left: 50px;
+  }
+
+  .profileNav img:hover {
+    opacity: .5;
+  }
+
+  .calendar {
+    position: fixed;
+    margin: auto;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    background-color: #7cf7af;
+    z-index: 1;
+    color: white;
+
+    -webkit-box-shadow: 1px 1px 10px -1px #706f70;
+    -moz-box-shadow: 1px 1px 10px -1px #706f70;
+    box-shadow: 1px 1px 10px -1px #706f70;
+  }
+
+  .calendar div {
+    display: inline;
+    float: left;
+    width: 14.25%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .calendar div:hover {
+    background-color: #a2fac6;
+  }
+
+  .day {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: .2em;
+  }
+
+  #calBtn {
+    color: white;
+  }
+
+  .recipeContent {
+    position: relative;
+    top: -15px;
+    padding: 4%;
+  }
+
+  .profileA {
+    text-decoration: none;
+    color: #FF9447;
+    letter-spacing: .05em;
+  }
+
+  .recipeFavBtn {
+    position: relative;
+    top: -110px;
+    left: 92%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editBtn {
+    position: relative;
+    top: -112px;
+    left: 86%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trashDiv {
+    position: relative;
+    top: -110px;
+    left: 98%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .plusDiv {
+    position: relative;
+    top: -110px;
+    left: 93%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .editRecipeFavBtn {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .favBtnIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .editBtnIcon {
+    width: 17px;
+    height: 19px;
+  }
+
+  .trashIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .favBtnIcon:hover {
+    opacity: .5;
+  }
+}
+
 /* iPhone5 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
@@ -295,6 +581,7 @@
   and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .profileNav {
+      width: 200px;
       position: fixed;
       top: 18px;
       left: 59%;
@@ -574,5 +861,73 @@
 
   .favBtnIcon:hover {
     opacity: .5;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 500px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 68%;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 600px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 73%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 700px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 75%;
+  }
+}
+
+@media (min-width: 800px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 77%;
+  }
+}
+
+@media (min-width: 900px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 79%;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 83%;
+  }
+}
+
+/* Larger than desktop HD*/
+@media (min-width: 1200px) {
+  .profileNav {
+    width: 200px;
+    position: fixed;
+    top: 18px;
+    left: 85%;
   }
 }
