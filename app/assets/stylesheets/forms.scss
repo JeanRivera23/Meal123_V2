@@ -32,9 +32,8 @@
   margin: 0px;
 }
 
-
-// Samsung Galaxy S5
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+/* iPhone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
   .welcomeModal {
     position: absolute;
@@ -157,8 +156,8 @@
   }
 }
 
-/* iPhone5 */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+// Samsung Galaxy S5
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
   .welcomeModal {
     position: absolute;
@@ -419,13 +418,9 @@
     width: 300px;
     height: 350px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
-    // overflow: hidden;
-    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -442,13 +437,9 @@
     width: 350px;
     height: 300px;
     padding: 35px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
-    // overflow: hidden;
-    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -465,13 +456,9 @@
     width: 300px;
     height: 460px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
-    // overflow: hidden;
-    // overflow-y: auto;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -483,8 +470,6 @@
   }
 
   .field {
-    // margin-bottom: 10px;
-    // margin-top: 5px;
     text-align: center;
   }
 
@@ -542,11 +527,9 @@
     background-color: #FFB347;
     border: 1px solid #fead3b;
   }
-
 }
 
 /* Larger than phablet */
-
 @media (min-width: 550px) {
 
   .welcomeModal {
@@ -559,11 +542,9 @@
     width: 400px;
     height: 350px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -581,11 +562,9 @@
     height: 440px;
     padding: 50px;
     padding-top: 25px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -597,8 +576,6 @@
   }
 
   .field {
-    // margin-bottom: 10px;
-    // margin-top: 5px;
     text-align: center;
   }
 
@@ -660,7 +637,6 @@
 }
 
 /* Larger than tablet */
-
 @media (min-width: 750px) {
   .welcomeModal {
     position: absolute;
@@ -672,11 +648,9 @@
     width: 400px;
     height: 350px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -694,11 +668,9 @@
     height: 440px;
     padding: 50px;
     padding-top: 25px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -710,8 +682,6 @@
   }
 
   .field {
-    // margin-bottom: 10px;
-    // margin-top: 5px;
     text-align: center;
   }
 
@@ -773,7 +743,6 @@
 }
 
 /* Larger than desktop */
-
 @media (min-width: 1000px) {
   .welcomeModal {
     position: absolute;
@@ -785,11 +754,9 @@
     width: 400px;
     height: 350px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -807,11 +774,9 @@
     height: 440px;
     padding: 50px;
     padding-top: 25px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -823,8 +788,6 @@
   }
 
   .field {
-    // margin-bottom: 10px;
-    // margin-top: 5px;
     text-align: center;
   }
 
@@ -882,11 +845,9 @@
     background-color: #FFB347;
     border: 1px solid #fead3b;
   }
-
 }
 
 /* Larger than desktop HD*/
-
 @media (min-width: 1200px) {
   .welcomeModal {
     position: absolute;
@@ -898,11 +859,9 @@
     width: 400px;
     height: 350px;
     padding: 30px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -920,11 +879,9 @@
     height: 440px;
     padding: 50px;
     padding-top: 25px;
-    // padding-left: 30px;
     background-color: white;
     border-radius: 7px;
     background-color: white;
-    // padding: 8%;
 
     -webkit-box-shadow: 3px 4px 12px -1px #706f70;
     -moz-box-shadow: 3px 4px 12px -1px #706f70;
@@ -936,8 +893,6 @@
   }
 
   .field {
-    // margin-bottom: 10px;
-    // margin-top: 5px;
     text-align: center;
   }
 

@@ -524,12 +524,14 @@
   color: #6DFFAA;
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+/* iPhone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 
   #logoH1 {
     position: relative;
-    top: 5px;
-    font-size: 24px;
+    top: 9px;
+    left: -4px;
+    font-size: 20px;
   }
 
   nav {
@@ -583,14 +585,13 @@
   }
 }
 
-/* iPhone5 */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+/*Galaxy S5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 
   #logoH1 {
     position: relative;
-    top: 9px;
-    left: -4px;
-    font-size: 20px;
+    top: 5px;
+    font-size: 24px;
   }
 
   nav {
@@ -761,39 +762,34 @@
    .homeNav img:hover {
      opacity: .5;
    }
-
  }
 
  /* Larger than phablet */
-
  @media (min-width: 550px) {
+
    #logoH1 {
      font-size: 27px;
    }
  }
 
  /* Larger than tablet */
-
  @media (min-width: 750px) {
+
    #logoH1 {
      font-size: 27px;
    }
  }
 
  /* Larger than desktop */
-
  @media (min-width: 1000px) {
+
    #logoH1 {
      font-size: 27px;
    }
  }
 
  /* Larger than desktop HD*/
-
  @media (min-width: 1200px) {
-   /*body {
-     background-color: white;
-   }*/
 
    #logoH1 {
      font-size: 27px;
