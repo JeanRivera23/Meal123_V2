@@ -293,6 +293,7 @@
  button,
  select { /* 1 */
    text-transform: none;
+   width: 250px;
  }
 
  /**
