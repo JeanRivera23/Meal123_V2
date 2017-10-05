@@ -27,5 +27,7 @@ Rails.application.routes.draw do
   post '/users/:user_id/mealplans' => "mealplan#add_favorite"
   post '/users/:user_id/recipes/:id' => "recipes#add_favorite"
 
+  get '/welcome' => "recipes#index", as: :user_root
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

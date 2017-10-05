@@ -833,8 +833,12 @@
  @media (min-width: 400px) {
 
    #logoH1 {
+     position: relative;
+     top: 2px;
+     left: -4px;
      font-size: 27px;
    }
+
 
    nav {
     position: fixed;
